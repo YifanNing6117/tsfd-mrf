@@ -1,5 +1,1 @@
-# Preserve recovered source/result bytes so provenance SHA-256 stays valid.
-experiments/** -text
-results/raw/** -text
-results/paper_images/** -text
-tsfd_mrf/model.py -text
+* text=auto eol=lf

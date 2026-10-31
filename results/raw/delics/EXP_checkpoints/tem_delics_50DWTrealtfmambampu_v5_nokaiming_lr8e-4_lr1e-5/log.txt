@@ -1,2 +1,0 @@
-Experiment Name: tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5
-Automatic Mixed Precision (AMP): Disabled

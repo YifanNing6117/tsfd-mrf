@@ -1,4 +1,3 @@
-# Install a PyTorch build matching your CUDA environment first.
 torch
 einops
 timm

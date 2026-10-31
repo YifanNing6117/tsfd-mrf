@@ -1,8 +1,0 @@
-Test Summary for: 200_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5
-Dataset: brainweb, Modality: t2
-==============================
-
-PSNR: 46.3343 +/- 4.9182
-SSIM: 0.9985 +/- 0.0009
-NMSE: 0.000388 +/- 0.000326
-MAE:  0.002588 +/- 0.000481

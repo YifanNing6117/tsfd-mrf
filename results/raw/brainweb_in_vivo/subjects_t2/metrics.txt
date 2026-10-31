@@ -1,8 +1,0 @@
-Test Summary for: 200_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5
-Dataset: subjects, Modality: t2
-==============================
-
-PSNR: 31.9761 +/- 1.4419
-SSIM: 0.9766 +/- 0.0033
-NMSE: 0.075911 +/- 0.019104
-MAE:  0.009048 +/- 0.001022

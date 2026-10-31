@@ -1,0 +1,5 @@
+model,dataset,modality,frames,psnr_mean,psnr_std,ssim_mean,ssim_std,nmse_mean,nmse_std,mae_mean,mae_std,mae_unit
+DWTMAMBA_V5,InVivo,T1,400,33.8665,0.5409,0.9883,0.0010,0.005524,0.000582,0.016371,0.000824,reported_scale
+DWTMAMBA_V5,InVivo,T2,400,35.1340,1.4314,0.9874,0.0019,0.037107,0.010915,0.006643,0.000724,reported_scale
+DWTMAMBA_V5,BrainWeb,T1,400,50.0097,1.9139,0.9994,0.0002,0.000100,0.000044,0.003385,0.000972,reported_scale
+DWTMAMBA_V5,BrainWeb,T2,400,46.9943,5.5900,0.9990,0.0009,0.000376,0.000336,0.002414,0.000784,reported_scale
