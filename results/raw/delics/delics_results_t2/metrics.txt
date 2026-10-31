@@ -1,0 +1,7 @@
+Test Summary for: delics_2min_SOTIP
+Dataset: Deli-CS, Modality: T2
+==============================
+PSNR: 32.7620 +/- 3.2737
+SSIM: 0.9801 +/- 0.0065
+NMSE: 0.378293 +/- 0.133205
+MAE (ms):  41.23 +/- 27.32

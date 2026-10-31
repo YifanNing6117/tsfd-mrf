@@ -1,0 +1,2 @@
+Experiment Name: ablation_probe_no_lwe
+Automatic Mixed Precision (AMP): Disabled

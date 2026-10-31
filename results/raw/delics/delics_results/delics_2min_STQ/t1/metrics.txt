@@ -1,0 +1,10 @@
+Test Summary for: delics_2min_STQ
+Dataset: Deli-CS, Modality: T1
+Results Dir: delics_results/delics_2min_STQ/t1
+========================================
+PSNR: 24.7559 +/- 3.1781
+SSIM: 0.8694 +/- 0.0263
+NMSE: 0.140023 +/- 0.077672
+MAE (ms): 222.99 +/- 100.73
+Total Inference Time: 0.4548 s
+Diff Multiplier: 3

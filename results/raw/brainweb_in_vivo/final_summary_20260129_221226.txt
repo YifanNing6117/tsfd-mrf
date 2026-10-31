@@ -1,0 +1,74 @@
+批量测试最终报告
+模型名称: 50DWTrealtfmambampu_v5_lr8e-4
+报告生成时间: 2026-01-29 22:12:26
+总耗时: 0:04:26.495089
+========================================
+
+--- 测试结果: SUBJECTS - T1 ---
+结果目录: subjects1/
+Test Summary for: 50DWTrealtfmambampu_v5_lr8e-4
+Dataset: subjects, Modality: t1
+Timestamp: 2026-01-29 22:09:18
+==============================
+
+Metrics calculated over 34 images.
+Total Test Time: 30.7459 seconds
+Average Time per Image: 0.9043 seconds
+
+PSNR (mean +/- std): 33.8649 +/- 0.5304
+SSIM (mean +/- std): 0.9884 +/- 0.0011
+NMSE (mean +/- std): 0.005520 +/- 0.000532
+MAE  (mean +/- std): 0.006871 +/- 0.000482
+
+
+--- 测试结果: SUBJECTS - T2 ---
+结果目录: subjects2/
+Test Summary for: 50DWTrealtfmambampu_v5_lr8e-4
+Dataset: subjects, Modality: t2
+Timestamp: 2026-01-29 22:10:42
+==============================
+
+Metrics calculated over 34 images.
+Total Test Time: 30.7935 seconds
+Average Time per Image: 0.9057 seconds
+
+PSNR (mean +/- std): 34.5126 +/- 1.3799
+SSIM (mean +/- std): 0.9861 +/- 0.0019
+NMSE (mean +/- std): 0.042510 +/- 0.011699
+MAE  (mean +/- std): 0.003045 +/- 0.000378
+
+
+--- 测试结果: BRAINWEB - T1 ---
+结果目录: brainweb1/
+Test Summary for: 50DWTrealtfmambampu_v5_lr8e-4
+Dataset: brainweb, Modality: t1
+Timestamp: 2026-01-29 22:11:33
+==============================
+
+Metrics calculated over 20 images.
+Total Test Time: 18.2319 seconds
+Average Time per Image: 0.9116 seconds
+
+PSNR (mean +/- std): 50.2704 +/- 1.5012
+SSIM (mean +/- std): 0.9994 +/- 0.0002
+NMSE (mean +/- std): 0.000091 +/- 0.000028
+MAE  (mean +/- std): 0.001203 +/- 0.000242
+
+
+--- 测试结果: BRAINWEB - T2 ---
+结果目录: brainweb2/
+Test Summary for: 50DWTrealtfmambampu_v5_lr8e-4
+Dataset: brainweb, Modality: t2
+Timestamp: 2026-01-29 22:12:25
+==============================
+
+Metrics calculated over 20 images.
+Total Test Time: 18.3757 seconds
+Average Time per Image: 0.9188 seconds
+
+PSNR (mean +/- std): 47.2232 +/- 5.5003
+SSIM (mean +/- std): 0.9988 +/- 0.0009
+NMSE (mean +/- std): 0.000356 +/- 0.000320
+MAE  (mean +/- std): 0.000965 +/- 0.000257
+
+

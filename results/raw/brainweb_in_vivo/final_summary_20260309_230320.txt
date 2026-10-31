@@ -1,0 +1,74 @@
+批量测试最终报告
+模型名称: 50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5
+报告生成时间: 2026-03-09 23:03:20
+总耗时: 0:04:27.118859
+========================================
+
+--- 测试结果: SUBJECTS - T1 ---
+结果目录: subjects1/
+Test Summary for: 50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5
+Dataset: subjects, Modality: t1
+Timestamp: 2026-03-09 23:00:17
+==============================
+
+Metrics calculated over 34 images.
+Total Test Time: 30.5405 seconds
+Average Time per Image: 0.8983 seconds
+
+PSNR (mean +/- std): 33.8747 +/- 0.5251
+SSIM (mean +/- std): 0.9884 +/- 0.0010
+NMSE (mean +/- std): 0.005511 +/- 0.000556
+MAE  (mean +/- std): 0.006834 +/- 0.000461
+
+
+--- 测试结果: SUBJECTS - T2 ---
+结果目录: subjects2/
+Test Summary for: 50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5
+Dataset: subjects, Modality: t2
+Timestamp: 2026-03-09 23:01:37
+==============================
+
+Metrics calculated over 34 images.
+Total Test Time: 30.6626 seconds
+Average Time per Image: 0.9018 seconds
+
+PSNR (mean +/- std): 35.1563 +/- 1.4344
+SSIM (mean +/- std): 0.9874 +/- 0.0020
+NMSE (mean +/- std): 0.036940 +/- 0.010931
+MAE  (mean +/- std): 0.002774 +/- 0.000367
+
+
+--- 测试结果: BRAINWEB - T1 ---
+结果目录: brainweb1/
+Test Summary for: 50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5
+Dataset: brainweb, Modality: t1
+Timestamp: 2026-03-09 23:02:29
+==============================
+
+Metrics calculated over 20 images.
+Total Test Time: 18.1525 seconds
+Average Time per Image: 0.9076 seconds
+
+PSNR (mean +/- std): 50.0149 +/- 2.0294
+SSIM (mean +/- std): 0.9994 +/- 0.0002
+NMSE (mean +/- std): 0.000101 +/- 0.000049
+MAE  (mean +/- std): 0.001315 +/- 0.000359
+
+
+--- 测试结果: BRAINWEB - T2 ---
+结果目录: brainweb2/
+Test Summary for: 50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5
+Dataset: brainweb, Modality: t2
+Timestamp: 2026-03-09 23:03:19
+==============================
+
+Metrics calculated over 20 images.
+Total Test Time: 18.2509 seconds
+Average Time per Image: 0.9125 seconds
+
+PSNR (mean +/- std): 46.9566 +/- 5.5155
+SSIM (mean +/- std): 0.9990 +/- 0.0009
+NMSE (mean +/- std): 0.000376 +/- 0.000335
+MAE  (mean +/- std): 0.000931 +/- 0.000262
+
+

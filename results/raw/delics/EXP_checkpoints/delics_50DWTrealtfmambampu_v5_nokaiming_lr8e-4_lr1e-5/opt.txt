@@ -1,0 +1,56 @@
+------------ Options -------------
+batchSize: 1
+beta1: 0.9
+checkpoints_dir: EXP_checkpoints/
+continue_train: False
+dataroot: delics_dataset.csv
+dataset_mode: delics
+debug: 0
+display_freq: 100
+display_id: 0
+display_port: 8097
+display_server: http://localhost
+display_single_pane_ncols: 0
+display_winsize: 256
+epoch_count: 1
+fineSize: 128
+gpu_ids: [0]
+init_type: normal
+input_nc: 400
+isTrain: True
+lambda_pixel: 1.0
+loadSize: 128
+lr: 0.0008
+lr_decay_iters: 50
+lr_policy: step
+mask: 
+max_dataset_size: inf
+model: resvit_one
+nThreads: 2
+name: delics_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5
+ngf: 96
+niter: 44
+niter_decay: 6
+no_dropout: False
+no_flip: False
+no_html: True
+norm: none
+output_nc: 2
+phase: train
+pixel_loss_type: l1
+pre_trained_path: 
+pre_trained_resnet: 0
+pre_trained_transformer: 0
+print_freq: 10
+resize_or_crop: none
+save_epoch_freq: 1
+save_latest_freq: 5000
+serial_batches: False
+update_html_freq: 1000
+upscale_factor: 2
+use_amp: False
+vit_name: R50-ViT-B_16
+which_direction: AtoB
+which_epoch: latest
+which_model_netG: DWTtfmambampu_v5
+-------------- End ----------------

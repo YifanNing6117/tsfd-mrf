@@ -1,0 +1,202 @@
+Experiment Name: tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr4e-4_lr1e-6
+Automatic Mixed Precision (AMP): Disabled
+Epoch 1 average training pixel loss: 0.1264
+[Epoch 1] Validation - PSNR_T1: 13.744, NMSE_T1: 0.357, PSNR_T2: 9.698, NMSE_T2: 0.916
+
+Learning rate for next epoch (2) set to: 0.0003996
+Epoch 2 average training pixel loss: 0.1047
+[Epoch 2] Validation - PSNR_T1: 14.591, NMSE_T1: 0.293, PSNR_T2: 9.612, NMSE_T2: 0.934
+
+Learning rate for next epoch (3) set to: 0.0003984
+Epoch 3 average training pixel loss: 0.1078
+[Epoch 3] Validation - PSNR_T1: 14.799, NMSE_T1: 0.280, PSNR_T2: 9.924, NMSE_T2: 0.869
+
+Learning rate for next epoch (4) set to: 0.0003965
+Epoch 4 average training pixel loss: 0.1059
+[Epoch 4] Validation - PSNR_T1: 15.073, NMSE_T1: 0.264, PSNR_T2: 9.686, NMSE_T2: 0.918
+
+Learning rate for next epoch (5) set to: 0.0003937
+Epoch 5 average training pixel loss: 0.1226
+[Epoch 5] Validation - PSNR_T1: 14.921, NMSE_T1: 0.272, PSNR_T2: 9.757, NMSE_T2: 0.903
+
+Learning rate for next epoch (6) set to: 0.0003902
+Epoch 6 average training pixel loss: 0.1030
+[Epoch 6] Validation - PSNR_T1: 15.502, NMSE_T1: 0.238, PSNR_T2: 9.643, NMSE_T2: 0.927
+
+Learning rate for next epoch (7) set to: 0.0003860
+Epoch 7 average training pixel loss: 0.1148
+[Epoch 7] Validation - PSNR_T1: 15.443, NMSE_T1: 0.244, PSNR_T2: 9.757, NMSE_T2: 0.903
+
+Learning rate for next epoch (8) set to: 0.0003810
+Epoch 8 average training pixel loss: 0.1525
+[Epoch 8] Validation - PSNR_T1: 15.625, NMSE_T1: 0.234, PSNR_T2: 9.718, NMSE_T2: 0.911
+
+Learning rate for next epoch (9) set to: 0.0003753
+Epoch 9 average training pixel loss: 0.0920
+[Epoch 9] Validation - PSNR_T1: 15.656, NMSE_T1: 0.231, PSNR_T2: 9.774, NMSE_T2: 0.900
+
+Learning rate for next epoch (10) set to: 0.0003689
+Epoch 10 average training pixel loss: 0.1043
+[Epoch 10] Validation - PSNR_T1: 15.680, NMSE_T1: 0.231, PSNR_T2: 9.807, NMSE_T2: 0.893
+
+Learning rate for next epoch (11) set to: 0.0003619
+Epoch 11 average training pixel loss: 0.1367
+[Epoch 11] Validation - PSNR_T1: 15.760, NMSE_T1: 0.227, PSNR_T2: 9.762, NMSE_T2: 0.902
+
+Learning rate for next epoch (12) set to: 0.0003542
+Epoch 12 average training pixel loss: 0.1059
+[Epoch 12] Validation - PSNR_T1: 15.932, NMSE_T1: 0.217, PSNR_T2: 9.786, NMSE_T2: 0.897
+
+Learning rate for next epoch (13) set to: 0.0003459
+Epoch 13 average training pixel loss: 0.1073
+[Epoch 13] Validation - PSNR_T1: 15.832, NMSE_T1: 0.223, PSNR_T2: 9.817, NMSE_T2: 0.891
+
+Learning rate for next epoch (14) set to: 0.0003371
+Epoch 14 average training pixel loss: 0.1050
+[Epoch 14] Validation - PSNR_T1: 16.073, NMSE_T1: 0.210, PSNR_T2: 9.786, NMSE_T2: 0.897
+
+Learning rate for next epoch (15) set to: 0.0003277
+Epoch 15 average training pixel loss: 0.0971
+[Epoch 15] Validation - PSNR_T1: 15.978, NMSE_T1: 0.216, PSNR_T2: 9.615, NMSE_T2: 0.933
+
+Learning rate for next epoch (16) set to: 0.0003178
+Epoch 16 average training pixel loss: 0.1073
+[Epoch 16] Validation - PSNR_T1: 16.226, NMSE_T1: 0.203, PSNR_T2: 9.790, NMSE_T2: 0.896
+
+Learning rate for next epoch (17) set to: 0.0003074
+Epoch 17 average training pixel loss: 0.1129
+[Epoch 17] Validation - PSNR_T1: 16.085, NMSE_T1: 0.210, PSNR_T2: 9.815, NMSE_T2: 0.891
+
+Learning rate for next epoch (18) set to: 0.0002966
+Epoch 18 average training pixel loss: 0.1069
+[Epoch 18] Validation - PSNR_T1: 16.270, NMSE_T1: 0.201, PSNR_T2: 9.804, NMSE_T2: 0.894
+
+Learning rate for next epoch (19) set to: 0.0002854
+Epoch 19 average training pixel loss: 0.1156
+[Epoch 19] Validation - PSNR_T1: 16.337, NMSE_T1: 0.198, PSNR_T2: 9.902, NMSE_T2: 0.874
+
+Learning rate for next epoch (20) set to: 0.0002739
+Epoch 20 average training pixel loss: 0.0942
+[Epoch 20] Validation - PSNR_T1: 16.324, NMSE_T1: 0.198, PSNR_T2: 9.827, NMSE_T2: 0.889
+
+Learning rate for next epoch (21) set to: 0.0002621
+Epoch 21 average training pixel loss: 0.0773
+[Epoch 21] Validation - PSNR_T1: 16.386, NMSE_T1: 0.195, PSNR_T2: 9.914, NMSE_T2: 0.871
+
+Learning rate for next epoch (22) set to: 0.0002501
+Epoch 22 average training pixel loss: 0.1277
+[Epoch 22] Validation - PSNR_T1: 16.259, NMSE_T1: 0.201, PSNR_T2: 9.893, NMSE_T2: 0.876
+
+Learning rate for next epoch (23) set to: 0.0002379
+Epoch 23 average training pixel loss: 0.1141
+[Epoch 23] Validation - PSNR_T1: 16.280, NMSE_T1: 0.200, PSNR_T2: 10.112, NMSE_T2: 0.833
+
+Learning rate for next epoch (24) set to: 0.0002255
+Epoch 24 average training pixel loss: 0.0960
+[Epoch 24] Validation - PSNR_T1: 16.477, NMSE_T1: 0.191, PSNR_T2: 9.905, NMSE_T2: 0.873
+
+Learning rate for next epoch (25) set to: 0.0002130
+Epoch 25 average training pixel loss: 0.0975
+[Epoch 25] Validation - PSNR_T1: 16.385, NMSE_T1: 0.196, PSNR_T2: 10.179, NMSE_T2: 0.820
+
+Learning rate for next epoch (26) set to: 0.0002005
+Epoch 26 average training pixel loss: 0.0891
+[Epoch 26] Validation - PSNR_T1: 16.463, NMSE_T1: 0.192, PSNR_T2: 9.974, NMSE_T2: 0.860
+
+Learning rate for next epoch (27) set to: 0.0001880
+Epoch 27 average training pixel loss: 0.0894
+[Epoch 27] Validation - PSNR_T1: 16.511, NMSE_T1: 0.190, PSNR_T2: 10.205, NMSE_T2: 0.815
+
+Learning rate for next epoch (28) set to: 0.0001755
+Epoch 28 average training pixel loss: 0.1018
+[Epoch 28] Validation - PSNR_T1: 16.458, NMSE_T1: 0.193, PSNR_T2: 10.324, NMSE_T2: 0.793
+
+Learning rate for next epoch (29) set to: 0.0001631
+Epoch 29 average training pixel loss: 0.0959
+[Epoch 29] Validation - PSNR_T1: 16.470, NMSE_T1: 0.192, PSNR_T2: 10.344, NMSE_T2: 0.789
+
+Learning rate for next epoch (30) set to: 0.0001509
+Epoch 30 average training pixel loss: 0.0854
+[Epoch 30] Validation - PSNR_T1: 16.448, NMSE_T1: 0.193, PSNR_T2: 10.234, NMSE_T2: 0.810
+
+Learning rate for next epoch (31) set to: 0.0001389
+Epoch 31 average training pixel loss: 0.0914
+[Epoch 31] Validation - PSNR_T1: 16.508, NMSE_T1: 0.190, PSNR_T2: 10.250, NMSE_T2: 0.807
+
+Learning rate for next epoch (32) set to: 0.0001271
+Epoch 32 average training pixel loss: 0.0893
+[Epoch 32] Validation - PSNR_T1: 16.553, NMSE_T1: 0.188, PSNR_T2: 10.197, NMSE_T2: 0.817
+
+Learning rate for next epoch (33) set to: 0.0001156
+Epoch 33 average training pixel loss: 0.0887
+[Epoch 33] Validation - PSNR_T1: 16.532, NMSE_T1: 0.189, PSNR_T2: 10.311, NMSE_T2: 0.795
+
+Learning rate for next epoch (34) set to: 0.0001044
+Epoch 34 average training pixel loss: 0.0773
+[Epoch 34] Validation - PSNR_T1: 16.551, NMSE_T1: 0.189, PSNR_T2: 10.270, NMSE_T2: 0.803
+
+Learning rate for next epoch (35) set to: 0.0000936
+Epoch 35 average training pixel loss: 0.0809
+[Epoch 35] Validation - PSNR_T1: 16.562, NMSE_T1: 0.188, PSNR_T2: 10.243, NMSE_T2: 0.808
+
+Learning rate for next epoch (36) set to: 0.0000832
+Epoch 36 average training pixel loss: 0.0714
+[Epoch 36] Validation - PSNR_T1: 16.549, NMSE_T1: 0.189, PSNR_T2: 10.244, NMSE_T2: 0.808
+
+Learning rate for next epoch (37) set to: 0.0000733
+Epoch 37 average training pixel loss: 0.1051
+[Epoch 37] Validation - PSNR_T1: 16.525, NMSE_T1: 0.190, PSNR_T2: 10.277, NMSE_T2: 0.802
+
+Learning rate for next epoch (38) set to: 0.0000639
+Epoch 38 average training pixel loss: 0.0839
+[Epoch 38] Validation - PSNR_T1: 16.566, NMSE_T1: 0.188, PSNR_T2: 10.240, NMSE_T2: 0.809
+
+Learning rate for next epoch (39) set to: 0.0000551
+Epoch 39 average training pixel loss: 0.0851
+[Epoch 39] Validation - PSNR_T1: 16.535, NMSE_T1: 0.189, PSNR_T2: 10.254, NMSE_T2: 0.806
+
+Learning rate for next epoch (40) set to: 0.0000468
+Epoch 40 average training pixel loss: 0.0874
+[Epoch 40] Validation - PSNR_T1: 16.561, NMSE_T1: 0.188, PSNR_T2: 10.270, NMSE_T2: 0.803
+
+Learning rate for next epoch (41) set to: 0.0000391
+Epoch 41 average training pixel loss: 0.0827
+[Epoch 41] Validation - PSNR_T1: 16.573, NMSE_T1: 0.188, PSNR_T2: 10.276, NMSE_T2: 0.802
+
+Learning rate for next epoch (42) set to: 0.0000321
+Epoch 42 average training pixel loss: 0.0902
+[Epoch 42] Validation - PSNR_T1: 16.552, NMSE_T1: 0.189, PSNR_T2: 10.306, NMSE_T2: 0.796
+
+Learning rate for next epoch (43) set to: 0.0000257
+Epoch 43 average training pixel loss: 0.0852
+[Epoch 43] Validation - PSNR_T1: 16.555, NMSE_T1: 0.188, PSNR_T2: 10.264, NMSE_T2: 0.804
+
+Learning rate for next epoch (44) set to: 0.0000200
+Epoch 44 average training pixel loss: 0.1106
+[Epoch 44] Validation - PSNR_T1: 16.554, NMSE_T1: 0.189, PSNR_T2: 10.289, NMSE_T2: 0.800
+
+Learning rate for next epoch (45) set to: 0.0000150
+Epoch 45 average training pixel loss: 0.0751
+[Epoch 45] Validation - PSNR_T1: 16.556, NMSE_T1: 0.188, PSNR_T2: 10.284, NMSE_T2: 0.800
+
+Learning rate for next epoch (46) set to: 0.0000108
+Epoch 46 average training pixel loss: 0.1295
+[Epoch 46] Validation - PSNR_T1: 16.551, NMSE_T1: 0.189, PSNR_T2: 10.277, NMSE_T2: 0.802
+
+Learning rate for next epoch (47) set to: 0.0000073
+Epoch 47 average training pixel loss: 0.0922
+[Epoch 47] Validation - PSNR_T1: 16.548, NMSE_T1: 0.189, PSNR_T2: 10.285, NMSE_T2: 0.800
+
+Learning rate for next epoch (48) set to: 0.0000045
+Epoch 48 average training pixel loss: 0.0969
+[Epoch 48] Validation - PSNR_T1: 16.557, NMSE_T1: 0.188, PSNR_T2: 10.272, NMSE_T2: 0.803
+
+Learning rate for next epoch (49) set to: 0.0000026
+Epoch 49 average training pixel loss: 0.0852
+[Epoch 49] Validation - PSNR_T1: 16.553, NMSE_T1: 0.189, PSNR_T2: 10.283, NMSE_T2: 0.801
+
+Learning rate for next epoch (50) set to: 0.0000014
+Epoch 50 average training pixel loss: 0.0803
+[Epoch 50] Validation - PSNR_T1: 16.558, NMSE_T1: 0.188, PSNR_T2: 10.281, NMSE_T2: 0.801
+
+Learning rate for next epoch (51) set to: 0.0000010

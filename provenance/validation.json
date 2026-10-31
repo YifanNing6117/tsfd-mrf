@@ -1,0 +1,19 @@
+{
+  "python_files": 236,
+  "syntax_errors": [],
+  "source_hashes_match": true,
+  "result_txt_files": 198,
+  "paper_image_files": 174,
+  "full_training_run": false,
+  "gpu_inference_run": false,
+  "data_path_transformation": "CSV absolute data paths replaced with ./DATA_ROOT/<parent>/<filename>",
+  "weights_uploaded": false,
+  "credential_pattern_matches": [],
+  "compatibility_edits": [
+    "experiments/ablation/models/test_model.py",
+    "experiments/brainweb_in_vivo/models/test_model.py",
+    "experiments/delics/models/test_model.py"
+  ],
+  "files": 674,
+  "total_bytes": 9222064
+}

@@ -1,0 +1,15 @@
+-r requirements.txt
+torchvision
+numpy
+pandas
+scipy
+torchio
+nibabel
+h5py
+Pillow
+scikit-image
+opencv-python
+dominate
+visdom
+ml-collections
+PyYAML

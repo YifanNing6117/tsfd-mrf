@@ -1,0 +1,10 @@
+Test Summary for: delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr1e-4_lr1e-6
+Dataset: Deli-CS, Modality: T1
+Results Dir: delics_results_t1/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr1e-4_lr1e-6
+========================================
+PSNR: 24.9531 +/- 3.2158
+SSIM: 0.8775 +/- 0.0258
+NMSE: 0.134466 +/- 0.076797
+MAE (ms): 221.47 +/- 104.42
+Total Inference Time: 61.1658 s
+Diff Multiplier: 1.0

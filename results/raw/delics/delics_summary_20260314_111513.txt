@@ -1,0 +1,25 @@
+Deli-CS 批量测试报告
+模型: delics_50DWTrealtfmambampu_v5_nokaiming_lr1e-4_lr1e-5
+总耗时: 0:00:46.624937
+========================================
+
+--- 测试结果: T1 ---
+Test Summary for: delics_50DWTrealtfmambampu_v5_nokaiming_lr1e-4_lr1e-5
+Dataset: Deli-CS, Modality: T1
+==============================
+PSNR: 31.3571 +/- 1.7518
+SSIM: 0.9627 +/- 0.0050
+NMSE: 0.044027 +/- 0.010581
+MAE (ms):  141.39 +/- 33.92
+
+
+--- 测试结果: T2 ---
+Test Summary for: delics_50DWTrealtfmambampu_v5_nokaiming_lr1e-4_lr1e-5
+Dataset: Deli-CS, Modality: T2
+==============================
+PSNR: 32.0284 +/- 4.1321
+SSIM: 0.9722 +/- 0.0151
+NMSE: 0.430257 +/- 0.098344
+MAE (ms):  56.35 +/- 53.83
+
+

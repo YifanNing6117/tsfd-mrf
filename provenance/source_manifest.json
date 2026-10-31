@@ -1,0 +1,3352 @@
+[
+  {
+    "source": "CSB-NET/delics_dataset.csv",
+    "target": "experiments/brainweb_in_vivo/delics_dataset.csv",
+    "transformation": "replace absolute data paths with ./DATA_ROOT/<parent>/<filename>",
+    "source_sha256": "7aeea8f186de59f51301c0b561b73bca1e390a276895db826420139f4f79cb79",
+    "sha256": "7bc7b5a39e1a9ce05d9edb21139a6a8e0e2ffbd19cf5fa221bf4e119caa20904"
+  },
+  {
+    "source": "CSB-NET/final_summary_20260129_220628.txt",
+    "target": "results/raw/brainweb_in_vivo/final_summary_20260129_220628.txt",
+    "sha256": "5c4339bdec8c88b1b55fad75faab7d7a354dfeda96e6c76ab7d34f9a39178710"
+  },
+  {
+    "source": "CSB-NET/final_summary_20260129_221226.txt",
+    "target": "results/raw/brainweb_in_vivo/final_summary_20260129_221226.txt",
+    "sha256": "4effb5a28aa4c4eec0d84abb4d4816f06aa775298c4652fb9e6b6ed755424955"
+  },
+  {
+    "source": "CSB-NET/final_summary_20260308_213252.txt",
+    "target": "results/raw/brainweb_in_vivo/final_summary_20260308_213252.txt",
+    "sha256": "a281628bbe2dbaad1e4cd04dc52c401d27f4c950f79b2a64131e8cc121214392"
+  },
+  {
+    "source": "CSB-NET/final_summary_20260309_230320.txt",
+    "target": "results/raw/brainweb_in_vivo/final_summary_20260309_230320.txt",
+    "sha256": "6c5155b3f6385d4ca9ec0bc83cc9855c748b3a9f7712b05ea562cfd559207741"
+  },
+  {
+    "source": "CSB-NET/final_summary_20260313_134357.txt",
+    "target": "results/raw/brainweb_in_vivo/final_summary_20260313_134357.txt",
+    "sha256": "28113370762eb027d595c0bf02cf517f2d0afcebb377fe1d9cdbee16f6119ffd"
+  },
+  {
+    "source": "CSB-NET/final_summary_20260313_140541.txt",
+    "target": "results/raw/brainweb_in_vivo/final_summary_20260313_140541.txt",
+    "sha256": "475d4ba45daf3f704b66c27ddd69a08ae689bd9e1a926152e499cfb9eb6fc789"
+  },
+  {
+    "source": "CSB-NET/final_summary_20260313_185932.txt",
+    "target": "results/raw/brainweb_in_vivo/final_summary_20260313_185932.txt",
+    "sha256": "2ca26d83da5509e4c9c4aca3f5385ee9d8aac5fcf8af2ed183663a04cf38f936"
+  },
+  {
+    "source": "CSB-NET/final_summary_20260319_113017.txt",
+    "target": "results/raw/brainweb_in_vivo/final_summary_20260319_113017.txt",
+    "sha256": "135ec7ec75289065d612d8f796126af9b6608b2b9945b5d30abf960153057fd6"
+  },
+  {
+    "source": "CSB-NET/final_summary_20260330_150903.txt",
+    "target": "results/raw/brainweb_in_vivo/final_summary_20260330_150903.txt",
+    "sha256": "05b43491fa8a0156110cfa761b2c9ce85672fe6fe93562ced030a1c1596f16ae"
+  },
+  {
+    "source": "CSB-NET/MRF_BrainWeb_3DMRF.csv",
+    "target": "experiments/brainweb_in_vivo/MRF_BrainWeb_3DMRF.csv",
+    "transformation": "replace absolute data paths with ./DATA_ROOT/<parent>/<filename>",
+    "source_sha256": "1ef488919c17e3705aaf630531360d3bd41c178ba14c0dd8904f3d6cabf52d78",
+    "sha256": "5d4f79e016eec1429590f873041b4678068625fe66ba972c8c72f2e38ea0082d"
+  },
+  {
+    "source": "CSB-NET/run_all_tests.py",
+    "target": "experiments/brainweb_in_vivo/run_all_tests.py",
+    "sha256": "72455f16e1a94bed37e80b51ec5fffd5503dd0a9f3871559f99729b1bc4a4d80"
+  },
+  {
+    "source": "CSB-NET/run_all_tests_seq200.py",
+    "target": "experiments/brainweb_in_vivo/run_all_tests_seq200.py",
+    "sha256": "9dbf89220052cace462b94290c99fa58662481a499a50e51fb338651483d8d64"
+  },
+  {
+    "source": "CSB-NET/run_test.py",
+    "target": "experiments/brainweb_in_vivo/run_test.py",
+    "sha256": "ce46ac9535a87ad9fd62f746032e577a6596cf9f840441bdff7218c59752afaa"
+  },
+  {
+    "source": "CSB-NET/test1.py",
+    "target": "experiments/brainweb_in_vivo/test1.py",
+    "sha256": "4bcf306ceaeecca6d4fa45eb8f9dc64cfc5cae2ee44627a052fda6205d9d3275"
+  },
+  {
+    "source": "CSB-NET/test1new.py",
+    "target": "experiments/brainweb_in_vivo/test1new.py",
+    "sha256": "3fe6a67000c00b5274aef2f702864688b9e53f7c9aa848c4c548c9560764b379"
+  },
+  {
+    "source": "CSB-NET/test2.py",
+    "target": "experiments/brainweb_in_vivo/test2.py",
+    "sha256": "a4a4b56cdfb9309a584cd960d0ba40b58862dd61d5cb06703009e5c8d341bdde"
+  },
+  {
+    "source": "CSB-NET/testBrainweb.csv",
+    "target": "experiments/brainweb_in_vivo/testBrainweb.csv",
+    "transformation": "replace absolute data paths with ./DATA_ROOT/<parent>/<filename>",
+    "source_sha256": "ff4ab7fa4009fa9b6cb342c61c23f1fc0e4666acce23219ac2c0e6d835151bd9",
+    "sha256": "21fa69c14f324327d533aa8463d6359e48b7c2fb4de5ab0e6c33327eac04e76d"
+  },
+  {
+    "source": "CSB-NET/testsubjects.csv",
+    "target": "experiments/brainweb_in_vivo/testsubjects.csv",
+    "transformation": "replace absolute data paths with ./DATA_ROOT/<parent>/<filename>",
+    "source_sha256": "f4a4b64ec65a952bcca85c27f1a03ce716325391c79016679353a9686bd1fefc",
+    "sha256": "9cd9f842e9392bd63b6004d6a5260f4ca28d0e13fc8657ec1f73db08a31b9b21"
+  },
+  {
+    "source": "CSB-NET/test_subjects1.py",
+    "target": "experiments/brainweb_in_vivo/test_subjects1.py",
+    "sha256": "3afe904a8977c6fe77e9ba82f20afd7490b169fb5e2d4b4130063dc7fe46b3c4"
+  },
+  {
+    "source": "CSB-NET/test_subjects2.py",
+    "target": "experiments/brainweb_in_vivo/test_subjects2.py",
+    "sha256": "29f1b472586e7cb5b04535714d6de1a3992df56c1d2c9e62160da3e3bba1aaed"
+  },
+  {
+    "source": "CSB-NET/test_unified.py",
+    "target": "experiments/brainweb_in_vivo/test_unified.py",
+    "sha256": "484fa0d5dfa74dc1e72a5e3b53329f8a338215629d7d40336b4fd2c55854c6da"
+  },
+  {
+    "source": "CSB-NET/test_unified_env.py",
+    "target": "experiments/brainweb_in_vivo/test_unified_env.py",
+    "sha256": "f004b204858bab76d910c1b84cedfaed9fda41b94e4c6e8627d09b1b2713ab4e"
+  },
+  {
+    "source": "CSB-NET/test_unified_old.py",
+    "target": "experiments/brainweb_in_vivo/test_unified_old.py",
+    "sha256": "ac17dbb1b7189095c3f22c7b71784df4217d43c0f38c57f16b30f444b2cbdb2c"
+  },
+  {
+    "source": "CSB-NET/train_wyz.py",
+    "target": "experiments/brainweb_in_vivo/train_wyz.py",
+    "sha256": "658f1987ae47311fc222e402d383f880118bc219e58f77f1542a7cc1143d1329"
+  },
+  {
+    "source": "CSB-NET/brainweb1/metrics.txt",
+    "target": "results/raw/brainweb_in_vivo/brainweb1/metrics.txt",
+    "sha256": "6e711ed9826f34740a974a495f792abb3eb9df94f333dc01ae6dff4f4a419203"
+  },
+  {
+    "source": "CSB-NET/brainweb2/metrics.txt",
+    "target": "results/raw/brainweb_in_vivo/brainweb2/metrics.txt",
+    "sha256": "c5ff856de6e37ffa2a94e5431fe50bbf9ccf979bcbd00b1db69be8cd3580921c"
+  },
+  {
+    "source": "CSB-NET/brainweb_t1/metrics.txt",
+    "target": "results/raw/brainweb_in_vivo/brainweb_t1/metrics.txt",
+    "sha256": "4cf7e11d78f7db2e98f27113b06c8e9c1e0ce247f71b65895d440d3747742372"
+  },
+  {
+    "source": "CSB-NET/brainweb_t2/metrics.txt",
+    "target": "results/raw/brainweb_in_vivo/brainweb_t2/metrics.txt",
+    "sha256": "104577a2ea14aec8b73a8a1d8d2c0adf205a80b648bef40def844c7fc9068b06"
+  },
+  {
+    "source": "CSB-NET/data/aligned_dataset.py",
+    "target": "experiments/brainweb_in_vivo/data/aligned_dataset.py",
+    "sha256": "55cf65619d301be87b19237b94f6ba0e80d7b8ace829712e2c77961086c9277f"
+  },
+  {
+    "source": "CSB-NET/data/aligned_datasetold.py",
+    "target": "experiments/brainweb_in_vivo/data/aligned_datasetold.py",
+    "sha256": "4b3e80bdb63512047f96aab3d321e33a3d530f330c605732ea97d9713b680861"
+  },
+  {
+    "source": "CSB-NET/data/base_dataset.py",
+    "target": "experiments/brainweb_in_vivo/data/base_dataset.py",
+    "sha256": "9b7ec0dde0665130e914be33369ed83a8c3649036b9c4c1c964c30b7a972d6b0"
+  },
+  {
+    "source": "CSB-NET/data/base_data_loader.py",
+    "target": "experiments/brainweb_in_vivo/data/base_data_loader.py",
+    "sha256": "ebf99d06f5a02985ffcf1552ba38962272ef45c6f3a884b8971c481e38204b0b"
+  },
+  {
+    "source": "CSB-NET/data/delics_dataset.py",
+    "target": "experiments/brainweb_in_vivo/data/delics_dataset.py",
+    "sha256": "ad8b741fc6668efd0c42e8f8ba3503f251817f9a1a91a6553e15d10a6374fe5c"
+  },
+  {
+    "source": "CSB-NET/data/image_folder.py",
+    "target": "experiments/brainweb_in_vivo/data/image_folder.py",
+    "sha256": "8cf92e2c7b1afc8c65b6abe9a3847f522d6c4af4280434fa765012c56a684b2e"
+  },
+  {
+    "source": "CSB-NET/data/select_mask.py",
+    "target": "experiments/brainweb_in_vivo/data/select_mask.py",
+    "sha256": "e51d719bca683dd492a1a9d623ffe5eebe33e77d467f1801fd71668f5af72e63"
+  },
+  {
+    "source": "CSB-NET/data/single_dataset.py",
+    "target": "experiments/brainweb_in_vivo/data/single_dataset.py",
+    "sha256": "14945b7c9d51076d9e5080b7f3c2b03e7c742e87ee5a4eb4ecfeb9e559cc8fba"
+  },
+  {
+    "source": "CSB-NET/data/unaligned_dataset.py",
+    "target": "experiments/brainweb_in_vivo/data/unaligned_dataset.py",
+    "sha256": "754c5c812c2a2080efeb5a665fc88f692234120a219b0e777c3281e704aaf424"
+  },
+  {
+    "source": "CSB-NET/data/__init__.py",
+    "target": "experiments/brainweb_in_vivo/data/__init__.py",
+    "sha256": "780696f1030108b306e085a56c48704822db63679cd11abec36757dad4013679"
+  },
+  {
+    "source": "CSB-NET/models/ASSP_wavelet_tfmamba_MPU_v3.py",
+    "target": "experiments/brainweb_in_vivo/models/ASSP_wavelet_tfmamba_MPU_v3.py",
+    "sha256": "9ac790e68f3551b11bfef15ef9d6092d194ea41b50f4c96bfc13335a61c632ed"
+  },
+  {
+    "source": "CSB-NET/models/base_model.py",
+    "target": "experiments/brainweb_in_vivo/models/base_model.py",
+    "sha256": "dce3abb9814f915f51d417f657cb989b745dc939f5fe3cdd6d689a5dbeda97bc"
+  },
+  {
+    "source": "CSB-NET/models/daMPU.py",
+    "target": "experiments/brainweb_in_vivo/models/daMPU.py",
+    "sha256": "c084fa7cb2095ed34d8da271d894d340ab452cd3e7bcac1fc1914b3562895c5d"
+  },
+  {
+    "source": "CSB-NET/models/demo.py",
+    "target": "experiments/brainweb_in_vivo/models/demo.py",
+    "sha256": "77f669feec6e49d678488a5ac098004d8f9601b53f885dd6e66361f561b7d14f"
+  },
+  {
+    "source": "CSB-NET/models/DualMambaMRF.py",
+    "target": "experiments/brainweb_in_vivo/models/DualMambaMRF.py",
+    "sha256": "5592eeae2b79f2c1ec988f0f09cba1e986fbb7994d647ebe957e4d15478e2fd1"
+  },
+  {
+    "source": "CSB-NET/models/DWT_tfcmamba_MPU_v5.py",
+    "target": "experiments/brainweb_in_vivo/models/DWT_tfcmamba_MPU_v5.py",
+    "sha256": "26d8af8ae4837d48c76e0d5da3d6e114a1f723ead0dd73a7d10d8a28c0fcc484"
+  },
+  {
+    "source": "CSB-NET/models/DWT_tfmamba_MPU_v5.py",
+    "target": "experiments/brainweb_in_vivo/models/DWT_tfmamba_MPU_v5.py",
+    "sha256": "f15991f2ae780b4d89e98a14e4039c84628f8c70ab10613efd40af78e8bdc3d5"
+  },
+  {
+    "source": "CSB-NET/models/FusedSwinMambaMRF.py",
+    "target": "experiments/brainweb_in_vivo/models/FusedSwinMambaMRF.py",
+    "sha256": "b658e7feb110c3fab61397ce0496abc847c5982ba1e8226089cdd53459de78c5"
+  },
+  {
+    "source": "CSB-NET/models/InterleavedMamba.py",
+    "target": "experiments/brainweb_in_vivo/models/InterleavedMamba.py",
+    "sha256": "ce88d9963d62848aac5fdc96bfea5450f839ddb030b597f559cfce59139c3322"
+  },
+  {
+    "source": "CSB-NET/models/InterleavedSwinMamba.py",
+    "target": "experiments/brainweb_in_vivo/models/InterleavedSwinMamba.py",
+    "sha256": "a32ed27fac14cb15139c91879a367c19f9c5d27f1f4068e0a94948a32c67dfb0"
+  },
+  {
+    "source": "CSB-NET/models/InterleavedSwinMambaMRF_v2_layerscale_MambaMLP .py",
+    "target": "experiments/brainweb_in_vivo/models/InterleavedSwinMambaMRF_v2_layerscale_MambaMLP .py",
+    "sha256": "623e5a89f26e80762ec1bd6235a72e89d34c989260722cca82e4f83b5ea84f6d"
+  },
+  {
+    "source": "CSB-NET/models/InterleavedSwinMambaMRF_v2_MambaMLP.py",
+    "target": "experiments/brainweb_in_vivo/models/InterleavedSwinMambaMRF_v2_MambaMLP.py",
+    "sha256": "623e5a89f26e80762ec1bd6235a72e89d34c989260722cca82e4f83b5ea84f6d"
+  },
+  {
+    "source": "CSB-NET/models/mamba.py",
+    "target": "experiments/brainweb_in_vivo/models/mamba.py",
+    "sha256": "deef9bac4009bcbfa715b2a9d7f6ff5eee8cbe794a7b2811e2b92ba0fc370f45"
+  },
+  {
+    "source": "CSB-NET/models/mamba4_MPU.py",
+    "target": "experiments/brainweb_in_vivo/models/mamba4_MPU.py",
+    "sha256": "bade62dd1bc422fea543c088d16d0f9302e658242916f8774b70f8aeb80388fa"
+  },
+  {
+    "source": "CSB-NET/models/mambaIR.py",
+    "target": "experiments/brainweb_in_vivo/models/mambaIR.py",
+    "sha256": "68736b4bc66018eb8d51451ce5344ca78bc084e4fd974cf49af549711a447ac7"
+  },
+  {
+    "source": "CSB-NET/models/mambaIR_DualBranch.py",
+    "target": "experiments/brainweb_in_vivo/models/mambaIR_DualBranch.py",
+    "sha256": "2eb0bde070c2938f367c3c56fdfafbfbb2219ebceda964add82abeb6c1b9a207"
+  },
+  {
+    "source": "CSB-NET/models/mambaIR_Swin_CNN.py",
+    "target": "experiments/brainweb_in_vivo/models/mambaIR_Swin_CNN.py",
+    "sha256": "d6a20164ef9a6334656ec084c90b5be484eb2bd66ee6381e631d2baa5f32294c"
+  },
+  {
+    "source": "CSB-NET/models/mambaIR_Swin_CNN_Unguided.py",
+    "target": "experiments/brainweb_in_vivo/models/mambaIR_Swin_CNN_Unguided.py",
+    "sha256": "ece9d4df9d5938f3273b165c2ca3df346ca90155915bcb4e28e055e0c06306d7"
+  },
+  {
+    "source": "CSB-NET/models/MaSAMPU.py",
+    "target": "experiments/brainweb_in_vivo/models/MaSAMPU.py",
+    "sha256": "87a0e70dc41dc105c273dbbdac7e7685e0db3b44b06178a9885e494d55914f7c"
+  },
+  {
+    "source": "CSB-NET/models/MaSA_mamba4_MPU.py",
+    "target": "experiments/brainweb_in_vivo/models/MaSA_mamba4_MPU.py",
+    "sha256": "d93910af53dced319c55306d39c8cfad6dda1a6e563f575034155f4da190258c"
+  },
+  {
+    "source": "CSB-NET/models/MPU.py",
+    "target": "experiments/brainweb_in_vivo/models/MPU.py",
+    "sha256": "b3822d6e2694a120172e26ae6c41a5d0fa28411700feb770b834b426f68e8cd7"
+  },
+  {
+    "source": "CSB-NET/models/networks.py",
+    "target": "experiments/brainweb_in_vivo/models/networks.py",
+    "sha256": "1cb560e5b29e91821324ec7bb70e48695dc119d8216f13d189762de2bb2d0f93"
+  },
+  {
+    "source": "CSB-NET/models/realDualMambaMRF.py",
+    "target": "experiments/brainweb_in_vivo/models/realDualMambaMRF.py",
+    "sha256": "368e59d44cc7a98e79bb0dadf0e3663cbd958069b07b03773bd0ecd851c782c4"
+  },
+  {
+    "source": "CSB-NET/models/residual_swin_transformers.py",
+    "target": "experiments/brainweb_in_vivo/models/residual_swin_transformers.py",
+    "sha256": "9c6c4299f1ebf405cd0f370aa56ff4c8a5c4fcfedabb450355a65fce7f5f563e"
+  },
+  {
+    "source": "CSB-NET/models/residual_swin_transformers_multi_modal.py",
+    "target": "experiments/brainweb_in_vivo/models/residual_swin_transformers_multi_modal.py",
+    "sha256": "84054ae8ffafbfaf5c01329fd8526d27dcb5a07aedea58fc69e37f8ea878f978"
+  },
+  {
+    "source": "CSB-NET/models/residual_transformers.py",
+    "target": "experiments/brainweb_in_vivo/models/residual_transformers.py",
+    "sha256": "dcf4e2bbedb880d3b45879ef025cb1f0ba8b3b192f46b346c26f0e6313e9cc1a"
+  },
+  {
+    "source": "CSB-NET/models/resvit_one.py",
+    "target": "experiments/brainweb_in_vivo/models/resvit_one.py",
+    "sha256": "6df1048a2a089d249bd620ecd2559a7a8596e9585c6c840ee57fbaec3acd391f"
+  },
+  {
+    "source": "CSB-NET/models/SwinDualMamba.py",
+    "target": "experiments/brainweb_in_vivo/models/SwinDualMamba.py",
+    "sha256": "2b26f552b351196c0816aa8f4e1deea1915a6e534e6e45ea54e8ffda95bcfca1"
+  },
+  {
+    "source": "CSB-NET/models/Swinmamba.py",
+    "target": "experiments/brainweb_in_vivo/models/Swinmamba.py",
+    "sha256": "eb8db61525f23b15b4cc8eeb3713502e68ce0e594f13834d6e078e4a180c3a09"
+  },
+  {
+    "source": "CSB-NET/models/SwinmambaTSM.py",
+    "target": "experiments/brainweb_in_vivo/models/SwinmambaTSM.py",
+    "sha256": "263d7d858454b6d53cfa723d99dcb6d118c2901338b8aa057085ab4c0cee4b1d"
+  },
+  {
+    "source": "CSB-NET/models/swinres_one.py",
+    "target": "experiments/brainweb_in_vivo/models/swinres_one.py",
+    "sha256": "34e0c86adc6eb8851147293d9c97542d105a81f911aa479a6f1e1e45544e2ec2"
+  },
+  {
+    "source": "CSB-NET/models/SwinTemporalMamba.py",
+    "target": "experiments/brainweb_in_vivo/models/SwinTemporalMamba.py",
+    "sha256": "c46c06ed013ac60e237a72d1d51f56a32d615b8ae31f4dae44f44d813b66c3ef"
+  },
+  {
+    "source": "CSB-NET/models/swin_transformer.py",
+    "target": "experiments/brainweb_in_vivo/models/swin_transformer.py",
+    "sha256": "0d621c1ba79c587693a06c08ab405b14203f3d7234dc365117bf3333d16a6cc8"
+  },
+  {
+    "source": "CSB-NET/models/test_model.py",
+    "target": "experiments/brainweb_in_vivo/models/test_model.py",
+    "sha256": "6c3068ed7cedb5357fddbdb789cea9598020001db119d8c868c238ca92f93bd5",
+    "source_sha256": "4f28e38727b59b23b155ee3d36a9e802c4ec370a3da8a0268c3453a0b7cda7f2",
+    "transformation": "legacy TestModel compatibility: non_blocking keyword, util1 import, current define_G arguments; V5 model unchanged"
+  },
+  {
+    "source": "CSB-NET/models/transformer_configs.py",
+    "target": "experiments/brainweb_in_vivo/models/transformer_configs.py",
+    "sha256": "0348f5eb951c8b3e3395a72dff7cc48b4a27062460e5dec2c10361411e10cff3"
+  },
+  {
+    "source": "CSB-NET/models/unet_model.py",
+    "target": "experiments/brainweb_in_vivo/models/unet_model.py",
+    "sha256": "9867c50316da795efe67245cb999e6197ef12a1032b68bd9892ac3b8e9fadfa4"
+  },
+  {
+    "source": "CSB-NET/models/wavelet_4mamba_MPU.py",
+    "target": "experiments/brainweb_in_vivo/models/wavelet_4mamba_MPU.py",
+    "sha256": "fce55084c9ce514d593c4a59e20d94cd12252122c1ec7c8ba11c52b089d2c2dc"
+  },
+  {
+    "source": "CSB-NET/models/wavelet_4mamba_MPU_v1.py",
+    "target": "experiments/brainweb_in_vivo/models/wavelet_4mamba_MPU_v1.py",
+    "sha256": "11afd711d3a608738a2554c91a7df1387427fa6e070da8da42f172b3f9e8f1b0"
+  },
+  {
+    "source": "CSB-NET/models/wavelet_4mamba_MPU_v2.py",
+    "target": "experiments/brainweb_in_vivo/models/wavelet_4mamba_MPU_v2.py",
+    "sha256": "f3c5df2aa2b760c1f216154363654dbf74ca792731242a2cc7714167ee4648fa"
+  },
+  {
+    "source": "CSB-NET/models/wavelet_4mamba_MPU_v3.py",
+    "target": "experiments/brainweb_in_vivo/models/wavelet_4mamba_MPU_v3.py",
+    "sha256": "a46d3740c2e74bffb2215f41f300613b01799c775922c5ece2d406281e1b1c2e"
+  },
+  {
+    "source": "CSB-NET/models/wavelet_6mamba_MPU_v3.py",
+    "target": "experiments/brainweb_in_vivo/models/wavelet_6mamba_MPU_v3.py",
+    "sha256": "d513120a23af866ba0396cfaf29989b47572cb0f2e3efcf7f50c41b6038ef0df"
+  },
+  {
+    "source": "CSB-NET/models/wavelet_real4mamba_MPU_v3.py",
+    "target": "experiments/brainweb_in_vivo/models/wavelet_real4mamba_MPU_v3.py",
+    "sha256": "9225d992d88acd9e6ae0d3b803a2740ddf727e976637eb74e4ef3bdbb37d8648"
+  },
+  {
+    "source": "CSB-NET/models/wavelet_tfmamba_MPU_v3.py",
+    "target": "experiments/brainweb_in_vivo/models/wavelet_tfmamba_MPU_v3.py",
+    "sha256": "e063bcfdb7f975026c27f193f34019b8b65ec9a201be09cd19b0023e00f61ea4"
+  },
+  {
+    "source": "CSB-NET/models/wavelet_tfmamba_MPU_v4.py",
+    "target": "experiments/brainweb_in_vivo/models/wavelet_tfmamba_MPU_v4.py",
+    "sha256": "2d69e52cc49ebcf9f25d9486b6981e6b4a63bab7771be36a0ccbd6dd0b2b6def"
+  },
+  {
+    "source": "CSB-NET/models/wavelet_tfmamba_MPU_v5.py",
+    "target": "experiments/brainweb_in_vivo/models/wavelet_tfmamba_MPU_v5.py",
+    "sha256": "4db726411fea223dd25241f8506b7559af4f0225e728a1487fdcb834760715f3"
+  },
+  {
+    "source": "CSB-NET/models/wavelet_tmamba_MPU_v3.py",
+    "target": "experiments/brainweb_in_vivo/models/wavelet_tmamba_MPU_v3.py",
+    "sha256": "22fff88ec949a01953071e27301e7b624172e20b5aa91464dfce3815644dcb05"
+  },
+  {
+    "source": "CSB-NET/models/__init__.py",
+    "target": "experiments/brainweb_in_vivo/models/__init__.py",
+    "sha256": "45943c2bdeb79c788920e035d6222a473163ec5645db94dea4ae8d57499c503d"
+  },
+  {
+    "source": "CSB-NET/options/base_options.py",
+    "target": "experiments/brainweb_in_vivo/options/base_options.py",
+    "sha256": "b4537814a6df8aa1edfb0813acc4dc3f09deea5887a76abaaeafbfa3480ec6ac"
+  },
+  {
+    "source": "CSB-NET/options/test_options.py",
+    "target": "experiments/brainweb_in_vivo/options/test_options.py",
+    "sha256": "8de13947e9ca038dd72fdfb5fa4807822626d27ea1db1c234cffd079bc190364"
+  },
+  {
+    "source": "CSB-NET/options/train_options.py",
+    "target": "experiments/brainweb_in_vivo/options/train_options.py",
+    "sha256": "1bcf2f4de47392f2db0334afa313604115c3023ce4be01ecf9f3c9df7cd2acd3"
+  },
+  {
+    "source": "CSB-NET/options/train_options_wyz.py",
+    "target": "experiments/brainweb_in_vivo/options/train_options_wyz.py",
+    "sha256": "c316e5f69f06b15fcc602f39b53ea94a47337d02ea7747e90ea0fa197c8e8201"
+  },
+  {
+    "source": "CSB-NET/subjects1/metrics.txt",
+    "target": "results/raw/brainweb_in_vivo/subjects1/metrics.txt",
+    "sha256": "7e49b7199da42133121fb770cf65378577322b2f29f666a359f14ba8c61365ef"
+  },
+  {
+    "source": "CSB-NET/subjects2/metrics.txt",
+    "target": "results/raw/brainweb_in_vivo/subjects2/metrics.txt",
+    "sha256": "0d5ed9e257a351b6d38cb232e875190665e0d7307f4895912cc9a3a6ebfe2b20"
+  },
+  {
+    "source": "CSB-NET/subjects_t1/metrics.txt",
+    "target": "results/raw/brainweb_in_vivo/subjects_t1/metrics.txt",
+    "sha256": "7d3f7d05307265e3b57ce3607b2e421cdd40b08781bc34c43d352c5d102c4e59"
+  },
+  {
+    "source": "CSB-NET/subjects_t2/metrics.txt",
+    "target": "results/raw/brainweb_in_vivo/subjects_t2/metrics.txt",
+    "sha256": "b9572c3a9ea7452b772742340288706f188c4071d815e7c1146ed18e507e885f"
+  },
+  {
+    "source": "CSB-NET/util1/html.py",
+    "target": "experiments/brainweb_in_vivo/util1/html.py",
+    "sha256": "4c36a06c77ac0b71d25b44cb22979f93d3133694d7549dd0c9a2d614b0c3b285"
+  },
+  {
+    "source": "CSB-NET/util1/image_pool.py",
+    "target": "experiments/brainweb_in_vivo/util1/image_pool.py",
+    "sha256": "211102100d39cbb856ba92e991e4d89987ba73a861b3e9626e050ac61b3da1a3"
+  },
+  {
+    "source": "CSB-NET/util1/util.py",
+    "target": "experiments/brainweb_in_vivo/util1/util.py",
+    "sha256": "dee578f573b6bc9d5523b655fc2f2141af28a20ae2ed8364c85ee2b1a0418494"
+  },
+  {
+    "source": "CSB-NET/util1/visualizer.py",
+    "target": "experiments/brainweb_in_vivo/util1/visualizer.py",
+    "sha256": "b4998c9a4937dd313854f09af0f59470e87d89c754819d2bea43f00adf901dc6"
+  },
+  {
+    "source": "CSB-NET/utils/utils_bnorm.py",
+    "target": "experiments/brainweb_in_vivo/utils/utils_bnorm.py",
+    "sha256": "7808fab0e22eae633120936643a4258c4c050801810ea99cb091d04f96c7000e"
+  },
+  {
+    "source": "CSB-NET/utils/utils_dist.py",
+    "target": "experiments/brainweb_in_vivo/utils/utils_dist.py",
+    "sha256": "0bf0489b299114e97b1d07c06825f7417a8fa34f0030322f421f901dc6b71d18"
+  },
+  {
+    "source": "CSB-NET/utils/utils_early_stopping.py",
+    "target": "experiments/brainweb_in_vivo/utils/utils_early_stopping.py",
+    "sha256": "258efcebeadd25374440088b34f30e0daa011eaf63651e77259d6af679127e62"
+  },
+  {
+    "source": "CSB-NET/utils/utils_image.py",
+    "target": "experiments/brainweb_in_vivo/utils/utils_image.py",
+    "sha256": "d190b873c9fc049c7d962166deacb87232bf9fbdaf49dd2af274f97d9a18fc6a"
+  },
+  {
+    "source": "CSB-NET/utils/utils_logger.py",
+    "target": "experiments/brainweb_in_vivo/utils/utils_logger.py",
+    "sha256": "8c5d1d7f16958311305bc2ea50311d62dbb3ecb3348addae31ae1a507f77a194"
+  },
+  {
+    "source": "CSB-NET/utils/utils_model.py",
+    "target": "experiments/brainweb_in_vivo/utils/utils_model.py",
+    "sha256": "3a6d585779ccf691353f79be817f169edac3ef3839d1e934e88e8b8e06d54a59"
+  },
+  {
+    "source": "CSB-NET/utils/utils_option.py",
+    "target": "experiments/brainweb_in_vivo/utils/utils_option.py",
+    "sha256": "61f87a44c2e1f9fb90c73cc34b4e745e721e34f3a0df1db348e2eaddbf8f249a"
+  },
+  {
+    "source": "CSB-NET/utils/utils_regularizers.py",
+    "target": "experiments/brainweb_in_vivo/utils/utils_regularizers.py",
+    "sha256": "2e8d562f539c8fb31d13e0ef094209b3d8a83d21901f85b81580091df2d73926"
+  },
+  {
+    "source": "CSB-NET/utils/utils_swinmr.py",
+    "target": "experiments/brainweb_in_vivo/utils/utils_swinmr.py",
+    "sha256": "727a18b51b55b7f7c00f4107bb3d57fdf576eb37d6df525f39acbbd140993455"
+  },
+  {
+    "source": "CSB-NET/utils/__init__.py",
+    "target": "experiments/brainweb_in_vivo/utils/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "CSB-NET/checkpoints/experiment_name/opt.txt",
+    "target": "results/raw/brainweb_in_vivo/checkpoints/experiment_name/opt.txt",
+    "sha256": "c78c3bfb921343c0928a98a0c5b2e342d0174e93e15b8a09a996e28ed238d17b"
+  },
+  {
+    "source": "CSB-NET/checkpoints/mrf_mambair_experiment/opt.txt",
+    "target": "results/raw/brainweb_in_vivo/checkpoints/mrf_mambair_experiment/opt.txt",
+    "sha256": "a20770a6a7f69c2addbd759572cae47993af9409e6dcf0090b9a6ee1f6ceb2ba"
+  },
+  {
+    "source": "CSB-NET/EXP_checkpoints/200_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/log.txt",
+    "target": "results/raw/brainweb_in_vivo/EXP_checkpoints/200_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/log.txt",
+    "sha256": "8cd9ddb337b34bc75fdb7bd11f2bf665689a09c72f69b41bd7ba4b0ef7a07d46"
+  },
+  {
+    "source": "CSB-NET/EXP_checkpoints/200_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/loss_log.txt",
+    "target": "results/raw/brainweb_in_vivo/EXP_checkpoints/200_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/loss_log.txt",
+    "sha256": "31f80f1223a1a798788c4c5d4605aef5a91e8f6b6f41b2ee945acadaa0b03b16"
+  },
+  {
+    "source": "CSB-NET/EXP_checkpoints/200_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/opt.txt",
+    "target": "results/raw/brainweb_in_vivo/EXP_checkpoints/200_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/opt.txt",
+    "sha256": "62ec7b844bb58f7bd216c1175707310a1130c5362569044438dcbd5990810132"
+  },
+  {
+    "source": "CSB-NET/EXP_checkpoints/2_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/log.txt",
+    "target": "results/raw/brainweb_in_vivo/EXP_checkpoints/2_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/log.txt",
+    "sha256": "22fda6c2b2ac9dfcbbbefd363c27fed9ff8855b12913470350c5ef2ad72d569f"
+  },
+  {
+    "source": "CSB-NET/EXP_checkpoints/2_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/loss_log.txt",
+    "target": "results/raw/brainweb_in_vivo/EXP_checkpoints/2_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/loss_log.txt",
+    "sha256": "53e12afcb960537314242688f22093390536b2992cfe854d4456bb07926a7a53"
+  },
+  {
+    "source": "CSB-NET/EXP_checkpoints/2_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/opt.txt",
+    "target": "results/raw/brainweb_in_vivo/EXP_checkpoints/2_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/opt.txt",
+    "sha256": "22745b3715c2b970bf788e2e0cddcb882d079c76b0e8b684386b61451fe7e74f"
+  },
+  {
+    "source": "CSB-NET/EXP_checkpoints/50DWTrealtfcmambampu_v5_nokaiming_lr8e-4_lr1e-5/log.txt",
+    "target": "results/raw/brainweb_in_vivo/EXP_checkpoints/50DWTrealtfcmambampu_v5_nokaiming_lr8e-4_lr1e-5/log.txt",
+    "sha256": "a124cfd27a43912d5884d0310f46c538bbae9d1f2f8ef737857a5b81e29c5543"
+  },
+  {
+    "source": "CSB-NET/EXP_checkpoints/50DWTrealtfcmambampu_v5_nokaiming_lr8e-4_lr1e-5/loss_log.txt",
+    "target": "results/raw/brainweb_in_vivo/EXP_checkpoints/50DWTrealtfcmambampu_v5_nokaiming_lr8e-4_lr1e-5/loss_log.txt",
+    "sha256": "69217c1444399bd2b803fe397d59a3a463bce5b4c39c28acdd09c10a9115824f"
+  },
+  {
+    "source": "CSB-NET/EXP_checkpoints/50DWTrealtfcmambampu_v5_nokaiming_lr8e-4_lr1e-5/opt.txt",
+    "target": "results/raw/brainweb_in_vivo/EXP_checkpoints/50DWTrealtfcmambampu_v5_nokaiming_lr8e-4_lr1e-5/opt.txt",
+    "sha256": "77c1f4855021bdaa8930958464ba49774f62fa032aeac5ae25be64e43b8efbb5"
+  },
+  {
+    "source": "CSB-NET/EXP_checkpoints/50DWTrealtfmambampu_v5_lr2e-3/log.txt",
+    "target": "results/raw/brainweb_in_vivo/EXP_checkpoints/50DWTrealtfmambampu_v5_lr2e-3/log.txt",
+    "sha256": "6bd727f729b557d90f7d09fb48db2789ad112fde42d8b8accb5c7b70898316ea"
+  },
+  {
+    "source": "CSB-NET/EXP_checkpoints/50DWTrealtfmambampu_v5_lr2e-3/loss_log.txt",
+    "target": "results/raw/brainweb_in_vivo/EXP_checkpoints/50DWTrealtfmambampu_v5_lr2e-3/loss_log.txt",
+    "sha256": "fd570d18a9da88a6f15be2a781fd560ba5d97a98518d1e68a4fe833864bd14a4"
+  },
+  {
+    "source": "CSB-NET/EXP_checkpoints/50DWTrealtfmambampu_v5_lr2e-3/opt.txt",
+    "target": "results/raw/brainweb_in_vivo/EXP_checkpoints/50DWTrealtfmambampu_v5_lr2e-3/opt.txt",
+    "sha256": "c115bd7385b15567342bd786e3ece4525345aaa750921a0ba33bd4f8a1ccf243"
+  },
+  {
+    "source": "CSB-NET/EXP_checkpoints/50DWTrealtfmambampu_v5_lr8e-4/log.txt",
+    "target": "results/raw/brainweb_in_vivo/EXP_checkpoints/50DWTrealtfmambampu_v5_lr8e-4/log.txt",
+    "sha256": "d42106be90a6832de3fc1a82a715226ba24cdceae781887e7b28c705b9ec007d"
+  },
+  {
+    "source": "CSB-NET/EXP_checkpoints/50DWTrealtfmambampu_v5_lr8e-4/loss_log.txt",
+    "target": "results/raw/brainweb_in_vivo/EXP_checkpoints/50DWTrealtfmambampu_v5_lr8e-4/loss_log.txt",
+    "sha256": "7221fcacc5bbb974d9629a11c75d364fbe8461ecc04fc7969d5860b13b0aa223"
+  },
+  {
+    "source": "CSB-NET/EXP_checkpoints/50DWTrealtfmambampu_v5_lr8e-4/opt.txt",
+    "target": "results/raw/brainweb_in_vivo/EXP_checkpoints/50DWTrealtfmambampu_v5_lr8e-4/opt.txt",
+    "sha256": "9d50b50e952f75d5f2aa3df3c05f01511375371e43744a69c932ffb99f8ee285"
+  },
+  {
+    "source": "CSB-NET/EXP_checkpoints/50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/log.txt",
+    "target": "results/raw/brainweb_in_vivo/EXP_checkpoints/50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/log.txt",
+    "sha256": "cf3a8ef6dfc63ed0869e60c6cbd99b4a63bb70548949107b11a00dc62c3b12ce"
+  },
+  {
+    "source": "CSB-NET/EXP_checkpoints/50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/loss_log.txt",
+    "target": "results/raw/brainweb_in_vivo/EXP_checkpoints/50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/loss_log.txt",
+    "sha256": "71f4b9918fe0b07b0dba1fe2ac712bce177c6f59a84c1bfd465e00f7b25e306e"
+  },
+  {
+    "source": "CSB-NET/EXP_checkpoints/50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/opt.txt",
+    "target": "results/raw/brainweb_in_vivo/EXP_checkpoints/50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/opt.txt",
+    "sha256": "db5dd63bdc391b28c9d4131f711db4746da9a5926b75be439252429e834cfc6f"
+  },
+  {
+    "source": "CSB-NET/models/configs_swin/swin_base_patch4_window12_384_22kto1k_finetune.yaml",
+    "target": "experiments/brainweb_in_vivo/models/configs_swin/swin_base_patch4_window12_384_22kto1k_finetune.yaml",
+    "sha256": "d93477196d143c81d912f305ce9d00dad99dbf3d30751299b7dcebacc61bfb39"
+  },
+  {
+    "source": "CSB-NET/models/configs_swin/swin_base_patch4_window12_384_finetune.yaml",
+    "target": "experiments/brainweb_in_vivo/models/configs_swin/swin_base_patch4_window12_384_finetune.yaml",
+    "sha256": "11f9a234c3a7e7045c576fc4fedf9b54b93d6dab0e45b1aae5bffcd7fdb8e884"
+  },
+  {
+    "source": "CSB-NET/models/configs_swin/swin_base_patch4_window7_224.yaml",
+    "target": "experiments/brainweb_in_vivo/models/configs_swin/swin_base_patch4_window7_224.yaml",
+    "sha256": "d8acf88888d7231b56dc5776d8678af71f4006a6e8b900afcb383eebf0f2ec88"
+  },
+  {
+    "source": "CSB-NET/models/configs_swin/swin_base_patch4_window7_224_22k.yaml",
+    "target": "experiments/brainweb_in_vivo/models/configs_swin/swin_base_patch4_window7_224_22k.yaml",
+    "sha256": "aaa776e77af96e6b53ddbda4d15c8a0f9300c4ef04c3aafb0eea7f30d290c498"
+  },
+  {
+    "source": "CSB-NET/models/configs_swin/swin_base_patch4_window7_224_22kto1k_finetune.yaml",
+    "target": "experiments/brainweb_in_vivo/models/configs_swin/swin_base_patch4_window7_224_22kto1k_finetune.yaml",
+    "sha256": "6bef6ec869deb04ddbc9f44f2f4386a565cb124a400f024b7e1291910b24b2a5"
+  },
+  {
+    "source": "CSB-NET/models/configs_swin/swin_large_patch4_window12_384_22kto1k_finetune.yaml",
+    "target": "experiments/brainweb_in_vivo/models/configs_swin/swin_large_patch4_window12_384_22kto1k_finetune.yaml",
+    "sha256": "a8331738549a971a87b9ada49fb614a76a4d0b7212a606735dfcdf736be0d1d5"
+  },
+  {
+    "source": "CSB-NET/models/configs_swin/swin_large_patch4_window7_224_22k.yaml",
+    "target": "experiments/brainweb_in_vivo/models/configs_swin/swin_large_patch4_window7_224_22k.yaml",
+    "sha256": "213b3975f3cd55812b6ee7808039a055ca1d4f2d56bf5373b2cc83ff7b8b2a74"
+  },
+  {
+    "source": "CSB-NET/models/configs_swin/swin_large_patch4_window7_224_22kto1k_finetune.yaml",
+    "target": "experiments/brainweb_in_vivo/models/configs_swin/swin_large_patch4_window7_224_22kto1k_finetune.yaml",
+    "sha256": "1b67904dd787dd476da6206cfdb3b1deb86e19bd0623ddcb3ebee229a1b928f0"
+  },
+  {
+    "source": "CSB-NET/models/configs_swin/swin_small_patch4_window7_224.yaml",
+    "target": "experiments/brainweb_in_vivo/models/configs_swin/swin_small_patch4_window7_224.yaml",
+    "sha256": "08f8d32d1f51547aa7f22996b2fc1106b5c52ff426b665c87f2f277f9fe1006a"
+  },
+  {
+    "source": "CSB-NET/models/configs_swin/swin_small_patch4_window7_224_22k.yaml",
+    "target": "experiments/brainweb_in_vivo/models/configs_swin/swin_small_patch4_window7_224_22k.yaml",
+    "sha256": "6caeba97eceb48c244c161e28b4807a21714d92b85e19e91376d2d995c4bef6a"
+  },
+  {
+    "source": "CSB-NET/models/configs_swin/swin_small_patch4_window7_224_22kto1k_finetune.yaml",
+    "target": "experiments/brainweb_in_vivo/models/configs_swin/swin_small_patch4_window7_224_22kto1k_finetune.yaml",
+    "sha256": "6b25449803bcdc22dfaed0cda13fd51789f001bf46a6dfbe25249b8ee327a1e1"
+  },
+  {
+    "source": "CSB-NET/models/configs_swin/swin_tiny_c24_patch4_window8_256.yaml",
+    "target": "experiments/brainweb_in_vivo/models/configs_swin/swin_tiny_c24_patch4_window8_256.yaml",
+    "sha256": "467bf3bcc15ac03c738852d72163ee82f008abbee7a73b223c51a47692478631"
+  },
+  {
+    "source": "CSB-NET/models/configs_swin/swin_tiny_patch4_window7_224.yaml",
+    "target": "experiments/brainweb_in_vivo/models/configs_swin/swin_tiny_patch4_window7_224.yaml",
+    "sha256": "ad8531f5eaeb85150d70a923df6e34c21aa71a7d774786b12ab2491833f581b3"
+  },
+  {
+    "source": "CSB-NET/models/configs_swin/swin_tiny_patch4_window7_224_22k.yaml",
+    "target": "experiments/brainweb_in_vivo/models/configs_swin/swin_tiny_patch4_window7_224_22k.yaml",
+    "sha256": "996cd5af43c1ee9370d95ae0fbc4576dea1781cae80ca16411f6dafe4e2e99dc"
+  },
+  {
+    "source": "CSB-NET/models/configs_swin/swin_tiny_patch4_window7_224_22kto1k_finetune.yaml",
+    "target": "experiments/brainweb_in_vivo/models/configs_swin/swin_tiny_patch4_window7_224_22kto1k_finetune.yaml",
+    "sha256": "458018ee959c26690c77ec8d2361d7cc75cb3e26e2abebb30f3bf8520a5a7226"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_2min_dataset.csv",
+    "target": "experiments/delics/delics_2min_dataset.csv",
+    "transformation": "replace absolute data paths with ./DATA_ROOT/<parent>/<filename>",
+    "source_sha256": "8857f686f68bc506ffadb934ce6921dc6ab02b84b8ebb46c21132fac3c11043c",
+    "sha256": "73b1a632a7d2d5b15bdb7f129e739751a9a46903d7e2b0c9c0a77e7867b36fed"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_dataset.csv",
+    "target": "experiments/delics/delics_dataset.csv",
+    "transformation": "replace absolute data paths with ./DATA_ROOT/<parent>/<filename>",
+    "source_sha256": "7aeea8f186de59f51301c0b561b73bca1e390a276895db826420139f4f79cb79",
+    "sha256": "7bc7b5a39e1a9ce05d9edb21139a6a8e0e2ffbd19cf5fa221bf4e119caa20904"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260314_104436.txt",
+    "target": "results/raw/delics/delics_summary_20260314_104436.txt",
+    "sha256": "4e71f113e6fb1d737e1e8a4c69c06d6518dc365fdb8d95413efd1a31275b0bb3"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260314_105923.txt",
+    "target": "results/raw/delics/delics_summary_20260314_105923.txt",
+    "sha256": "3664f65152a19c7aa9dcca25ce3c1ebe8d9e95a14326be5471c455961fdd22fe"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260314_111241.txt",
+    "target": "results/raw/delics/delics_summary_20260314_111241.txt",
+    "sha256": "b74763c4ebc6c31e3e01530f962521e71cf065e204d0f7428b2cd60c03bed394"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260314_111513.txt",
+    "target": "results/raw/delics/delics_summary_20260314_111513.txt",
+    "sha256": "52bfc8be7b13704151e3c4a19e9a2b97395afcb55385944a3558a29ab5e94571"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260314_111736.txt",
+    "target": "results/raw/delics/delics_summary_20260314_111736.txt",
+    "sha256": "5f74d9a88b676aa77e1350c195c2c3dfd21c1b68bb46643e5d9fa4703ac56aec"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260316_102557.txt",
+    "target": "results/raw/delics/delics_summary_20260316_102557.txt",
+    "sha256": "63a2c109fbec522eed383c5eebabdd68246ce3500b803ce4c407b38929a29cd8"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260316_104324.txt",
+    "target": "results/raw/delics/delics_summary_20260316_104324.txt",
+    "sha256": "bd94a1c3523b1bec9bad23afb8da71b9ad8d0a4ad1118e63db188bfe80e8314c"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260316_105526.txt",
+    "target": "results/raw/delics/delics_summary_20260316_105526.txt",
+    "sha256": "94c426f3ea22bb401124fc5eeec832256ecf1d60e9fe18c844bb5c76aeed8c9a"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260317_104355.txt",
+    "target": "results/raw/delics/delics_summary_20260317_104355.txt",
+    "sha256": "6644eaa1ba5e9e367be004f76b34278787a69304bd5d08f40c8c8685b755bf2f"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260317_104657.txt",
+    "target": "results/raw/delics/delics_summary_20260317_104657.txt",
+    "sha256": "f872e2400378cdda628ba88ebc4a0a90b85a48eed1b42acf63fe2a8b4a55d560"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260318_191650.txt",
+    "target": "results/raw/delics/delics_summary_20260318_191650.txt",
+    "sha256": "fd98e23b3f0e181b26831f6fd31d74422dea583c67f5b7bd61e340332c3fa5bb"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260323_162839.txt",
+    "target": "results/raw/delics/delics_summary_20260323_162839.txt",
+    "sha256": "1c67db4ff5a1d124afa8537e3bc8df67b55294a9bcc7579d158f80b6916f51b3"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260323_202801.txt",
+    "target": "results/raw/delics/delics_summary_20260323_202801.txt",
+    "sha256": "19ebfdf1537c842456e4464f26cf14d055d5557de793652427db2d4dc7829f9a"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260325_225959.txt",
+    "target": "results/raw/delics/delics_summary_20260325_225959.txt",
+    "sha256": "b9417b6f8077ae4c68e017b60779d45a3b5d59449f34f5e6d7085d3cbd41b008"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260409_192136.txt",
+    "target": "results/raw/delics/delics_summary_20260409_192136.txt",
+    "sha256": "1c0ff40370cee3d8a3b5c7f5fb5696386ed3e93584fee8c34e01196d9bfe17a2"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260411_194359.txt",
+    "target": "results/raw/delics/delics_summary_20260411_194359.txt",
+    "sha256": "0734beadcdf7309c0c86f6b67c38d71c050f63d3ceecf532e6664531cf7cc970"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260620_180016.txt",
+    "target": "results/raw/delics/delics_summary_20260620_180016.txt",
+    "sha256": "f178d86e19df1a2f09bf9b5afcb220b9da99f3d058ebc3c92b1eb76f7a9822e4"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260620_184003.txt",
+    "target": "results/raw/delics/delics_summary_20260620_184003.txt",
+    "sha256": "9242dbd46cfadb1359c0c952913a8b456d00cb6d5828a3aac45280998d5f1039"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260620_184650.txt",
+    "target": "results/raw/delics/delics_summary_20260620_184650.txt",
+    "sha256": "6511a04da0cceb0df978dcb72e7a237790f4ad49becdc4930ba4c628b95a39bd"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260620_195400.txt",
+    "target": "results/raw/delics/delics_summary_20260620_195400.txt",
+    "sha256": "45c938e60c8cad2fbd250de83be439abdd15f420a5bc685c13fd2764ead79f0b"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260620_200828.txt",
+    "target": "results/raw/delics/delics_summary_20260620_200828.txt",
+    "sha256": "88b25333125c9107a2b289a5d0dd6f2a0120350f578f4793c41b807403c9c1d4"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260620_201700.txt",
+    "target": "results/raw/delics/delics_summary_20260620_201700.txt",
+    "sha256": "8ceabbe9b5bcc60948efcd48799a6ad3b73ccae6df9a699697ff37547034a58a"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260620_202909.txt",
+    "target": "results/raw/delics/delics_summary_20260620_202909.txt",
+    "sha256": "ff757c27060a60d30e388a92a35088924310090d63b694cf1c52e25a42418c18"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260620_203209.txt",
+    "target": "results/raw/delics/delics_summary_20260620_203209.txt",
+    "sha256": "5cd8e52b2a4734826b9b68de71642608b94f9f3838595f5529415dab8e0a4fe8"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260620_212817.txt",
+    "target": "results/raw/delics/delics_summary_20260620_212817.txt",
+    "sha256": "35f93e65efd277dc2dba320748c77dcdccdb66d8ef1ede0c5e8c6adb3deda498"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260620_213600.txt",
+    "target": "results/raw/delics/delics_summary_20260620_213600.txt",
+    "sha256": "6a0ba562148dee963e9afd128a0acde2f68ef8729b9c0f2da48caf6c5d8ab7f6"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260620_214253.txt",
+    "target": "results/raw/delics/delics_summary_20260620_214253.txt",
+    "sha256": "c94244279ffbb6d802c1f74f5f770659e0ad4bc7726f95708cc083d43602f4ea"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260620_214958.txt",
+    "target": "results/raw/delics/delics_summary_20260620_214958.txt",
+    "sha256": "b801ba738a8b576f0f3f0922b178437df732e2297bfe98002718e44cf4e96e0b"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260620_220527.txt",
+    "target": "results/raw/delics/delics_summary_20260620_220527.txt",
+    "sha256": "5dc2cd16397b038195874c9194ad06ba118c6b3d24402c075bc4181bdfd72e3d"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260620_220822.txt",
+    "target": "results/raw/delics/delics_summary_20260620_220822.txt",
+    "sha256": "17f8526f470e5f0591e1dae1cd36f36d498314be76977a16a2333fe74c384711"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260620_221059.txt",
+    "target": "results/raw/delics/delics_summary_20260620_221059.txt",
+    "sha256": "e87abe315cc9c7dc9eb67ba52d43b8b6f1b7b66ba987bb1ea74ba064e20231e9"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260620_221720.txt",
+    "target": "results/raw/delics/delics_summary_20260620_221720.txt",
+    "sha256": "bee6298ed77c66d5426aa3522981daea5062275df0cf1215f3908b37a4c83c2b"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260620_222331.txt",
+    "target": "results/raw/delics/delics_summary_20260620_222331.txt",
+    "sha256": "8b1f945ca28131e19dce3adb79f2cc664ce93b4a36447ff9a70d48c50031fbd8"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260620_223118.txt",
+    "target": "results/raw/delics/delics_summary_20260620_223118.txt",
+    "sha256": "04378053e4c483cf02d1413f0a208674435bdb8a01db528cb33bbbb2e6b7cc79"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260620_223435.txt",
+    "target": "results/raw/delics/delics_summary_20260620_223435.txt",
+    "sha256": "fee4de68a090d21e2718af3e060aacb7bb5a7ae10f831b20e8ab97ea29a7d96d"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260620_223939.txt",
+    "target": "results/raw/delics/delics_summary_20260620_223939.txt",
+    "sha256": "d1683b531b9730ac31a6c3dd487e4dfc3632dcae319bc35ae05aa533b5b79c41"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260620_224331.txt",
+    "target": "results/raw/delics/delics_summary_20260620_224331.txt",
+    "sha256": "4e8d0716824d27fdd69375dea421d927d303bc1ceae5911c251c54e70204f6d6"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_summary_20260620_230309.txt",
+    "target": "results/raw/delics/delics_summary_20260620_230309.txt",
+    "sha256": "9dceb7064b16fe43e5feea0c330f09e66e35ea2753978b2baf022c800b88ab1f"
+  },
+  {
+    "source": "CSB-NET_Delics/MRF_BrainWeb_3DMRF.csv",
+    "target": "experiments/delics/MRF_BrainWeb_3DMRF.csv",
+    "transformation": "replace absolute data paths with ./DATA_ROOT/<parent>/<filename>",
+    "source_sha256": "fcc2c662990dbfee84fd4fbfe9529cbe96d08f0c1c9394e162ebbaffca2ce188",
+    "sha256": "5d4f79e016eec1429590f873041b4678068625fe66ba972c8c72f2e38ea0082d"
+  },
+  {
+    "source": "CSB-NET_Delics/run_all_delics_tests.py",
+    "target": "experiments/delics/run_all_delics_tests.py",
+    "sha256": "11934cc090b92e002e9a14bf1b33b1e164f6379c64fde500a7f602630ec8d44f"
+  },
+  {
+    "source": "CSB-NET_Delics/run_all_tests.py",
+    "target": "experiments/delics/run_all_tests.py",
+    "sha256": "474751bdb1c7294c506ad8deb5b3281cf1a97c3211b701a70261cffc589cdab0"
+  },
+  {
+    "source": "CSB-NET_Delics/run_delics_ablation_pipeline.py",
+    "target": "experiments/delics/run_delics_ablation_pipeline.py",
+    "sha256": "9b21c9bf0c23a31a5d7c97cd641ebb69a079339d53d47841112e1de275bfa8f1"
+  },
+  {
+    "source": "CSB-NET_Delics/run_delics_tests.py",
+    "target": "experiments/delics/run_delics_tests.py",
+    "sha256": "fbe722033d6dd72623899585ad707d025f40cdb3cfcf7bce39e891b9e1a26528"
+  },
+  {
+    "source": "CSB-NET_Delics/run_test.py",
+    "target": "experiments/delics/run_test.py",
+    "sha256": "ce46ac9535a87ad9fd62f746032e577a6596cf9f840441bdff7218c59752afaa"
+  },
+  {
+    "source": "CSB-NET_Delics/test1.py",
+    "target": "experiments/delics/test1.py",
+    "sha256": "4bcf306ceaeecca6d4fa45eb8f9dc64cfc5cae2ee44627a052fda6205d9d3275"
+  },
+  {
+    "source": "CSB-NET_Delics/test1new.py",
+    "target": "experiments/delics/test1new.py",
+    "sha256": "3fe6a67000c00b5274aef2f702864688b9e53f7c9aa848c4c548c9560764b379"
+  },
+  {
+    "source": "CSB-NET_Delics/test2.py",
+    "target": "experiments/delics/test2.py",
+    "sha256": "a4a4b56cdfb9309a584cd960d0ba40b58862dd61d5cb06703009e5c8d341bdde"
+  },
+  {
+    "source": "CSB-NET_Delics/testBrainweb.csv",
+    "target": "experiments/delics/testBrainweb.csv",
+    "transformation": "replace absolute data paths with ./DATA_ROOT/<parent>/<filename>",
+    "source_sha256": "ff4ab7fa4009fa9b6cb342c61c23f1fc0e4666acce23219ac2c0e6d835151bd9",
+    "sha256": "21fa69c14f324327d533aa8463d6359e48b7c2fb4de5ab0e6c33327eac04e76d"
+  },
+  {
+    "source": "CSB-NET_Delics/testsubjects.csv",
+    "target": "experiments/delics/testsubjects.csv",
+    "transformation": "replace absolute data paths with ./DATA_ROOT/<parent>/<filename>",
+    "source_sha256": "f4a4b64ec65a952bcca85c27f1a03ce716325391c79016679353a9686bd1fefc",
+    "sha256": "9cd9f842e9392bd63b6004d6a5260f4ca28d0e13fc8657ec1f73db08a31b9b21"
+  },
+  {
+    "source": "CSB-NET_Delics/test_delics.py",
+    "target": "experiments/delics/test_delics.py",
+    "sha256": "f5835d12ea84c48aa4c79a9943fb488b52e0bded99713c9ad25239aa3b700bbf"
+  },
+  {
+    "source": "CSB-NET_Delics/test_subjects1.py",
+    "target": "experiments/delics/test_subjects1.py",
+    "sha256": "3afe904a8977c6fe77e9ba82f20afd7490b169fb5e2d4b4130063dc7fe46b3c4"
+  },
+  {
+    "source": "CSB-NET_Delics/test_subjects2.py",
+    "target": "experiments/delics/test_subjects2.py",
+    "sha256": "29f1b472586e7cb5b04535714d6de1a3992df56c1d2c9e62160da3e3bba1aaed"
+  },
+  {
+    "source": "CSB-NET_Delics/test_unified.py",
+    "target": "experiments/delics/test_unified.py",
+    "sha256": "484fa0d5dfa74dc1e72a5e3b53329f8a338215629d7d40336b4fd2c55854c6da"
+  },
+  {
+    "source": "CSB-NET_Delics/test_unified_old.py",
+    "target": "experiments/delics/test_unified_old.py",
+    "sha256": "ac17dbb1b7189095c3f22c7b71784df4217d43c0f38c57f16b30f444b2cbdb2c"
+  },
+  {
+    "source": "CSB-NET_Delics/train_wyz.py",
+    "target": "experiments/delics/train_wyz.py",
+    "sha256": "3240871c5462418a5d17bf43fc18806ab748aef2dd5720cbb04294091e24c246"
+  },
+  {
+    "source": "CSB-NET_Delics/brainweb1/metrics.txt",
+    "target": "results/raw/delics/brainweb1/metrics.txt",
+    "sha256": "eeca07f8d48f60f932970751ea15fe0cdfa0b8920eeee9532b52f344abc7abf8"
+  },
+  {
+    "source": "CSB-NET_Delics/brainweb2/metrics.txt",
+    "target": "results/raw/delics/brainweb2/metrics.txt",
+    "sha256": "8d3f69a834cc8c31a316c4903286d08c10b1625c9f10e1f27d79af79cd8b45ce"
+  },
+  {
+    "source": "CSB-NET_Delics/data/aligned_dataset.py",
+    "target": "experiments/delics/data/aligned_dataset.py",
+    "sha256": "c9e6ec87cdfc3037d433b87a669ee5393b587a4798d8f71f2eee9bb2b9e5a60e"
+  },
+  {
+    "source": "CSB-NET_Delics/data/aligned_datasetold.py",
+    "target": "experiments/delics/data/aligned_datasetold.py",
+    "sha256": "4b3e80bdb63512047f96aab3d321e33a3d530f330c605732ea97d9713b680861"
+  },
+  {
+    "source": "CSB-NET_Delics/data/base_dataset.py",
+    "target": "experiments/delics/data/base_dataset.py",
+    "sha256": "9b7ec0dde0665130e914be33369ed83a8c3649036b9c4c1c964c30b7a972d6b0"
+  },
+  {
+    "source": "CSB-NET_Delics/data/base_data_loader.py",
+    "target": "experiments/delics/data/base_data_loader.py",
+    "sha256": "ebf99d06f5a02985ffcf1552ba38962272ef45c6f3a884b8971c481e38204b0b"
+  },
+  {
+    "source": "CSB-NET_Delics/data/delics_dataset.py",
+    "target": "experiments/delics/data/delics_dataset.py",
+    "sha256": "503eb20c45bc4996c842febaa1b9e117f330a02a11fba8732b818a0ce7174259"
+  },
+  {
+    "source": "CSB-NET_Delics/data/image_folder.py",
+    "target": "experiments/delics/data/image_folder.py",
+    "sha256": "8cf92e2c7b1afc8c65b6abe9a3847f522d6c4af4280434fa765012c56a684b2e"
+  },
+  {
+    "source": "CSB-NET_Delics/data/select_mask.py",
+    "target": "experiments/delics/data/select_mask.py",
+    "sha256": "e51d719bca683dd492a1a9d623ffe5eebe33e77d467f1801fd71668f5af72e63"
+  },
+  {
+    "source": "CSB-NET_Delics/data/single_dataset.py",
+    "target": "experiments/delics/data/single_dataset.py",
+    "sha256": "14945b7c9d51076d9e5080b7f3c2b03e7c742e87ee5a4eb4ecfeb9e559cc8fba"
+  },
+  {
+    "source": "CSB-NET_Delics/data/unaligned_dataset.py",
+    "target": "experiments/delics/data/unaligned_dataset.py",
+    "sha256": "754c5c812c2a2080efeb5a665fc88f692234120a219b0e777c3281e704aaf424"
+  },
+  {
+    "source": "CSB-NET_Delics/data/__init__.py",
+    "target": "experiments/delics/data/__init__.py",
+    "sha256": "b6b4f4b1e128f245a709a2382c09a027e22fbf41fedd025bde78486dec53d3e6"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_results_t1/metrics.txt",
+    "target": "results/raw/delics/delics_results_t1/metrics.txt",
+    "sha256": "a32df8b08796a5e00990bc576de21df6f1179402efcf90b0a4b563e95869e330"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_results_t2/metrics.txt",
+    "target": "results/raw/delics/delics_results_t2/metrics.txt",
+    "sha256": "688e6a368bc9f83a64e4f883e95a816a0a6835e82d3e7448c28249d27d9885b7"
+  },
+  {
+    "source": "CSB-NET_Delics/models/ASSP_wavelet_tfmamba_MPU_v3.py",
+    "target": "experiments/delics/models/ASSP_wavelet_tfmamba_MPU_v3.py",
+    "sha256": "9ac790e68f3551b11bfef15ef9d6092d194ea41b50f4c96bfc13335a61c632ed"
+  },
+  {
+    "source": "CSB-NET_Delics/models/base_model.py",
+    "target": "experiments/delics/models/base_model.py",
+    "sha256": "dce3abb9814f915f51d417f657cb989b745dc939f5fe3cdd6d689a5dbeda97bc"
+  },
+  {
+    "source": "CSB-NET_Delics/models/daMPU.py",
+    "target": "experiments/delics/models/daMPU.py",
+    "sha256": "c084fa7cb2095ed34d8da271d894d340ab452cd3e7bcac1fc1914b3562895c5d"
+  },
+  {
+    "source": "CSB-NET_Delics/models/demo.py",
+    "target": "experiments/delics/models/demo.py",
+    "sha256": "77f669feec6e49d678488a5ac098004d8f9601b53f885dd6e66361f561b7d14f"
+  },
+  {
+    "source": "CSB-NET_Delics/models/DualMambaMRF.py",
+    "target": "experiments/delics/models/DualMambaMRF.py",
+    "sha256": "5592eeae2b79f2c1ec988f0f09cba1e986fbb7994d647ebe957e4d15478e2fd1"
+  },
+  {
+    "source": "CSB-NET_Delics/models/DWT_tfcmamba_MPU_v5.py",
+    "target": "experiments/delics/models/DWT_tfcmamba_MPU_v5.py",
+    "sha256": "26d8af8ae4837d48c76e0d5da3d6e114a1f723ead0dd73a7d10d8a28c0fcc484"
+  },
+  {
+    "source": "CSB-NET_Delics/models/DWT_tfmamba_MPU_v5.py",
+    "target": "experiments/delics/models/DWT_tfmamba_MPU_v5.py",
+    "sha256": "7a30751af7601d52e04fa57ddccd426861e90bd1577d4b0ae9748c852bdd8206"
+  },
+  {
+    "source": "CSB-NET_Delics/models/DWT_tfmamba_MPU_v5_ablation.py",
+    "target": "experiments/delics/models/DWT_tfmamba_MPU_v5_ablation.py",
+    "sha256": "4f5badb885560510c435a7f21024c40177dcb59333b225dd3b5030a522ec9090"
+  },
+  {
+    "source": "CSB-NET_Delics/models/FusedSwinMambaMRF.py",
+    "target": "experiments/delics/models/FusedSwinMambaMRF.py",
+    "sha256": "b658e7feb110c3fab61397ce0496abc847c5982ba1e8226089cdd53459de78c5"
+  },
+  {
+    "source": "CSB-NET_Delics/models/InterleavedMamba.py",
+    "target": "experiments/delics/models/InterleavedMamba.py",
+    "sha256": "ce88d9963d62848aac5fdc96bfea5450f839ddb030b597f559cfce59139c3322"
+  },
+  {
+    "source": "CSB-NET_Delics/models/InterleavedSwinMamba.py",
+    "target": "experiments/delics/models/InterleavedSwinMamba.py",
+    "sha256": "a32ed27fac14cb15139c91879a367c19f9c5d27f1f4068e0a94948a32c67dfb0"
+  },
+  {
+    "source": "CSB-NET_Delics/models/InterleavedSwinMambaMRF_v2_layerscale_MambaMLP .py",
+    "target": "experiments/delics/models/InterleavedSwinMambaMRF_v2_layerscale_MambaMLP .py",
+    "sha256": "623e5a89f26e80762ec1bd6235a72e89d34c989260722cca82e4f83b5ea84f6d"
+  },
+  {
+    "source": "CSB-NET_Delics/models/InterleavedSwinMambaMRF_v2_MambaMLP.py",
+    "target": "experiments/delics/models/InterleavedSwinMambaMRF_v2_MambaMLP.py",
+    "sha256": "623e5a89f26e80762ec1bd6235a72e89d34c989260722cca82e4f83b5ea84f6d"
+  },
+  {
+    "source": "CSB-NET_Delics/models/mamba.py",
+    "target": "experiments/delics/models/mamba.py",
+    "sha256": "deef9bac4009bcbfa715b2a9d7f6ff5eee8cbe794a7b2811e2b92ba0fc370f45"
+  },
+  {
+    "source": "CSB-NET_Delics/models/mamba4_MPU.py",
+    "target": "experiments/delics/models/mamba4_MPU.py",
+    "sha256": "bade62dd1bc422fea543c088d16d0f9302e658242916f8774b70f8aeb80388fa"
+  },
+  {
+    "source": "CSB-NET_Delics/models/mambaIR.py",
+    "target": "experiments/delics/models/mambaIR.py",
+    "sha256": "68736b4bc66018eb8d51451ce5344ca78bc084e4fd974cf49af549711a447ac7"
+  },
+  {
+    "source": "CSB-NET_Delics/models/mambaIR_DualBranch.py",
+    "target": "experiments/delics/models/mambaIR_DualBranch.py",
+    "sha256": "2eb0bde070c2938f367c3c56fdfafbfbb2219ebceda964add82abeb6c1b9a207"
+  },
+  {
+    "source": "CSB-NET_Delics/models/mambaIR_Swin_CNN.py",
+    "target": "experiments/delics/models/mambaIR_Swin_CNN.py",
+    "sha256": "d6a20164ef9a6334656ec084c90b5be484eb2bd66ee6381e631d2baa5f32294c"
+  },
+  {
+    "source": "CSB-NET_Delics/models/mambaIR_Swin_CNN_Unguided.py",
+    "target": "experiments/delics/models/mambaIR_Swin_CNN_Unguided.py",
+    "sha256": "ece9d4df9d5938f3273b165c2ca3df346ca90155915bcb4e28e055e0c06306d7"
+  },
+  {
+    "source": "CSB-NET_Delics/models/MaSAMPU.py",
+    "target": "experiments/delics/models/MaSAMPU.py",
+    "sha256": "87a0e70dc41dc105c273dbbdac7e7685e0db3b44b06178a9885e494d55914f7c"
+  },
+  {
+    "source": "CSB-NET_Delics/models/MaSA_mamba4_MPU.py",
+    "target": "experiments/delics/models/MaSA_mamba4_MPU.py",
+    "sha256": "d93910af53dced319c55306d39c8cfad6dda1a6e563f575034155f4da190258c"
+  },
+  {
+    "source": "CSB-NET_Delics/models/MPU.py",
+    "target": "experiments/delics/models/MPU.py",
+    "sha256": "b3822d6e2694a120172e26ae6c41a5d0fa28411700feb770b834b426f68e8cd7"
+  },
+  {
+    "source": "CSB-NET_Delics/models/networks.py",
+    "target": "experiments/delics/models/networks.py",
+    "sha256": "99e52c586c63b0db15fc8f477249806bc329e0fe05fc7a2b0dff341bdfc371ca"
+  },
+  {
+    "source": "CSB-NET_Delics/models/realDualMambaMRF.py",
+    "target": "experiments/delics/models/realDualMambaMRF.py",
+    "sha256": "368e59d44cc7a98e79bb0dadf0e3663cbd958069b07b03773bd0ecd851c782c4"
+  },
+  {
+    "source": "CSB-NET_Delics/models/residual_swin_transformers.py",
+    "target": "experiments/delics/models/residual_swin_transformers.py",
+    "sha256": "9c6c4299f1ebf405cd0f370aa56ff4c8a5c4fcfedabb450355a65fce7f5f563e"
+  },
+  {
+    "source": "CSB-NET_Delics/models/residual_swin_transformers_multi_modal.py",
+    "target": "experiments/delics/models/residual_swin_transformers_multi_modal.py",
+    "sha256": "84054ae8ffafbfaf5c01329fd8526d27dcb5a07aedea58fc69e37f8ea878f978"
+  },
+  {
+    "source": "CSB-NET_Delics/models/residual_transformers.py",
+    "target": "experiments/delics/models/residual_transformers.py",
+    "sha256": "dcf4e2bbedb880d3b45879ef025cb1f0ba8b3b192f46b346c26f0e6313e9cc1a"
+  },
+  {
+    "source": "CSB-NET_Delics/models/resvit_one.py",
+    "target": "experiments/delics/models/resvit_one.py",
+    "sha256": "3123a2579dbcb33e88b97b05327e3877758f1008411ffc99ad4ed33890f5b179"
+  },
+  {
+    "source": "CSB-NET_Delics/models/SOTIP.py",
+    "target": "experiments/delics/models/SOTIP.py",
+    "sha256": "963aa8d811595e21f2b868bbefac20f1546130ffeda6aaf20782f559212cd4ba"
+  },
+  {
+    "source": "CSB-NET_Delics/models/STQ_net.py",
+    "target": "experiments/delics/models/STQ_net.py",
+    "sha256": "b134c0d7b3ab1348ce45f61e9e4c29f216847cb7bfdc0c161d0599e2c126935d"
+  },
+  {
+    "source": "CSB-NET_Delics/models/SwinDualMamba.py",
+    "target": "experiments/delics/models/SwinDualMamba.py",
+    "sha256": "2b26f552b351196c0816aa8f4e1deea1915a6e534e6e45ea54e8ffda95bcfca1"
+  },
+  {
+    "source": "CSB-NET_Delics/models/Swinmamba.py",
+    "target": "experiments/delics/models/Swinmamba.py",
+    "sha256": "eb8db61525f23b15b4cc8eeb3713502e68ce0e594f13834d6e078e4a180c3a09"
+  },
+  {
+    "source": "CSB-NET_Delics/models/SwinmambaTSM.py",
+    "target": "experiments/delics/models/SwinmambaTSM.py",
+    "sha256": "263d7d858454b6d53cfa723d99dcb6d118c2901338b8aa057085ab4c0cee4b1d"
+  },
+  {
+    "source": "CSB-NET_Delics/models/swinres_one.py",
+    "target": "experiments/delics/models/swinres_one.py",
+    "sha256": "34e0c86adc6eb8851147293d9c97542d105a81f911aa479a6f1e1e45544e2ec2"
+  },
+  {
+    "source": "CSB-NET_Delics/models/SwinTemporalMamba.py",
+    "target": "experiments/delics/models/SwinTemporalMamba.py",
+    "sha256": "c46c06ed013ac60e237a72d1d51f56a32d615b8ae31f4dae44f44d813b66c3ef"
+  },
+  {
+    "source": "CSB-NET_Delics/models/swin_transformer.py",
+    "target": "experiments/delics/models/swin_transformer.py",
+    "sha256": "0d621c1ba79c587693a06c08ab405b14203f3d7234dc365117bf3333d16a6cc8"
+  },
+  {
+    "source": "CSB-NET_Delics/models/test_model.py",
+    "target": "experiments/delics/models/test_model.py",
+    "sha256": "6c3068ed7cedb5357fddbdb789cea9598020001db119d8c868c238ca92f93bd5",
+    "source_sha256": "4f28e38727b59b23b155ee3d36a9e802c4ec370a3da8a0268c3453a0b7cda7f2",
+    "transformation": "legacy TestModel compatibility: non_blocking keyword, util1 import, current define_G arguments; V5 model unchanged"
+  },
+  {
+    "source": "CSB-NET_Delics/models/transformer_configs.py",
+    "target": "experiments/delics/models/transformer_configs.py",
+    "sha256": "0348f5eb951c8b3e3395a72dff7cc48b4a27062460e5dec2c10361411e10cff3"
+  },
+  {
+    "source": "CSB-NET_Delics/models/unet_model.py",
+    "target": "experiments/delics/models/unet_model.py",
+    "sha256": "9867c50316da795efe67245cb999e6197ef12a1032b68bd9892ac3b8e9fadfa4"
+  },
+  {
+    "source": "CSB-NET_Delics/models/wavelet_4mamba_MPU.py",
+    "target": "experiments/delics/models/wavelet_4mamba_MPU.py",
+    "sha256": "fce55084c9ce514d593c4a59e20d94cd12252122c1ec7c8ba11c52b089d2c2dc"
+  },
+  {
+    "source": "CSB-NET_Delics/models/wavelet_4mamba_MPU_v1.py",
+    "target": "experiments/delics/models/wavelet_4mamba_MPU_v1.py",
+    "sha256": "11afd711d3a608738a2554c91a7df1387427fa6e070da8da42f172b3f9e8f1b0"
+  },
+  {
+    "source": "CSB-NET_Delics/models/wavelet_4mamba_MPU_v2.py",
+    "target": "experiments/delics/models/wavelet_4mamba_MPU_v2.py",
+    "sha256": "f3c5df2aa2b760c1f216154363654dbf74ca792731242a2cc7714167ee4648fa"
+  },
+  {
+    "source": "CSB-NET_Delics/models/wavelet_4mamba_MPU_v3.py",
+    "target": "experiments/delics/models/wavelet_4mamba_MPU_v3.py",
+    "sha256": "a46d3740c2e74bffb2215f41f300613b01799c775922c5ece2d406281e1b1c2e"
+  },
+  {
+    "source": "CSB-NET_Delics/models/wavelet_6mamba_MPU_v3.py",
+    "target": "experiments/delics/models/wavelet_6mamba_MPU_v3.py",
+    "sha256": "d513120a23af866ba0396cfaf29989b47572cb0f2e3efcf7f50c41b6038ef0df"
+  },
+  {
+    "source": "CSB-NET_Delics/models/wavelet_real4mamba_MPU_v3.py",
+    "target": "experiments/delics/models/wavelet_real4mamba_MPU_v3.py",
+    "sha256": "9225d992d88acd9e6ae0d3b803a2740ddf727e976637eb74e4ef3bdbb37d8648"
+  },
+  {
+    "source": "CSB-NET_Delics/models/wavelet_tfmamba_MPU_v3.py",
+    "target": "experiments/delics/models/wavelet_tfmamba_MPU_v3.py",
+    "sha256": "e063bcfdb7f975026c27f193f34019b8b65ec9a201be09cd19b0023e00f61ea4"
+  },
+  {
+    "source": "CSB-NET_Delics/models/wavelet_tfmamba_MPU_v4.py",
+    "target": "experiments/delics/models/wavelet_tfmamba_MPU_v4.py",
+    "sha256": "2d69e52cc49ebcf9f25d9486b6981e6b4a63bab7771be36a0ccbd6dd0b2b6def"
+  },
+  {
+    "source": "CSB-NET_Delics/models/wavelet_tfmamba_MPU_v5.py",
+    "target": "experiments/delics/models/wavelet_tfmamba_MPU_v5.py",
+    "sha256": "4db726411fea223dd25241f8506b7559af4f0225e728a1487fdcb834760715f3"
+  },
+  {
+    "source": "CSB-NET_Delics/models/wavelet_tmamba_MPU_v3.py",
+    "target": "experiments/delics/models/wavelet_tmamba_MPU_v3.py",
+    "sha256": "22fff88ec949a01953071e27301e7b624172e20b5aa91464dfce3815644dcb05"
+  },
+  {
+    "source": "CSB-NET_Delics/models/__init__.py",
+    "target": "experiments/delics/models/__init__.py",
+    "sha256": "45943c2bdeb79c788920e035d6222a473163ec5645db94dea4ae8d57499c503d"
+  },
+  {
+    "source": "CSB-NET_Delics/options/base_options.py",
+    "target": "experiments/delics/options/base_options.py",
+    "sha256": "b4537814a6df8aa1edfb0813acc4dc3f09deea5887a76abaaeafbfa3480ec6ac"
+  },
+  {
+    "source": "CSB-NET_Delics/options/test_options.py",
+    "target": "experiments/delics/options/test_options.py",
+    "sha256": "8de13947e9ca038dd72fdfb5fa4807822626d27ea1db1c234cffd079bc190364"
+  },
+  {
+    "source": "CSB-NET_Delics/options/train_options.py",
+    "target": "experiments/delics/options/train_options.py",
+    "sha256": "1bcf2f4de47392f2db0334afa313604115c3023ce4be01ecf9f3c9df7cd2acd3"
+  },
+  {
+    "source": "CSB-NET_Delics/options/train_options_wyz.py",
+    "target": "experiments/delics/options/train_options_wyz.py",
+    "sha256": "c316e5f69f06b15fcc602f39b53ea94a47337d02ea7747e90ea0fa197c8e8201"
+  },
+  {
+    "source": "CSB-NET_Delics/subjects1/metrics.txt",
+    "target": "results/raw/delics/subjects1/metrics.txt",
+    "sha256": "0189547d6bcf18f92bfe097d83cc17b5969dd64b08e58e6b26d8f4222f7d3427"
+  },
+  {
+    "source": "CSB-NET_Delics/subjects2/metrics.txt",
+    "target": "results/raw/delics/subjects2/metrics.txt",
+    "sha256": "422560b69ce9c893700f190e82b6c1088f6e179e8c8f2d74eb35e113d1ec867b"
+  },
+  {
+    "source": "CSB-NET_Delics/util1/html.py",
+    "target": "experiments/delics/util1/html.py",
+    "sha256": "4c36a06c77ac0b71d25b44cb22979f93d3133694d7549dd0c9a2d614b0c3b285"
+  },
+  {
+    "source": "CSB-NET_Delics/util1/image_pool.py",
+    "target": "experiments/delics/util1/image_pool.py",
+    "sha256": "211102100d39cbb856ba92e991e4d89987ba73a861b3e9626e050ac61b3da1a3"
+  },
+  {
+    "source": "CSB-NET_Delics/util1/util.py",
+    "target": "experiments/delics/util1/util.py",
+    "sha256": "dee578f573b6bc9d5523b655fc2f2141af28a20ae2ed8364c85ee2b1a0418494"
+  },
+  {
+    "source": "CSB-NET_Delics/util1/visualizer.py",
+    "target": "experiments/delics/util1/visualizer.py",
+    "sha256": "b4998c9a4937dd313854f09af0f59470e87d89c754819d2bea43f00adf901dc6"
+  },
+  {
+    "source": "CSB-NET_Delics/utils/utils_bnorm.py",
+    "target": "experiments/delics/utils/utils_bnorm.py",
+    "sha256": "7808fab0e22eae633120936643a4258c4c050801810ea99cb091d04f96c7000e"
+  },
+  {
+    "source": "CSB-NET_Delics/utils/utils_dist.py",
+    "target": "experiments/delics/utils/utils_dist.py",
+    "sha256": "0bf0489b299114e97b1d07c06825f7417a8fa34f0030322f421f901dc6b71d18"
+  },
+  {
+    "source": "CSB-NET_Delics/utils/utils_early_stopping.py",
+    "target": "experiments/delics/utils/utils_early_stopping.py",
+    "sha256": "258efcebeadd25374440088b34f30e0daa011eaf63651e77259d6af679127e62"
+  },
+  {
+    "source": "CSB-NET_Delics/utils/utils_image.py",
+    "target": "experiments/delics/utils/utils_image.py",
+    "sha256": "d190b873c9fc049c7d962166deacb87232bf9fbdaf49dd2af274f97d9a18fc6a"
+  },
+  {
+    "source": "CSB-NET_Delics/utils/utils_logger.py",
+    "target": "experiments/delics/utils/utils_logger.py",
+    "sha256": "8c5d1d7f16958311305bc2ea50311d62dbb3ecb3348addae31ae1a507f77a194"
+  },
+  {
+    "source": "CSB-NET_Delics/utils/utils_model.py",
+    "target": "experiments/delics/utils/utils_model.py",
+    "sha256": "3a6d585779ccf691353f79be817f169edac3ef3839d1e934e88e8b8e06d54a59"
+  },
+  {
+    "source": "CSB-NET_Delics/utils/utils_option.py",
+    "target": "experiments/delics/utils/utils_option.py",
+    "sha256": "61f87a44c2e1f9fb90c73cc34b4e745e721e34f3a0df1db348e2eaddbf8f249a"
+  },
+  {
+    "source": "CSB-NET_Delics/utils/utils_regularizers.py",
+    "target": "experiments/delics/utils/utils_regularizers.py",
+    "sha256": "2e8d562f539c8fb31d13e0ef094209b3d8a83d21901f85b81580091df2d73926"
+  },
+  {
+    "source": "CSB-NET_Delics/utils/utils_swinmr.py",
+    "target": "experiments/delics/utils/utils_swinmr.py",
+    "sha256": "727a18b51b55b7f7c00f4107bb3d57fdf576eb37d6df525f39acbbd140993455"
+  },
+  {
+    "source": "CSB-NET_Delics/utils/__init__.py",
+    "target": "experiments/delics/utils/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "CSB-NET_Delics/checkpoints/experiment_name/opt.txt",
+    "target": "results/raw/delics/checkpoints/experiment_name/opt.txt",
+    "sha256": "c78c3bfb921343c0928a98a0c5b2e342d0174e93e15b8a09a996e28ed238d17b"
+  },
+  {
+    "source": "CSB-NET_Delics/checkpoints/mrf_mambair_experiment/opt.txt",
+    "target": "results/raw/delics/checkpoints/mrf_mambair_experiment/opt.txt",
+    "sha256": "a20770a6a7f69c2addbd759572cae47993af9409e6dcf0090b9a6ee1f6ceb2ba"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_results/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr1e-5_lr1e-6/t1/metrics.txt",
+    "target": "results/raw/delics/delics_results/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr1e-5_lr1e-6/t1/metrics.txt",
+    "sha256": "880043391cd1a27b223a81aec67267e7ea8fea8e23077411e68bfcb0727b22d3"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_results/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr1e-5_lr1e-6/t2/metrics.txt",
+    "target": "results/raw/delics/delics_results/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr1e-5_lr1e-6/t2/metrics.txt",
+    "sha256": "fd63f44e9e0f7ab360192d459f7dff043b626cca48f43cec854487f485452a09"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_results/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr5e-4_lr1e-6/t1/metrics.txt",
+    "target": "results/raw/delics/delics_results/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr5e-4_lr1e-6/t1/metrics.txt",
+    "sha256": "c3fa1d47f45e8703dfc598b8b1469c772a186972ba4ff753473cef81f2aa1ab3"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_results/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr5e-4_lr1e-6/t2/metrics.txt",
+    "target": "results/raw/delics/delics_results/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr5e-4_lr1e-6/t2/metrics.txt",
+    "sha256": "a1c6a45125c93676191020da2eb70293e1a6b4786768e61d9fa0592ac598fdaa"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_results/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr5e-5_lr1e-6/t1/metrics.txt",
+    "target": "results/raw/delics/delics_results/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr5e-5_lr1e-6/t1/metrics.txt",
+    "sha256": "93d7eb8725ccff0826dd68eddcc2225facfc9bc72ae44da073738ea7dab7391b"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_results/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr5e-5_lr1e-6/t2/metrics.txt",
+    "target": "results/raw/delics/delics_results/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr5e-5_lr1e-6/t2/metrics.txt",
+    "sha256": "d03c1d283584f8187e4be8f730fef0d6695aa002e3adb2c6dbd4454d7e48fc50"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_results/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/t1/metrics.txt",
+    "target": "results/raw/delics/delics_results/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/t1/metrics.txt",
+    "sha256": "0db5c2139aeb220df1add4f71f29aee1e54b92df3fa45e2e0213ead2cb93b4ca"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_results/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/t2/metrics.txt",
+    "target": "results/raw/delics/delics_results/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/t2/metrics.txt",
+    "sha256": "a0a6ad29955626bf71dd7c633ab8f1f48ac0d62da8e1ea23ea171f2af1f04a64"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_results/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-6/t1/metrics.txt",
+    "target": "results/raw/delics/delics_results/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-6/t1/metrics.txt",
+    "sha256": "a36a7fef0bce8b0f9dc3bc29222ce96b9596de112c03e94bf67ebedbac8af358"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_results/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-6/t2/metrics.txt",
+    "target": "results/raw/delics/delics_results/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-6/t2/metrics.txt",
+    "sha256": "fc87e3885bbb8a4581d997a4ce885909b354c61778682a742570905775b57df0"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_results/delics_2min_SOTIP/t1/metrics.txt",
+    "target": "results/raw/delics/delics_results/delics_2min_SOTIP/t1/metrics.txt",
+    "sha256": "901d7ae563459c449e5b66cbf8e927181b5c8384ad74b838b348232f8e7b5e43"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_results/delics_2min_SOTIP/t2/metrics.txt",
+    "target": "results/raw/delics/delics_results/delics_2min_SOTIP/t2/metrics.txt",
+    "sha256": "c9faee6af3f37b1aa0c20373b44ba5c85c1ae5bd41b6851826781c3722833470"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_results/delics_2min_STQ/t1/metrics.txt",
+    "target": "results/raw/delics/delics_results/delics_2min_STQ/t1/metrics.txt",
+    "sha256": "113260fa922545e904026ebafa248281ba39a35ebc9d324ba1350ccb507583b4"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_results/delics_2min_STQ/t2/metrics.txt",
+    "target": "results/raw/delics/delics_results/delics_2min_STQ/t2/metrics.txt",
+    "sha256": "b4e3d38b62570fc4ae814cf1305aa8e5d7d8ba27430139133dc09a5eb0293b20"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_results/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr4e-4_lr1e-6/t1/metrics.txt",
+    "target": "results/raw/delics/delics_results/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr4e-4_lr1e-6/t1/metrics.txt",
+    "sha256": "e051a5a1b262a28c933e897984f96d5ad7e3a728f28cacd60b08efe6409bd58b"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_results/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr4e-4_lr1e-6/t2/metrics.txt",
+    "target": "results/raw/delics/delics_results/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr4e-4_lr1e-6/t2/metrics.txt",
+    "sha256": "b9542691b6fafc9e36b5054d47f7eb413ad3ef6203aa4d37a458e943dfb1cb13"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_results_t1/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr1e-4_lr1e-6/metrics.txt",
+    "target": "results/raw/delics/delics_results_t1/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr1e-4_lr1e-6/metrics.txt",
+    "sha256": "13b9faeda089b161b1889f12bc02f776277c4d299dbd57c099cd88f62b52866d"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_results_t1/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr2e-4_lr1e-6/metrics.txt",
+    "target": "results/raw/delics/delics_results_t1/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr2e-4_lr1e-6/metrics.txt",
+    "sha256": "0e6c329a17d79ddeeccefb3e76e360489f1fc92e6fffec1f8e0db74a29de8c6a"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_results_t2/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr1e-4_lr1e-6/metrics.txt",
+    "target": "results/raw/delics/delics_results_t2/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr1e-4_lr1e-6/metrics.txt",
+    "sha256": "4ddd75394cbbc6779bae47291e5052ad9c2d0b774a1ef374ace7b3db877f5864"
+  },
+  {
+    "source": "CSB-NET_Delics/delics_results_t2/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr2e-4_lr1e-6/metrics.txt",
+    "target": "results/raw/delics/delics_results_t2/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr2e-4_lr1e-6/metrics.txt",
+    "sha256": "169ccb434feea7580b42f77f8ace131424e2a31c79a9d5bde04c16f56eecbb90"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/ablation_probe_no_lwe/log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/ablation_probe_no_lwe/log.txt",
+    "sha256": "a337bdfe304e84d1750863494af05943a68a916a423d7adec3a4e5ad731afd6b"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/ablation_probe_no_lwe/loss_log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/ablation_probe_no_lwe/loss_log.txt",
+    "sha256": "0dd3532c2e81c7a9bfa6cfe3b8920012e8f390c5cc1a3dc5ed132637fea6a8b7"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/ablation_probe_no_lwe/opt.txt",
+    "target": "results/raw/delics/EXP_checkpoints/ablation_probe_no_lwe/opt.txt",
+    "sha256": "7dc7a786c0f0074ceb7338bb18bd4f6ffcbe2292b8f698bd1e27549953dc48e4"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr1e-4_lr1e-6/log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr1e-4_lr1e-6/log.txt",
+    "sha256": "c76465ef0605d36ed78eb1262213c6c7c5cab7f70e927091455031465a456cd9"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr1e-4_lr1e-6/loss_log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr1e-4_lr1e-6/loss_log.txt",
+    "sha256": "d08fa5ba82d72401d3cdaaa10f20f941e0e89a68198ea854164f7e1edb42ef3d"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr1e-4_lr1e-6/opt.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr1e-4_lr1e-6/opt.txt",
+    "sha256": "e6d896c43089d9f582cec1a1783dd62aae49fe443a07ff2bfa64f09df0731444"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr1e-5_lr1e-6/log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr1e-5_lr1e-6/log.txt",
+    "sha256": "4b3c2e3782dcc62199df3f66e1e9abd6f20cee3fa6b9cf1a092941f56753f42a"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr1e-5_lr1e-6/loss_log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr1e-5_lr1e-6/loss_log.txt",
+    "sha256": "092ec5d465a51a4bb2e2a93b68359d6e562819d3cef25b2c303bf31ae68c9142"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr1e-5_lr1e-6/opt.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr1e-5_lr1e-6/opt.txt",
+    "sha256": "0494299c232f03901f358c773686aa432e156c19366bfeeeb22166f832a20880"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr5e-4_lr1e-6/log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr5e-4_lr1e-6/log.txt",
+    "sha256": "fa2b5d446f2b62bdaf781ae7681943fa697d9ac4edfb52515032c827f9429d8b"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr5e-4_lr1e-6/loss_log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr5e-4_lr1e-6/loss_log.txt",
+    "sha256": "ec063dbbb9d4e5c19354c86416e1ef13e1de9756312e3f68b8eb365fe8b666eb"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr5e-4_lr1e-6/opt.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr5e-4_lr1e-6/opt.txt",
+    "sha256": "f2023e16f8669b9bc72763568a97e910bb2f17e3687c451276363da3178b0d69"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr5e-5_lr1e-6/log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr5e-5_lr1e-6/log.txt",
+    "sha256": "ac8a1859e027916f0ee9c858fbf47cb190630c2951d9706be1dcfc0ae86913cc"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr5e-5_lr1e-6/loss_log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr5e-5_lr1e-6/loss_log.txt",
+    "sha256": "c8f15f3db69843d5ece89fb8d2cdd91dc992da314c34874d051176fe26861a86"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr5e-5_lr1e-6/opt.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr5e-5_lr1e-6/opt.txt",
+    "sha256": "2e5ead4e9a7c0b2aa0b85b213fbcfbbbf9a80a43d438c610fe42a2eb46a0ad14"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/log.txt",
+    "sha256": "5b602d7a4a2369c708459fccbddc9fa1bf7ada4cca2c0b83039874f4fa222edd"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/loss_log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/loss_log.txt",
+    "sha256": "47d798b65b90050a4b2904bbadad4f45609573c2c7d580fc1c97c1e85b64df98"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/opt.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/opt.txt",
+    "sha256": "e2c635ed33c57b4b11744c222086f461c29749b6784be679afbb02ae5a98ca6c"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-6/log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-6/log.txt",
+    "sha256": "0bd85c0d38293af359a822e3337369e1ef36610840cb6b3f9c2467144fdfa1f1"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-6/loss_log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-6/loss_log.txt",
+    "sha256": "84603e02f9dbffb2908324c5aa74e01a2d7c9d413a8e611fd31f3f03fb78e630"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-6/opt.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-6/opt.txt",
+    "sha256": "31e1a74a1550124699fa67c36b70853aee8259e2c823d36ececad99ec00f5156"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_2min_SOTIP/log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_2min_SOTIP/log.txt",
+    "sha256": "4ef4f25cadb176254006001791e6fec325684b3b373e3d763a5e67dee0b243ad"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_2min_SOTIP/loss_log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_2min_SOTIP/loss_log.txt",
+    "sha256": "f6ab8d406e84a8100504ea96726ac688b0823b05907ffeeb318d528b6eb0cfa5"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_2min_SOTIP/opt.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_2min_SOTIP/opt.txt",
+    "sha256": "3bc4196d1ba7fb3b9c88d176357e10c7c0445ae98ac006ae7c3693f3eb0421e9"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_2min_STQ/log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_2min_STQ/log.txt",
+    "sha256": "6f0edfbc66c06d657587b4d04cf03967d65e2004d71cd59a5521e282a4c32669"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_2min_STQ/loss_log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_2min_STQ/loss_log.txt",
+    "sha256": "d918a19ad5aac70fa16db0e018e76f713a8ccb51cc341f703e92fa7b4d41faeb"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_2min_STQ/opt.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_2min_STQ/opt.txt",
+    "sha256": "aeb527c8dfdee24ad187585ce98b71b44c06bba15398b68f163975b7f27a15ec"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_50DWTrealtfmambampu_v5_nokaiming_lr1e-4_lr1e-5/log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_50DWTrealtfmambampu_v5_nokaiming_lr1e-4_lr1e-5/log.txt",
+    "sha256": "3600373f34dc8e5662ba01ee5788dd09d3d7d17b3169bd7cab4c43b7bbc123e5"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_50DWTrealtfmambampu_v5_nokaiming_lr1e-4_lr1e-5/loss_log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_50DWTrealtfmambampu_v5_nokaiming_lr1e-4_lr1e-5/loss_log.txt",
+    "sha256": "a553b58b97ac869ea8d42517c11bb528b35f124116f4c0b9e13aa5ec95f91536"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_50DWTrealtfmambampu_v5_nokaiming_lr1e-4_lr1e-5/opt.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_50DWTrealtfmambampu_v5_nokaiming_lr1e-4_lr1e-5/opt.txt",
+    "sha256": "b12bcd5bc2406309cbf503c257eef8162b8f2d4e3fad9fc32924614ddcfc3941"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/log.txt",
+    "sha256": "f114cfd89f150e608096aeb0ac7cf52adafcb2c32ed21f26d627f0d7f4e525ca"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/loss_log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/loss_log.txt",
+    "sha256": "f926bd0e62da28fc97583a9a34a11cc67c626daba0e103c169ba9da0d6bb732d"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/delics_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/opt.txt",
+    "target": "results/raw/delics/EXP_checkpoints/delics_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/opt.txt",
+    "sha256": "e1c850c38f60a0b4677f72686bf21c64a534768166786d2f6594ea397c0693c4"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr2e-4_lr1e-6/log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr2e-4_lr1e-6/log.txt",
+    "sha256": "4739d280cecddc845de6001849c6e3baa198057693bedf4ba6a54b7571ebfa82"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr2e-4_lr1e-6/loss_log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr2e-4_lr1e-6/loss_log.txt",
+    "sha256": "8eb4ffe631f03ad439ebf669dc543fbe54384855fadad7905bb7965da71e3e07"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr2e-4_lr1e-6/opt.txt",
+    "target": "results/raw/delics/EXP_checkpoints/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr2e-4_lr1e-6/opt.txt",
+    "sha256": "f39c1680a09222f1a89fbe464e5bd1084c89b0aa0ed9b08fe0f2590027d2e531"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr4e-4_lr1e-6/log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr4e-4_lr1e-6/log.txt",
+    "sha256": "fa5fb5724be81a7e39df6b4dee60c9916fbabd11a7aaf1de4389db010bf47c5c"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr4e-4_lr1e-6/loss_log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr4e-4_lr1e-6/loss_log.txt",
+    "sha256": "afb99336dc51cff7f9891f87050e1524c3be88ce613d51c8434dbaed868eebe7"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr4e-4_lr1e-6/opt.txt",
+    "target": "results/raw/delics/EXP_checkpoints/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr4e-4_lr1e-6/opt.txt",
+    "sha256": "5196726634f34953db4361699430183075c265070e58c0bb829b9f568b260c8b"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/log.txt",
+    "sha256": "9d82e3939cd2f3e3955eafb4d881e47d544efbd7d23e5cf9e3ce33bd9b75e0f0"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/loss_log.txt",
+    "target": "results/raw/delics/EXP_checkpoints/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/loss_log.txt",
+    "sha256": "c25cfe3ee08dace195d5a1f768e54c5651b61070a9daf6c072d3254f038c4b1c"
+  },
+  {
+    "source": "CSB-NET_Delics/EXP_checkpoints/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/opt.txt",
+    "target": "results/raw/delics/EXP_checkpoints/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/opt.txt",
+    "sha256": "81f05a68ea19ccdf7d9462647d44124b8774acfb1f3ef0c7d12293a20b0980af"
+  },
+  {
+    "source": "CSB-NET_Delics/models/configs_swin/swin_base_patch4_window12_384_22kto1k_finetune.yaml",
+    "target": "experiments/delics/models/configs_swin/swin_base_patch4_window12_384_22kto1k_finetune.yaml",
+    "sha256": "d93477196d143c81d912f305ce9d00dad99dbf3d30751299b7dcebacc61bfb39"
+  },
+  {
+    "source": "CSB-NET_Delics/models/configs_swin/swin_base_patch4_window12_384_finetune.yaml",
+    "target": "experiments/delics/models/configs_swin/swin_base_patch4_window12_384_finetune.yaml",
+    "sha256": "11f9a234c3a7e7045c576fc4fedf9b54b93d6dab0e45b1aae5bffcd7fdb8e884"
+  },
+  {
+    "source": "CSB-NET_Delics/models/configs_swin/swin_base_patch4_window7_224.yaml",
+    "target": "experiments/delics/models/configs_swin/swin_base_patch4_window7_224.yaml",
+    "sha256": "d8acf88888d7231b56dc5776d8678af71f4006a6e8b900afcb383eebf0f2ec88"
+  },
+  {
+    "source": "CSB-NET_Delics/models/configs_swin/swin_base_patch4_window7_224_22k.yaml",
+    "target": "experiments/delics/models/configs_swin/swin_base_patch4_window7_224_22k.yaml",
+    "sha256": "aaa776e77af96e6b53ddbda4d15c8a0f9300c4ef04c3aafb0eea7f30d290c498"
+  },
+  {
+    "source": "CSB-NET_Delics/models/configs_swin/swin_base_patch4_window7_224_22kto1k_finetune.yaml",
+    "target": "experiments/delics/models/configs_swin/swin_base_patch4_window7_224_22kto1k_finetune.yaml",
+    "sha256": "6bef6ec869deb04ddbc9f44f2f4386a565cb124a400f024b7e1291910b24b2a5"
+  },
+  {
+    "source": "CSB-NET_Delics/models/configs_swin/swin_large_patch4_window12_384_22kto1k_finetune.yaml",
+    "target": "experiments/delics/models/configs_swin/swin_large_patch4_window12_384_22kto1k_finetune.yaml",
+    "sha256": "a8331738549a971a87b9ada49fb614a76a4d0b7212a606735dfcdf736be0d1d5"
+  },
+  {
+    "source": "CSB-NET_Delics/models/configs_swin/swin_large_patch4_window7_224_22k.yaml",
+    "target": "experiments/delics/models/configs_swin/swin_large_patch4_window7_224_22k.yaml",
+    "sha256": "213b3975f3cd55812b6ee7808039a055ca1d4f2d56bf5373b2cc83ff7b8b2a74"
+  },
+  {
+    "source": "CSB-NET_Delics/models/configs_swin/swin_large_patch4_window7_224_22kto1k_finetune.yaml",
+    "target": "experiments/delics/models/configs_swin/swin_large_patch4_window7_224_22kto1k_finetune.yaml",
+    "sha256": "1b67904dd787dd476da6206cfdb3b1deb86e19bd0623ddcb3ebee229a1b928f0"
+  },
+  {
+    "source": "CSB-NET_Delics/models/configs_swin/swin_small_patch4_window7_224.yaml",
+    "target": "experiments/delics/models/configs_swin/swin_small_patch4_window7_224.yaml",
+    "sha256": "08f8d32d1f51547aa7f22996b2fc1106b5c52ff426b665c87f2f277f9fe1006a"
+  },
+  {
+    "source": "CSB-NET_Delics/models/configs_swin/swin_small_patch4_window7_224_22k.yaml",
+    "target": "experiments/delics/models/configs_swin/swin_small_patch4_window7_224_22k.yaml",
+    "sha256": "6caeba97eceb48c244c161e28b4807a21714d92b85e19e91376d2d995c4bef6a"
+  },
+  {
+    "source": "CSB-NET_Delics/models/configs_swin/swin_small_patch4_window7_224_22kto1k_finetune.yaml",
+    "target": "experiments/delics/models/configs_swin/swin_small_patch4_window7_224_22kto1k_finetune.yaml",
+    "sha256": "6b25449803bcdc22dfaed0cda13fd51789f001bf46a6dfbe25249b8ee327a1e1"
+  },
+  {
+    "source": "CSB-NET_Delics/models/configs_swin/swin_tiny_c24_patch4_window8_256.yaml",
+    "target": "experiments/delics/models/configs_swin/swin_tiny_c24_patch4_window8_256.yaml",
+    "sha256": "467bf3bcc15ac03c738852d72163ee82f008abbee7a73b223c51a47692478631"
+  },
+  {
+    "source": "CSB-NET_Delics/models/configs_swin/swin_tiny_patch4_window7_224.yaml",
+    "target": "experiments/delics/models/configs_swin/swin_tiny_patch4_window7_224.yaml",
+    "sha256": "ad8531f5eaeb85150d70a923df6e34c21aa71a7d774786b12ab2491833f581b3"
+  },
+  {
+    "source": "CSB-NET_Delics/models/configs_swin/swin_tiny_patch4_window7_224_22k.yaml",
+    "target": "experiments/delics/models/configs_swin/swin_tiny_patch4_window7_224_22k.yaml",
+    "sha256": "996cd5af43c1ee9370d95ae0fbc4576dea1781cae80ca16411f6dafe4e2e99dc"
+  },
+  {
+    "source": "CSB-NET_Delics/models/configs_swin/swin_tiny_patch4_window7_224_22kto1k_finetune.yaml",
+    "target": "experiments/delics/models/configs_swin/swin_tiny_patch4_window7_224_22kto1k_finetune.yaml",
+    "sha256": "458018ee959c26690c77ec8d2361d7cc75cb3e26e2abebb30f3bf8520a5a7226"
+  },
+  {
+    "source": "CSB-NET消融实验/benchmark.py",
+    "target": "experiments/ablation/benchmark.py",
+    "sha256": "99342c973c971d1cefe0cad0e6edeb7f0656e0364c759eb25d80a21760fcb295"
+  },
+  {
+    "source": "CSB-NET消融实验/benchmark_v2.py",
+    "target": "experiments/ablation/benchmark_v2.py",
+    "sha256": "1f765b37a480f60d34943a4a78b44291945946f41f67ad0bb036a28f405fb170"
+  },
+  {
+    "source": "CSB-NET消融实验/demo.py",
+    "target": "experiments/ablation/demo.py",
+    "sha256": "4288cd219366071ec04046f4244bb4ec890b4ef25370f617a6f95155499c0a9b"
+  },
+  {
+    "source": "CSB-NET消融实验/demo2.py",
+    "target": "experiments/ablation/demo2.py",
+    "sha256": "342584e29cc398a1b652110b21b920ef83de50d9754c3ae77fc7d282fb410829"
+  },
+  {
+    "source": "CSB-NET消融实验/demo3.py",
+    "target": "experiments/ablation/demo3.py",
+    "sha256": "a81d8bfeb1ae278731e011085e46f6e803166afa3a981301eb6aa0efa0d12c4b"
+  },
+  {
+    "source": "CSB-NET消融实验/final_summary_20260329_202559.txt",
+    "target": "results/raw/ablation/final_summary_20260329_202559.txt",
+    "sha256": "6ba82a794059252063aac5dcb6d8582822824335825328e6e74a0f3a3c44928d"
+  },
+  {
+    "source": "CSB-NET消融实验/final_summary_20260329_203326.txt",
+    "target": "results/raw/ablation/final_summary_20260329_203326.txt",
+    "sha256": "7684785b12d19c512913cb32524e79a90c0f253e946a51fd3b5acb2a4e6e24de"
+  },
+  {
+    "source": "CSB-NET消融实验/final_summary_20260329_203429.txt",
+    "target": "results/raw/ablation/final_summary_20260329_203429.txt",
+    "sha256": "7bd20fb58f782c1f2f55c09f67f4e7ca6d5dc506154f4cac11947ae21942a4a3"
+  },
+  {
+    "source": "CSB-NET消融实验/final_summary_20260331_101748.txt",
+    "target": "results/raw/ablation/final_summary_20260331_101748.txt",
+    "sha256": "8e1081556d88e62b7668d8d878e393a4b6e8452529bf87903ab34bf28e88fa0a"
+  },
+  {
+    "source": "CSB-NET消融实验/final_summary_20260331_201607.txt",
+    "target": "results/raw/ablation/final_summary_20260331_201607.txt",
+    "sha256": "8f053917f191ec5ed7be8095185537c0e9863494047ca9131c3c2f09cb60a463"
+  },
+  {
+    "source": "CSB-NET消融实验/final_summary_20260409_132652.txt",
+    "target": "results/raw/ablation/final_summary_20260409_132652.txt",
+    "sha256": "7ec859153ea3fafedac2da9b4989afe87ec5c9b1cfebe58cb2039c8a4072241c"
+  },
+  {
+    "source": "CSB-NET消融实验/final_summary_20260409_132730.txt",
+    "target": "results/raw/ablation/final_summary_20260409_132730.txt",
+    "sha256": "76499500fd943d954ba07ccc3a07b2965a32bfb454079863d2fd3ecad017da1c"
+  },
+  {
+    "source": "CSB-NET消融实验/final_summary_20260409_201429.txt",
+    "target": "results/raw/ablation/final_summary_20260409_201429.txt",
+    "sha256": "a0ffd1882cfe438ffe153f749404a84d960fc51dae4ca482ea169cd8ce85e2fd"
+  },
+  {
+    "source": "CSB-NET消融实验/final_summary_20260410_104131.txt",
+    "target": "results/raw/ablation/final_summary_20260410_104131.txt",
+    "sha256": "90cb9a9e365518e8ed8fb733d6a8dc975f6b969e495f854df2b2187c98720ea2"
+  },
+  {
+    "source": "CSB-NET消融实验/final_summary_20260410_191302.txt",
+    "target": "results/raw/ablation/final_summary_20260410_191302.txt",
+    "sha256": "bfdb04b8a7dd190151a70832fa6176965088673cbcf20854494bbed2a476a5e0"
+  },
+  {
+    "source": "CSB-NET消融实验/final_summary_20260410_192036.txt",
+    "target": "results/raw/ablation/final_summary_20260410_192036.txt",
+    "sha256": "ef5768e386360d61ccc0c7d79a7a73e026a4cf1e6c82a5d626703de381fa60d5"
+  },
+  {
+    "source": "CSB-NET消融实验/final_summary_20260410_192339.txt",
+    "target": "results/raw/ablation/final_summary_20260410_192339.txt",
+    "sha256": "38a137b2badba8d2ac8133026efbc2af4e397262016f057bd6d513929a7e4a69"
+  },
+  {
+    "source": "CSB-NET消融实验/final_summary_20260411_193417.txt",
+    "target": "results/raw/ablation/final_summary_20260411_193417.txt",
+    "sha256": "94c02986d7da607e3c896fd5d684ab57e26ed51a643f31abab7f432cfdb59298"
+  },
+  {
+    "source": "CSB-NET消融实验/MRF_BrainWeb_3DMRF.csv",
+    "target": "experiments/ablation/MRF_BrainWeb_3DMRF.csv",
+    "transformation": "replace absolute data paths with ./DATA_ROOT/<parent>/<filename>",
+    "source_sha256": "1ef488919c17e3705aaf630531360d3bd41c178ba14c0dd8904f3d6cabf52d78",
+    "sha256": "5d4f79e016eec1429590f873041b4678068625fe66ba972c8c72f2e38ea0082d"
+  },
+  {
+    "source": "CSB-NET消融实验/run_all_tests.py",
+    "target": "experiments/ablation/run_all_tests.py",
+    "sha256": "67bbe52de404ea87e1d6a91b0c63c416dc71ecd05e0b5313643c812777e6c5e1"
+  },
+  {
+    "source": "CSB-NET消融实验/testBrainweb.csv",
+    "target": "experiments/ablation/testBrainweb.csv",
+    "transformation": "replace absolute data paths with ./DATA_ROOT/<parent>/<filename>",
+    "source_sha256": "ff4ab7fa4009fa9b6cb342c61c23f1fc0e4666acce23219ac2c0e6d835151bd9",
+    "sha256": "21fa69c14f324327d533aa8463d6359e48b7c2fb4de5ab0e6c33327eac04e76d"
+  },
+  {
+    "source": "CSB-NET消融实验/testsubjects.csv",
+    "target": "experiments/ablation/testsubjects.csv",
+    "transformation": "replace absolute data paths with ./DATA_ROOT/<parent>/<filename>",
+    "source_sha256": "f4a4b64ec65a952bcca85c27f1a03ce716325391c79016679353a9686bd1fefc",
+    "sha256": "9cd9f842e9392bd63b6004d6a5260f4ca28d0e13fc8657ec1f73db08a31b9b21"
+  },
+  {
+    "source": "CSB-NET消融实验/test_unified.py",
+    "target": "experiments/ablation/test_unified.py",
+    "sha256": "484fa0d5dfa74dc1e72a5e3b53329f8a338215629d7d40336b4fd2c55854c6da"
+  },
+  {
+    "source": "CSB-NET消融实验/train_wyz.py",
+    "target": "experiments/ablation/train_wyz.py",
+    "sha256": "658f1987ae47311fc222e402d383f880118bc219e58f77f1542a7cc1143d1329"
+  },
+  {
+    "source": "CSB-NET消融实验/brainweb1/metrics.txt",
+    "target": "results/raw/ablation/brainweb1/metrics.txt",
+    "sha256": "aa7b42f02823ad78e3e5a82ada081604a1148b995cbaa7ffe6a32443bf513d0f"
+  },
+  {
+    "source": "CSB-NET消融实验/brainweb2/metrics.txt",
+    "target": "results/raw/ablation/brainweb2/metrics.txt",
+    "sha256": "3b246ff06b427669cf873989d3671ddcaddb57d66b043943e0800b51b49d43ce"
+  },
+  {
+    "source": "CSB-NET消融实验/data/aligned_dataset.py",
+    "target": "experiments/ablation/data/aligned_dataset.py",
+    "sha256": "55cf65619d301be87b19237b94f6ba0e80d7b8ace829712e2c77961086c9277f"
+  },
+  {
+    "source": "CSB-NET消融实验/data/aligned_datasetold.py",
+    "target": "experiments/ablation/data/aligned_datasetold.py",
+    "sha256": "4b3e80bdb63512047f96aab3d321e33a3d530f330c605732ea97d9713b680861"
+  },
+  {
+    "source": "CSB-NET消融实验/data/base_dataset.py",
+    "target": "experiments/ablation/data/base_dataset.py",
+    "sha256": "9b7ec0dde0665130e914be33369ed83a8c3649036b9c4c1c964c30b7a972d6b0"
+  },
+  {
+    "source": "CSB-NET消融实验/data/base_data_loader.py",
+    "target": "experiments/ablation/data/base_data_loader.py",
+    "sha256": "ebf99d06f5a02985ffcf1552ba38962272ef45c6f3a884b8971c481e38204b0b"
+  },
+  {
+    "source": "CSB-NET消融实验/data/delics_dataset.py",
+    "target": "experiments/ablation/data/delics_dataset.py",
+    "sha256": "ad8b741fc6668efd0c42e8f8ba3503f251817f9a1a91a6553e15d10a6374fe5c"
+  },
+  {
+    "source": "CSB-NET消融实验/data/image_folder.py",
+    "target": "experiments/ablation/data/image_folder.py",
+    "sha256": "8cf92e2c7b1afc8c65b6abe9a3847f522d6c4af4280434fa765012c56a684b2e"
+  },
+  {
+    "source": "CSB-NET消融实验/data/select_mask.py",
+    "target": "experiments/ablation/data/select_mask.py",
+    "sha256": "e51d719bca683dd492a1a9d623ffe5eebe33e77d467f1801fd71668f5af72e63"
+  },
+  {
+    "source": "CSB-NET消融实验/data/single_dataset.py",
+    "target": "experiments/ablation/data/single_dataset.py",
+    "sha256": "14945b7c9d51076d9e5080b7f3c2b03e7c742e87ee5a4eb4ecfeb9e559cc8fba"
+  },
+  {
+    "source": "CSB-NET消融实验/data/unaligned_dataset.py",
+    "target": "experiments/ablation/data/unaligned_dataset.py",
+    "sha256": "754c5c812c2a2080efeb5a665fc88f692234120a219b0e777c3281e704aaf424"
+  },
+  {
+    "source": "CSB-NET消融实验/data/__init__.py",
+    "target": "experiments/ablation/data/__init__.py",
+    "sha256": "780696f1030108b306e085a56c48704822db63679cd11abec36757dad4013679"
+  },
+  {
+    "source": "CSB-NET消融实验/models/base_model.py",
+    "target": "experiments/ablation/models/base_model.py",
+    "sha256": "dce3abb9814f915f51d417f657cb989b745dc939f5fe3cdd6d689a5dbeda97bc"
+  },
+  {
+    "source": "CSB-NET消融实验/models/DWT_tfmamba_MPU_v5.py",
+    "target": "experiments/ablation/models/DWT_tfmamba_MPU_v5.py",
+    "sha256": "f15991f2ae780b4d89e98a14e4039c84628f8c70ab10613efd40af78e8bdc3d5"
+  },
+  {
+    "source": "CSB-NET消融实验/models/DWT_tfmamba_woDWT.py",
+    "target": "experiments/ablation/models/DWT_tfmamba_woDWT.py",
+    "sha256": "9abbc54fecce30dbdc3a2fbe3afa84d6123bfc962d336103e06df96487bb1be6"
+  },
+  {
+    "source": "CSB-NET消融实验/models/DWT_tfmamba_woGFNet.py",
+    "target": "experiments/ablation/models/DWT_tfmamba_woGFNet.py",
+    "sha256": "4d61eadec7a48f865d258316030e7bce66c44598d23ffec53e03a78418887226"
+  },
+  {
+    "source": "CSB-NET消融实验/models/DWT_tfmamba_woMPU.py",
+    "target": "experiments/ablation/models/DWT_tfmamba_woMPU.py",
+    "sha256": "668f1da01609a7940498512fe6c8fb16f56151ed82615783d9b606983892a8dc"
+  },
+  {
+    "source": "CSB-NET消融实验/models/DWT_tfmamba_woswin.py",
+    "target": "experiments/ablation/models/DWT_tfmamba_woswin.py",
+    "sha256": "293020fa2a892e75940ed79ef1ece4a7708934d3d7133f8133dcda616588c094"
+  },
+  {
+    "source": "CSB-NET消融实验/models/mamba.py",
+    "target": "experiments/ablation/models/mamba.py",
+    "sha256": "deef9bac4009bcbfa715b2a9d7f6ff5eee8cbe794a7b2811e2b92ba0fc370f45"
+  },
+  {
+    "source": "CSB-NET消融实验/models/networks.py",
+    "target": "experiments/ablation/models/networks.py",
+    "sha256": "bb33b8e5592ae34972a73c72845fe75d9ef7cf4b03f87d1ac0042ea1eb31d5be"
+  },
+  {
+    "source": "CSB-NET消融实验/models/residual_swin_transformers.py",
+    "target": "experiments/ablation/models/residual_swin_transformers.py",
+    "sha256": "9c6c4299f1ebf405cd0f370aa56ff4c8a5c4fcfedabb450355a65fce7f5f563e"
+  },
+  {
+    "source": "CSB-NET消融实验/models/residual_swin_transformers_multi_modal.py",
+    "target": "experiments/ablation/models/residual_swin_transformers_multi_modal.py",
+    "sha256": "84054ae8ffafbfaf5c01329fd8526d27dcb5a07aedea58fc69e37f8ea878f978"
+  },
+  {
+    "source": "CSB-NET消融实验/models/residual_transformers.py",
+    "target": "experiments/ablation/models/residual_transformers.py",
+    "sha256": "dcf4e2bbedb880d3b45879ef025cb1f0ba8b3b192f46b346c26f0e6313e9cc1a"
+  },
+  {
+    "source": "CSB-NET消融实验/models/resvit_one.py",
+    "target": "experiments/ablation/models/resvit_one.py",
+    "sha256": "6df1048a2a089d249bd620ecd2559a7a8596e9585c6c840ee57fbaec3acd391f"
+  },
+  {
+    "source": "CSB-NET消融实验/models/SOTIP.py",
+    "target": "experiments/ablation/models/SOTIP.py",
+    "sha256": "963aa8d811595e21f2b868bbefac20f1546130ffeda6aaf20782f559212cd4ba"
+  },
+  {
+    "source": "CSB-NET消融实验/models/STQ_net.py",
+    "target": "experiments/ablation/models/STQ_net.py",
+    "sha256": "b134c0d7b3ab1348ce45f61e9e4c29f216847cb7bfdc0c161d0599e2c126935d"
+  },
+  {
+    "source": "CSB-NET消融实验/models/swinres_one.py",
+    "target": "experiments/ablation/models/swinres_one.py",
+    "sha256": "34e0c86adc6eb8851147293d9c97542d105a81f911aa479a6f1e1e45544e2ec2"
+  },
+  {
+    "source": "CSB-NET消融实验/models/test_model.py",
+    "target": "experiments/ablation/models/test_model.py",
+    "sha256": "6c3068ed7cedb5357fddbdb789cea9598020001db119d8c868c238ca92f93bd5",
+    "source_sha256": "4f28e38727b59b23b155ee3d36a9e802c4ec370a3da8a0268c3453a0b7cda7f2",
+    "transformation": "legacy TestModel compatibility: non_blocking keyword, util1 import, current define_G arguments; V5 model unchanged"
+  },
+  {
+    "source": "CSB-NET消融实验/models/transformer_configs.py",
+    "target": "experiments/ablation/models/transformer_configs.py",
+    "sha256": "0348f5eb951c8b3e3395a72dff7cc48b4a27062460e5dec2c10361411e10cff3"
+  },
+  {
+    "source": "CSB-NET消融实验/models/unet_model.py",
+    "target": "experiments/ablation/models/unet_model.py",
+    "sha256": "9867c50316da795efe67245cb999e6197ef12a1032b68bd9892ac3b8e9fadfa4"
+  },
+  {
+    "source": "CSB-NET消融实验/models/__init__.py",
+    "target": "experiments/ablation/models/__init__.py",
+    "sha256": "45943c2bdeb79c788920e035d6222a473163ec5645db94dea4ae8d57499c503d"
+  },
+  {
+    "source": "CSB-NET消融实验/options/base_options.py",
+    "target": "experiments/ablation/options/base_options.py",
+    "sha256": "b4537814a6df8aa1edfb0813acc4dc3f09deea5887a76abaaeafbfa3480ec6ac"
+  },
+  {
+    "source": "CSB-NET消融实验/options/test_options.py",
+    "target": "experiments/ablation/options/test_options.py",
+    "sha256": "8de13947e9ca038dd72fdfb5fa4807822626d27ea1db1c234cffd079bc190364"
+  },
+  {
+    "source": "CSB-NET消融实验/options/train_options.py",
+    "target": "experiments/ablation/options/train_options.py",
+    "sha256": "1bcf2f4de47392f2db0334afa313604115c3023ce4be01ecf9f3c9df7cd2acd3"
+  },
+  {
+    "source": "CSB-NET消融实验/options/train_options_wyz.py",
+    "target": "experiments/ablation/options/train_options_wyz.py",
+    "sha256": "c316e5f69f06b15fcc602f39b53ea94a47337d02ea7747e90ea0fa197c8e8201"
+  },
+  {
+    "source": "CSB-NET消融实验/subjects1/metrics.txt",
+    "target": "results/raw/ablation/subjects1/metrics.txt",
+    "sha256": "8bb7936c9bcec9c16002b07c828c6415a840b89a6b39fdffe95bce4ba115a593"
+  },
+  {
+    "source": "CSB-NET消融实验/subjects2/metrics.txt",
+    "target": "results/raw/ablation/subjects2/metrics.txt",
+    "sha256": "e426e1e7ea7a5fbc92e9b6acf56691144c51bd68e6c9ff9d1c54b82374e1b2ee"
+  },
+  {
+    "source": "CSB-NET消融实验/util1/html.py",
+    "target": "experiments/ablation/util1/html.py",
+    "sha256": "4c36a06c77ac0b71d25b44cb22979f93d3133694d7549dd0c9a2d614b0c3b285"
+  },
+  {
+    "source": "CSB-NET消融实验/util1/image_pool.py",
+    "target": "experiments/ablation/util1/image_pool.py",
+    "sha256": "211102100d39cbb856ba92e991e4d89987ba73a861b3e9626e050ac61b3da1a3"
+  },
+  {
+    "source": "CSB-NET消融实验/util1/util.py",
+    "target": "experiments/ablation/util1/util.py",
+    "sha256": "dee578f573b6bc9d5523b655fc2f2141af28a20ae2ed8364c85ee2b1a0418494"
+  },
+  {
+    "source": "CSB-NET消融实验/util1/visualizer.py",
+    "target": "experiments/ablation/util1/visualizer.py",
+    "sha256": "b4998c9a4937dd313854f09af0f59470e87d89c754819d2bea43f00adf901dc6"
+  },
+  {
+    "source": "CSB-NET消融实验/utils/utils_bnorm.py",
+    "target": "experiments/ablation/utils/utils_bnorm.py",
+    "sha256": "7808fab0e22eae633120936643a4258c4c050801810ea99cb091d04f96c7000e"
+  },
+  {
+    "source": "CSB-NET消融实验/utils/utils_dist.py",
+    "target": "experiments/ablation/utils/utils_dist.py",
+    "sha256": "0bf0489b299114e97b1d07c06825f7417a8fa34f0030322f421f901dc6b71d18"
+  },
+  {
+    "source": "CSB-NET消融实验/utils/utils_early_stopping.py",
+    "target": "experiments/ablation/utils/utils_early_stopping.py",
+    "sha256": "258efcebeadd25374440088b34f30e0daa011eaf63651e77259d6af679127e62"
+  },
+  {
+    "source": "CSB-NET消融实验/utils/utils_image.py",
+    "target": "experiments/ablation/utils/utils_image.py",
+    "sha256": "d190b873c9fc049c7d962166deacb87232bf9fbdaf49dd2af274f97d9a18fc6a"
+  },
+  {
+    "source": "CSB-NET消融实验/utils/utils_logger.py",
+    "target": "experiments/ablation/utils/utils_logger.py",
+    "sha256": "8c5d1d7f16958311305bc2ea50311d62dbb3ecb3348addae31ae1a507f77a194"
+  },
+  {
+    "source": "CSB-NET消融实验/utils/utils_model.py",
+    "target": "experiments/ablation/utils/utils_model.py",
+    "sha256": "3a6d585779ccf691353f79be817f169edac3ef3839d1e934e88e8b8e06d54a59"
+  },
+  {
+    "source": "CSB-NET消融实验/utils/utils_option.py",
+    "target": "experiments/ablation/utils/utils_option.py",
+    "sha256": "61f87a44c2e1f9fb90c73cc34b4e745e721e34f3a0df1db348e2eaddbf8f249a"
+  },
+  {
+    "source": "CSB-NET消融实验/utils/utils_regularizers.py",
+    "target": "experiments/ablation/utils/utils_regularizers.py",
+    "sha256": "2e8d562f539c8fb31d13e0ef094209b3d8a83d21901f85b81580091df2d73926"
+  },
+  {
+    "source": "CSB-NET消融实验/utils/utils_swinmr.py",
+    "target": "experiments/ablation/utils/utils_swinmr.py",
+    "sha256": "727a18b51b55b7f7c00f4107bb3d57fdf576eb37d6df525f39acbbd140993455"
+  },
+  {
+    "source": "CSB-NET消融实验/utils/__init__.py",
+    "target": "experiments/ablation/utils/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "CSB-NET消融实验/checkpoints/experiment_name/opt.txt",
+    "target": "results/raw/ablation/checkpoints/experiment_name/opt.txt",
+    "sha256": "c78c3bfb921343c0928a98a0c5b2e342d0174e93e15b8a09a996e28ed238d17b"
+  },
+  {
+    "source": "CSB-NET消融实验/checkpoints/mrf_mambair_experiment/opt.txt",
+    "target": "results/raw/ablation/checkpoints/mrf_mambair_experiment/opt.txt",
+    "sha256": "a20770a6a7f69c2addbd759572cae47993af9409e6dcf0090b9a6ee1f6ceb2ba"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50sotip/log.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50sotip/log.txt",
+    "sha256": "ee3e3c6b9634f9829ab1591145f22b183026523e1230a7fcb16d0c63cc442c10"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50sotip/loss_log.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50sotip/loss_log.txt",
+    "sha256": "61445ac27686023995ba678702e18bde79854b3967c46af697a6b8cdc6d0c9ca"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50sotip/opt.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50sotip/opt.txt",
+    "sha256": "2b8ba43308558e3b93f511954f42c6b0f49336292044fe3df58416c7a516bb44"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50sotip_v2/log.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50sotip_v2/log.txt",
+    "sha256": "83ddda9c78b54daa8ecee6b0169b04b52d4aff7484ac4a2fb1578ca240f62aa5"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50sotip_v2/loss_log.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50sotip_v2/loss_log.txt",
+    "sha256": "69940c50918f565e1e5c75203d1c1eb5734b7e80a21767800f3a068ab3fde74d"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50sotip_v2/opt.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50sotip_v2/opt.txt",
+    "sha256": "891da8399150d983d9b1ce2e74f38eeb6a3350f4f765b05c6e13b9e1d6f5a598"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50SOTIP__uppercase/log.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50SOTIP__uppercase/log.txt",
+    "sha256": "1a06b3a2ab24214521417e26f9dfca7a42b23ca56364c6a76dbc524c46b43856"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50SOTIP__uppercase/loss_log.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50SOTIP__uppercase/loss_log.txt",
+    "sha256": "1cc6cf69d791f7bd2aa608feebc3f982f604d24a7b1d76322cb13dbebe39185e"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50SOTIP__uppercase/opt.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50SOTIP__uppercase/opt.txt",
+    "sha256": "128a8496b0d48aac1d23afd06c466f7ad7a7b37f4b11edba1a4323442a45fad6"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50STQ200/log.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50STQ200/log.txt",
+    "sha256": "a41d54521c10670f07ab593a250b69c11426d81fe598255a43bb32512c0659b8"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50STQ200/loss_log.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50STQ200/loss_log.txt",
+    "sha256": "9f40486e2b9ce8b5bebdc7c58a1bc44dcf3d5d525febd1028782b2d617bae2d5"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50STQ200/opt.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50STQ200/opt.txt",
+    "sha256": "9a3b717370ebf5d7501028287ed13162f7e2b1030d58b878e6f3a5dfdfddc07c"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50STQ200_v2/log.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50STQ200_v2/log.txt",
+    "sha256": "3e6526ee1428872db9610697c8b4594c61695157a4708b3448fc33f7d10792fb"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50STQ200_v2/loss_log.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50STQ200_v2/loss_log.txt",
+    "sha256": "8a39b4d3622270adac0c3db0c4ff56d3e2e621592bed0f477b063ef45c7fc201"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50STQ200_v2/opt.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50STQ200_v2/opt.txt",
+    "sha256": "95afc13393f2095fbcd6877564fbbcf013a4fa2d901dd401488038be4b8e114f"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50STQ400/log.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50STQ400/log.txt",
+    "sha256": "3e506a83496568f521113afea2f4a8bd77e8918e08ed7a1c2b0fd011922651a3"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50STQ400/loss_log.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50STQ400/loss_log.txt",
+    "sha256": "ab28d57e92cb90ca0c60d43dfa582a519f696c3c147f8fcb12bf521754cba269"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50STQ400/opt.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50STQ400/opt.txt",
+    "sha256": "70b8e9286332fde84db4ab41249cfdf3dead913e2810d0d7bc5c4ace7cefad2b"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50STQ400_v2/log.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50STQ400_v2/log.txt",
+    "sha256": "2183515a145648f66a11db48084f4af462abb3287f36443629a85c180ee7b316"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50STQ400_v2/loss_log.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50STQ400_v2/loss_log.txt",
+    "sha256": "57bf3ec575d40b148029a01f15eb3978b59489326ff8f49fe4efc227bda4c12d"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50STQ400_v2/opt.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50STQ400_v2/opt.txt",
+    "sha256": "ebb85918c543f65589e0d18f5a074a1d162bd1331d8d92060cb75de558e37980"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50woDWT/log.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50woDWT/log.txt",
+    "sha256": "b18b51c96149e67ded2b63568389c66d1b534d6beadea7660981f11bcb7c3ae3"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50woDWT/loss_log.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50woDWT/loss_log.txt",
+    "sha256": "6e3887a713cb639a34bde90a206a93e4491ef6b5ad430068c8970a7eb533510d"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50woDWT/opt.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50woDWT/opt.txt",
+    "sha256": "2b7d468175d2169688f3c2a6a24de7e8efd0fb013e840a7bdb266bcecac6ed1a"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50woGFNet/log.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50woGFNet/log.txt",
+    "sha256": "04ba26d2e472bf916c5f64e1cd8246e9120116323b68f1759643a815c07fe43e"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50woGFNet/loss_log.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50woGFNet/loss_log.txt",
+    "sha256": "ad80a7c51bb8939f6813c41bd5f7d3154f0c7f81d097a00f2c4a63d44812e237"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50woGFNet/opt.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50woGFNet/opt.txt",
+    "sha256": "68f5f0ecc863309a4047306c95e96e83c6e0b195e52cbfca1bc6d25ce56f0320"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50woMPU/log.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50woMPU/log.txt",
+    "sha256": "cb24fb44ab3784f53f03ab4d3f944d88c7b00cd7417570ec239328883ce2a3b3"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50woMPU/loss_log.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50woMPU/loss_log.txt",
+    "sha256": "dbcca162b7ad15d0be23961f2bc33e31d0f539812439804764fec029bf7b9e32"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50woMPU/opt.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50woMPU/opt.txt",
+    "sha256": "c697376466383c62696772f640b50411635dc2aa4fb2b8dcd10846436033af82"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50woswin/log.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50woswin/log.txt",
+    "sha256": "38f880f6abb8483751645844a268dac0ae78ab4ccfd0df80448ea687228e9ab4"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50woswin/loss_log.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50woswin/loss_log.txt",
+    "sha256": "0017af4bda377d02b7a3e62577004cee3d68b232bc72095d17f49870ef31aadf"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/50woswin/opt.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/50woswin/opt.txt",
+    "sha256": "88c6a4655c63f3eb3d0be59c24d4646e60aa2ff0dda38c639812a5f60219f61b"
+  },
+  {
+    "source": "CSB-NET消融实验/EXP_checkpoints/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/opt.txt",
+    "target": "results/raw/ablation/EXP_checkpoints/tem_delics_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5/opt.txt",
+    "sha256": "81f05a68ea19ccdf7d9462647d44124b8774acfb1f3ef0c7d12293a20b0980af"
+  },
+  {
+    "source": "CSB-NET消融实验/models/configs_swin/swin_base_patch4_window12_384_22kto1k_finetune.yaml",
+    "target": "experiments/ablation/models/configs_swin/swin_base_patch4_window12_384_22kto1k_finetune.yaml",
+    "sha256": "d93477196d143c81d912f305ce9d00dad99dbf3d30751299b7dcebacc61bfb39"
+  },
+  {
+    "source": "CSB-NET消融实验/models/configs_swin/swin_base_patch4_window12_384_finetune.yaml",
+    "target": "experiments/ablation/models/configs_swin/swin_base_patch4_window12_384_finetune.yaml",
+    "sha256": "11f9a234c3a7e7045c576fc4fedf9b54b93d6dab0e45b1aae5bffcd7fdb8e884"
+  },
+  {
+    "source": "CSB-NET消融实验/models/configs_swin/swin_base_patch4_window7_224.yaml",
+    "target": "experiments/ablation/models/configs_swin/swin_base_patch4_window7_224.yaml",
+    "sha256": "d8acf88888d7231b56dc5776d8678af71f4006a6e8b900afcb383eebf0f2ec88"
+  },
+  {
+    "source": "CSB-NET消融实验/models/configs_swin/swin_base_patch4_window7_224_22k.yaml",
+    "target": "experiments/ablation/models/configs_swin/swin_base_patch4_window7_224_22k.yaml",
+    "sha256": "aaa776e77af96e6b53ddbda4d15c8a0f9300c4ef04c3aafb0eea7f30d290c498"
+  },
+  {
+    "source": "CSB-NET消融实验/models/configs_swin/swin_base_patch4_window7_224_22kto1k_finetune.yaml",
+    "target": "experiments/ablation/models/configs_swin/swin_base_patch4_window7_224_22kto1k_finetune.yaml",
+    "sha256": "6bef6ec869deb04ddbc9f44f2f4386a565cb124a400f024b7e1291910b24b2a5"
+  },
+  {
+    "source": "CSB-NET消融实验/models/configs_swin/swin_large_patch4_window12_384_22kto1k_finetune.yaml",
+    "target": "experiments/ablation/models/configs_swin/swin_large_patch4_window12_384_22kto1k_finetune.yaml",
+    "sha256": "a8331738549a971a87b9ada49fb614a76a4d0b7212a606735dfcdf736be0d1d5"
+  },
+  {
+    "source": "CSB-NET消融实验/models/configs_swin/swin_large_patch4_window7_224_22k.yaml",
+    "target": "experiments/ablation/models/configs_swin/swin_large_patch4_window7_224_22k.yaml",
+    "sha256": "213b3975f3cd55812b6ee7808039a055ca1d4f2d56bf5373b2cc83ff7b8b2a74"
+  },
+  {
+    "source": "CSB-NET消融实验/models/configs_swin/swin_large_patch4_window7_224_22kto1k_finetune.yaml",
+    "target": "experiments/ablation/models/configs_swin/swin_large_patch4_window7_224_22kto1k_finetune.yaml",
+    "sha256": "1b67904dd787dd476da6206cfdb3b1deb86e19bd0623ddcb3ebee229a1b928f0"
+  },
+  {
+    "source": "CSB-NET消融实验/models/configs_swin/swin_small_patch4_window7_224.yaml",
+    "target": "experiments/ablation/models/configs_swin/swin_small_patch4_window7_224.yaml",
+    "sha256": "08f8d32d1f51547aa7f22996b2fc1106b5c52ff426b665c87f2f277f9fe1006a"
+  },
+  {
+    "source": "CSB-NET消融实验/models/configs_swin/swin_small_patch4_window7_224_22k.yaml",
+    "target": "experiments/ablation/models/configs_swin/swin_small_patch4_window7_224_22k.yaml",
+    "sha256": "6caeba97eceb48c244c161e28b4807a21714d92b85e19e91376d2d995c4bef6a"
+  },
+  {
+    "source": "CSB-NET消融实验/models/configs_swin/swin_small_patch4_window7_224_22kto1k_finetune.yaml",
+    "target": "experiments/ablation/models/configs_swin/swin_small_patch4_window7_224_22kto1k_finetune.yaml",
+    "sha256": "6b25449803bcdc22dfaed0cda13fd51789f001bf46a6dfbe25249b8ee327a1e1"
+  },
+  {
+    "source": "CSB-NET消融实验/models/configs_swin/swin_tiny_c24_patch4_window8_256.yaml",
+    "target": "experiments/ablation/models/configs_swin/swin_tiny_c24_patch4_window8_256.yaml",
+    "sha256": "467bf3bcc15ac03c738852d72163ee82f008abbee7a73b223c51a47692478631"
+  },
+  {
+    "source": "CSB-NET消融实验/models/configs_swin/swin_tiny_patch4_window7_224.yaml",
+    "target": "experiments/ablation/models/configs_swin/swin_tiny_patch4_window7_224.yaml",
+    "sha256": "ad8531f5eaeb85150d70a923df6e34c21aa71a7d774786b12ab2491833f581b3"
+  },
+  {
+    "source": "CSB-NET消融实验/models/configs_swin/swin_tiny_patch4_window7_224_22k.yaml",
+    "target": "experiments/ablation/models/configs_swin/swin_tiny_patch4_window7_224_22k.yaml",
+    "sha256": "996cd5af43c1ee9370d95ae0fbc4576dea1781cae80ca16411f6dafe4e2e99dc"
+  },
+  {
+    "source": "CSB-NET消融实验/models/configs_swin/swin_tiny_patch4_window7_224_22kto1k_finetune.yaml",
+    "target": "experiments/ablation/models/configs_swin/swin_tiny_patch4_window7_224_22kto1k_finetune.yaml",
+    "sha256": "458018ee959c26690c77ec8d2361d7cc75cb3e26e2abebb30f3bf8520a5a7226"
+  },
+  {
+    "source": "CSB-NET/models/DWT_tfmamba_MPU_v5.py",
+    "target": "tsfd_mrf/model.py",
+    "sha256": "f15991f2ae780b4d89e98a14e4039c84628f8c70ab10613efd40af78e8bdc3d5"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/CONV-ICA/delics_results_t1/Different_rec/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/CONV-ICA/delics_results_t1/Different_rec/case004_slice183.png",
+    "sha256": "40136fdfd04b4a996fba1de3e4f2a1f2423890683b8a6b2697a34746db7de2b7"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/CONV-ICA/delics_results_t1/GT/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/CONV-ICA/delics_results_t1/GT/case004_slice183.png",
+    "sha256": "ac706faf3c788142ffb7553eacf9bd20b8ee76fa498ad96952c17d2f39362f33"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/CONV-ICA/delics_results_t1/Recon/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/CONV-ICA/delics_results_t1/Recon/case004_slice183.png",
+    "sha256": "8a5fcdbff623c809b0f75d5936b850d7e50c5a3864496b03bebe4639ddeec24a"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/CONV-ICA/delics_results_t2/Different_rec/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/CONV-ICA/delics_results_t2/Different_rec/case004_slice183.png",
+    "sha256": "0a4644468b4720fb10b00584f75b78d1a597afd146c2cd4695a5e1dc65cc79f2"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/CONV-ICA/delics_results_t2/GT/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/CONV-ICA/delics_results_t2/GT/case004_slice183.png",
+    "sha256": "3a55a401b1783b9157607661d3d2de589e5b7344aaec3c104a3e426b195a10d3"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/CONV-ICA/delics_results_t2/Recon/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/CONV-ICA/delics_results_t2/Recon/case004_slice183.png",
+    "sha256": "cb0fdc8a2a6583cc3f8f656997de6e993b73c337c730c2d161a663dc12f3a8e9"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/DRONE/delics_results_t1/Different_rec/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/DRONE/delics_results_t1/Different_rec/case004_slice183.png",
+    "sha256": "9c918b48348ed6e68ec97e43616a937c6f4d6a793e479fc7e507264e980b15fe"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/DRONE/delics_results_t1/GT/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/DRONE/delics_results_t1/GT/case004_slice183.png",
+    "sha256": "ac706faf3c788142ffb7553eacf9bd20b8ee76fa498ad96952c17d2f39362f33"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/DRONE/delics_results_t1/Recon/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/DRONE/delics_results_t1/Recon/case004_slice183.png",
+    "sha256": "7a10aa4942598228fac34183ae14ec401415968b70e6300b26ae758f4aa52eed"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/DRONE/delics_results_t2/Different_rec/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/DRONE/delics_results_t2/Different_rec/case004_slice183.png",
+    "sha256": "f6c715bf2a7f02955bf2b94d504bbb34acaab333e504e36b9295d494ca1965cd"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/DRONE/delics_results_t2/GT/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/DRONE/delics_results_t2/GT/case004_slice183.png",
+    "sha256": "3a55a401b1783b9157607661d3d2de589e5b7344aaec3c104a3e426b195a10d3"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/DRONE/delics_results_t2/Recon/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/DRONE/delics_results_t2/Recon/case004_slice183.png",
+    "sha256": "505bd983ad6cdd4f303d6c7c51d983efaf9767c47ccb2d4d0cd5a72bfcdeb3e4"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/DWTMamba/delics_results_t1/Different_rec/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/DWTMamba/delics_results_t1/Different_rec/case004_slice183.png",
+    "sha256": "98bf6d2719b77f9cf0123511f319828ac322b0d3509bccde118eaa9dbc6ed3b0"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/DWTMamba/delics_results_t1/GT/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/DWTMamba/delics_results_t1/GT/case004_slice183.png",
+    "sha256": "ac706faf3c788142ffb7553eacf9bd20b8ee76fa498ad96952c17d2f39362f33"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/DWTMamba/delics_results_t1/Recon/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/DWTMamba/delics_results_t1/Recon/case004_slice183.png",
+    "sha256": "c159262c53b628e3ceda35a652b3e5be6cacd310fdd1c15590799a4232323137"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/DWTMamba/delics_results_t2/Different_rec/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/DWTMamba/delics_results_t2/Different_rec/case004_slice183.png",
+    "sha256": "9ef82f4347fddce3c529feb1ef21eb5a060ac38ab791cd0f873cfb1707b10264"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/DWTMamba/delics_results_t2/GT/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/DWTMamba/delics_results_t2/GT/case004_slice183.png",
+    "sha256": "3a55a401b1783b9157607661d3d2de589e5b7344aaec3c104a3e426b195a10d3"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/DWTMamba/delics_results_t2/Recon/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/DWTMamba/delics_results_t2/Recon/case004_slice183.png",
+    "sha256": "97b54d5636cf295a552416715a99b3abf1895576b9c84c290e54a5263dd51778"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/LGVIT/delics_results_t1/Different_rec/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/LGVIT/delics_results_t1/Different_rec/case004_slice183.png",
+    "sha256": "8be673a214002e078cadb50cb54a60853bf113fb66501691e9e0b2125498b845"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/LGVIT/delics_results_t1/GT/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/LGVIT/delics_results_t1/GT/case004_slice183.png",
+    "sha256": "ac706faf3c788142ffb7553eacf9bd20b8ee76fa498ad96952c17d2f39362f33"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/LGVIT/delics_results_t1/Recon/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/LGVIT/delics_results_t1/Recon/case004_slice183.png",
+    "sha256": "af259abf8dbb75501e5926d80914a6bcfabb5e3bb2cf9987ebcef1f9d615638a"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/LGVIT/delics_results_t2/Different_rec/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/LGVIT/delics_results_t2/Different_rec/case004_slice183.png",
+    "sha256": "96a40d4ba87b54a6efcf25fc44daf494ac39ed52258c2ed75a8603f13f51fb94"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/LGVIT/delics_results_t2/GT/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/LGVIT/delics_results_t2/GT/case004_slice183.png",
+    "sha256": "3a55a401b1783b9157607661d3d2de589e5b7344aaec3c104a3e426b195a10d3"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/LGVIT/delics_results_t2/Recon/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/LGVIT/delics_results_t2/Recon/case004_slice183.png",
+    "sha256": "a7fe05879500048115608d9183858453ea0564abd67b536c6478e03796c36276"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/SCQ/delics_results_t1/Different_rec/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/SCQ/delics_results_t1/Different_rec/case004_slice183.png",
+    "sha256": "4f1ee4985660a66ee460af54b26d75eb1d19e97a880e43be6ee115ff9d43fd43"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/SCQ/delics_results_t1/GT/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/SCQ/delics_results_t1/GT/case004_slice183.png",
+    "sha256": "ac706faf3c788142ffb7553eacf9bd20b8ee76fa498ad96952c17d2f39362f33"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/SCQ/delics_results_t1/Recon/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/SCQ/delics_results_t1/Recon/case004_slice183.png",
+    "sha256": "84bf703640232362439a2a5978d64b24beba1ad06c786ace2fe4d88c4c5e7d72"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/SCQ/delics_results_t2/Different_rec/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/SCQ/delics_results_t2/Different_rec/case004_slice183.png",
+    "sha256": "24ece7384ef4e7b57db7567f0edd6ee23a2943434272d527beab4928b2b722c2"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/SCQ/delics_results_t2/GT/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/SCQ/delics_results_t2/GT/case004_slice183.png",
+    "sha256": "3a55a401b1783b9157607661d3d2de589e5b7344aaec3c104a3e426b195a10d3"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/SCQ/delics_results_t2/Recon/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/SCQ/delics_results_t2/Recon/case004_slice183.png",
+    "sha256": "61c9c04e3066e47271568cf479c7c3c68474ffcc6ed652dafd572978c0504ade"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/SOTIP/delics_results_t1/Different_rec/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/SOTIP/delics_results_t1/Different_rec/case004_slice183.png",
+    "sha256": "9a500e115f0915425906482d775d1e6c3e7ef41c0716b1dc6ef0d9d8996e12db"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/SOTIP/delics_results_t1/GT/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/SOTIP/delics_results_t1/GT/case004_slice183.png",
+    "sha256": "ac706faf3c788142ffb7553eacf9bd20b8ee76fa498ad96952c17d2f39362f33"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/SOTIP/delics_results_t1/Recon/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/SOTIP/delics_results_t1/Recon/case004_slice183.png",
+    "sha256": "bbf591eedc01d226e6ecccd3a0dba2d134da3242f236911e66af7156cdfe299a"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/SOTIP/delics_results_t2/Different_rec/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/SOTIP/delics_results_t2/Different_rec/case004_slice183.png",
+    "sha256": "3a058a4190c0d8d6b162573a397a51b51958f6ea7852cef9fb145c4106af30d2"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/SOTIP/delics_results_t2/GT/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/SOTIP/delics_results_t2/GT/case004_slice183.png",
+    "sha256": "3a55a401b1783b9157607661d3d2de589e5b7344aaec3c104a3e426b195a10d3"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/SOTIP/delics_results_t2/Recon/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/SOTIP/delics_results_t2/Recon/case004_slice183.png",
+    "sha256": "3c91b6648b44cf5874284449c3257c16984a0da684ef1865b3b9a9a0dbaceed7"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/SRPR/delics_results_t1/Different_rec/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/SRPR/delics_results_t1/Different_rec/case004_slice183.png",
+    "sha256": "2080902c5f143180a86519a67183cbefd845fb495855875f4d671537cbd6df34"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/SRPR/delics_results_t1/GT/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/SRPR/delics_results_t1/GT/case004_slice183.png",
+    "sha256": "ac706faf3c788142ffb7553eacf9bd20b8ee76fa498ad96952c17d2f39362f33"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/SRPR/delics_results_t1/Recon/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/SRPR/delics_results_t1/Recon/case004_slice183.png",
+    "sha256": "8e39d0ba8de6579636500940b0cf4c32a7f6cce96e984c99c0e528ede55d475a"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/SRPR/delics_results_t2/Different_rec/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/SRPR/delics_results_t2/Different_rec/case004_slice183.png",
+    "sha256": "5e2a050f099b7f9500035b9c82cfc56977fd9eb81123333b56f316dc78245b12"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/SRPR/delics_results_t2/GT/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/SRPR/delics_results_t2/GT/case004_slice183.png",
+    "sha256": "3a55a401b1783b9157607661d3d2de589e5b7344aaec3c104a3e426b195a10d3"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/SRPR/delics_results_t2/Recon/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/SRPR/delics_results_t2/Recon/case004_slice183.png",
+    "sha256": "da57f34b5a984456de24873a6ddcefbe973334bafa291e5da102b32489825dc9"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/STQ/delics_results_t1/Different_rec/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/STQ/delics_results_t1/Different_rec/case004_slice183.png",
+    "sha256": "8e3a9a4139e95b1d1060b91787b191914c68ff7ab32affe7171ad20b273d435e"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/STQ/delics_results_t1/GT/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/STQ/delics_results_t1/GT/case004_slice183.png",
+    "sha256": "ac706faf3c788142ffb7553eacf9bd20b8ee76fa498ad96952c17d2f39362f33"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/STQ/delics_results_t1/Recon/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/STQ/delics_results_t1/Recon/case004_slice183.png",
+    "sha256": "bfb73b20a127fb4cff3edcaa98ae2b3f3fb85ec935c553e8245e9bd3be7fa8ba"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/STQ/delics_results_t2/Different_rec/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/STQ/delics_results_t2/Different_rec/case004_slice183.png",
+    "sha256": "ef26afc98589833fe0797894bc484571f47abb847e5a117ce89b7ec16082459e"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/STQ/delics_results_t2/GT/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/STQ/delics_results_t2/GT/case004_slice183.png",
+    "sha256": "3a55a401b1783b9157607661d3d2de589e5b7344aaec3c104a3e426b195a10d3"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/STQ/delics_results_t2/Recon/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/STQ/delics_results_t2/Recon/case004_slice183.png",
+    "sha256": "d6df0d0e2f54609e5724b56edc53ea79ab05a41f4b548df673df591dcfd87623"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_CIFM/delics_results_t1/Different_rec/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_CIFM/delics_results_t1/Different_rec/case004_slice183.png",
+    "sha256": "16e9e5e23719bfe41afd72f962490b057dfeb92d8b7deec69b2fac8eda75b579"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_CIFM/delics_results_t1/GT/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_CIFM/delics_results_t1/GT/case004_slice183.png",
+    "sha256": "ac706faf3c788142ffb7553eacf9bd20b8ee76fa498ad96952c17d2f39362f33"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_CIFM/delics_results_t1/Recon/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_CIFM/delics_results_t1/Recon/case004_slice183.png",
+    "sha256": "7ec717a26ac20cad03c92e1aadfaeb9dd78c9f4204d8df850f2d9e065a088d44"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_CIFM/delics_results_t2/Different_rec/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_CIFM/delics_results_t2/Different_rec/case004_slice183.png",
+    "sha256": "4596ad73d3200be2b2a629df9ce88417e716b620a208cb4f07bf795c5af5f007"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_CIFM/delics_results_t2/GT/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_CIFM/delics_results_t2/GT/case004_slice183.png",
+    "sha256": "3a55a401b1783b9157607661d3d2de589e5b7344aaec3c104a3e426b195a10d3"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_CIFM/delics_results_t2/Recon/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_CIFM/delics_results_t2/Recon/case004_slice183.png",
+    "sha256": "cccb57598f8ee0c7cb9ef443ba1a79796872071edefbe33d712e9eea69963e08"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_GSF/delics_results_t1/Different_rec/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_GSF/delics_results_t1/Different_rec/case004_slice183.png",
+    "sha256": "b9147d5d0178aa8d13126e78aa91461f2dc229407c089741661c49d288e8dbbd"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_GSF/delics_results_t1/GT/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_GSF/delics_results_t1/GT/case004_slice183.png",
+    "sha256": "ac706faf3c788142ffb7553eacf9bd20b8ee76fa498ad96952c17d2f39362f33"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_GSF/delics_results_t1/Recon/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_GSF/delics_results_t1/Recon/case004_slice183.png",
+    "sha256": "45d20fe20d0663008a68fdf07da66810c4b9906c718afa36e8b9e009b3b56176"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_GSF/delics_results_t2/Different_rec/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_GSF/delics_results_t2/Different_rec/case004_slice183.png",
+    "sha256": "0a1e86bb7074f036fb9fce2e768aee6f4b648d3c1d5ff2a97bce1544b05b37f7"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_GSF/delics_results_t2/GT/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_GSF/delics_results_t2/GT/case004_slice183.png",
+    "sha256": "3a55a401b1783b9157607661d3d2de589e5b7344aaec3c104a3e426b195a10d3"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_GSF/delics_results_t2/Recon/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_GSF/delics_results_t2/Recon/case004_slice183.png",
+    "sha256": "56ada6872beb748231482848cd6ec12f2d7b9ba68f68fd943a12c8b474f03989"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_LWE/delics_results_t1/Different_rec/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_LWE/delics_results_t1/Different_rec/case004_slice183.png",
+    "sha256": "564d30b8cb9b68cae5f495a446f6ce2c34d72bca1c66fbe312eaa0564bf9466e"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_LWE/delics_results_t1/GT/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_LWE/delics_results_t1/GT/case004_slice183.png",
+    "sha256": "ac706faf3c788142ffb7553eacf9bd20b8ee76fa498ad96952c17d2f39362f33"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_LWE/delics_results_t1/Recon/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_LWE/delics_results_t1/Recon/case004_slice183.png",
+    "sha256": "ee23c65a78e41653314f626cb7cc215cad5f28513ec8c4869ac41625cd8667cc"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_LWE/delics_results_t2/Different_rec/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_LWE/delics_results_t2/Different_rec/case004_slice183.png",
+    "sha256": "f5a0be4ffd7c18f8e4ad7b7fd7da830dc601b25fdbab96d09458fe8f17e6046c"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_LWE/delics_results_t2/GT/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_LWE/delics_results_t2/GT/case004_slice183.png",
+    "sha256": "3a55a401b1783b9157607661d3d2de589e5b7344aaec3c104a3e426b195a10d3"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_LWE/delics_results_t2/Recon/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_LWE/delics_results_t2/Recon/case004_slice183.png",
+    "sha256": "72d5ffc030e2e2b2fbadf8bb8265374d863441df9ba61afe07d382273b0ec523"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_Mamba/delics_results_t1/Different_rec/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_Mamba/delics_results_t1/Different_rec/case004_slice183.png",
+    "sha256": "7218222ef68c4a6b572f81cbe22bb8b13add04f7d792ca1de4f92f4818549800"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_Mamba/delics_results_t1/GT/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_Mamba/delics_results_t1/GT/case004_slice183.png",
+    "sha256": "ac706faf3c788142ffb7553eacf9bd20b8ee76fa498ad96952c17d2f39362f33"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_Mamba/delics_results_t1/Recon/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_Mamba/delics_results_t1/Recon/case004_slice183.png",
+    "sha256": "6622ca2435fa468098d1c9383490f94f3a00d05edb1515b263b00c30d1e09bb6"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_Mamba/delics_results_t2/Different_rec/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_Mamba/delics_results_t2/Different_rec/case004_slice183.png",
+    "sha256": "b5ac83e13110de489edc9d115afb1da9659af3f6dbae023969144cb7f7b7e95b"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_Mamba/delics_results_t2/GT/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_Mamba/delics_results_t2/GT/case004_slice183.png",
+    "sha256": "3a55a401b1783b9157607661d3d2de589e5b7344aaec3c104a3e426b195a10d3"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_Mamba/delics_results_t2/Recon/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_Mamba/delics_results_t2/Recon/case004_slice183.png",
+    "sha256": "d7de4ff4800a34cc2a1eb59b00fbc14c71abae41fb5004e64a5f98b55eaeb8e6"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_Swin/delics_results_t1/Different_rec/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_Swin/delics_results_t1/Different_rec/case004_slice183.png",
+    "sha256": "8b850f6007ec020d206c0cbea53dbbac40b60bc15c86abcd3a74e13fdb6e9b96"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_Swin/delics_results_t1/GT/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_Swin/delics_results_t1/GT/case004_slice183.png",
+    "sha256": "ac706faf3c788142ffb7553eacf9bd20b8ee76fa498ad96952c17d2f39362f33"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_Swin/delics_results_t1/Recon/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_Swin/delics_results_t1/Recon/case004_slice183.png",
+    "sha256": "95451173d0db5cb67147dbed95606cbf45a762dd66d5bda00c01be5f3284b8ac"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_Swin/delics_results_t2/Different_rec/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_Swin/delics_results_t2/Different_rec/case004_slice183.png",
+    "sha256": "7f0622737ac9da9a6de04b55efe19cab631e3bd24b46f85d31593a6f5c989fa7"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_Swin/delics_results_t2/GT/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_Swin/delics_results_t2/GT/case004_slice183.png",
+    "sha256": "3a55a401b1783b9157607661d3d2de589e5b7344aaec3c104a3e426b195a10d3"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!DeliCS对比实验结果图/wo_Swin/delics_results_t2/Recon/case004_slice183.png",
+    "target": "results/paper_images/DeliCS对比实验结果图/wo_Swin/delics_results_t2/Recon/case004_slice183.png",
+    "sha256": "de7ab614589d4c0e54602e907debdc28f0a1d4a17a9ac8792bb5ee674ffb50cc"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SRPR/brainweb1/Different_rec/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SRPR/brainweb1/Different_rec/71_time_series[0].png",
+    "sha256": "cfe5a12be497d6073d742b007afa18e53877d3edc231f0475fef36701c75e4f4"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SRPR/brainweb1/GT/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SRPR/brainweb1/GT/71_time_series[0].png",
+    "sha256": "92cbd81d3402956669f5880d353174dad20c1d43a405004975be41ac786ba229"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SRPR/brainweb1/Recon/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SRPR/brainweb1/Recon/71_time_series[0].png",
+    "sha256": "9b9afde196e82529934cc64f374f919d4e73ba9c96357dc203ec3739c71b3063"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SRPR/brainweb2/Different_rec/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SRPR/brainweb2/Different_rec/71_time_series[0].png",
+    "sha256": "7a6fd7257ec85bc19a998dc28de16df663e92c00e142dcbf49fa555397f8c0b3"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SRPR/brainweb2/GT/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SRPR/brainweb2/GT/71_time_series[0].png",
+    "sha256": "8e4e0304b6fac72a17d90857d8754e2f39848835d52cb7ae8217cdbd301821a5"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SRPR/brainweb2/Recon/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SRPR/brainweb2/Recon/71_time_series[0].png",
+    "sha256": "1ed1ee2903bbed3f93d3eaf273e21b94737210f8a02e7f26ab5180c481e57e62"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SRPR/subjects1/Different_rec/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SRPR/subjects1/Different_rec/21_time_series[17].png",
+    "sha256": "8d18db5ad69ad1a2f18c4c946c91b1a802956877f7fac7bce1ec14205d34c72b"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SRPR/subjects1/GT/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SRPR/subjects1/GT/21_time_series[17].png",
+    "sha256": "7ee33bd50a8cd58a7b8c7900fb3e88c73e361ae15e3ef2c9dd8d792ccca1c00e"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SRPR/subjects1/Recon/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SRPR/subjects1/Recon/21_time_series[17].png",
+    "sha256": "d122c9c4d2c0036e63f043465163e9d190ba6aed08bd38d534bc8b8faa03ee25"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SRPR/subjects2/Different_rec/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SRPR/subjects2/Different_rec/21_time_series[17].png",
+    "sha256": "050bdb11aaf3399d20b18d20f6d93bdd11cb5b9f51b6a9820097c53673383890"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SRPR/subjects2/GT/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SRPR/subjects2/GT/21_time_series[17].png",
+    "sha256": "4c4071b8c509a0b108e12e5571c6f5d008ab94ded0db374eabfa45cf1281c70d"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SRPR/subjects2/Recon/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SRPR/subjects2/Recon/21_time_series[17].png",
+    "sha256": "3927d8871a4bd259a1ff4b40710eb2fe67ff08cc0c0fec253f9005a3944a5415"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/CONV-ICA/brainweb1/Different_rec/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/CONV-ICA/brainweb1/Different_rec/71_time_series[0].png",
+    "sha256": "95c380662182955cedfa8dc51918f64148c136db08b185e95b1fa1e941b999a2"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/CONV-ICA/brainweb1/GT/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/CONV-ICA/brainweb1/GT/71_time_series[0].png",
+    "sha256": "92cbd81d3402956669f5880d353174dad20c1d43a405004975be41ac786ba229"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/CONV-ICA/brainweb1/Recon/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/CONV-ICA/brainweb1/Recon/71_time_series[0].png",
+    "sha256": "bc509c9c8da64cd5fbed7a286ba6aec4b3b9894cff63b58f668a8df7c43b55dc"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/CONV-ICA/brainweb2/Different_rec/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/CONV-ICA/brainweb2/Different_rec/71_time_series[0].png",
+    "sha256": "48822bc5c4df49499412238a174bb5b9a2beb3a575d4e7c66c9165a8bab4a0da"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/CONV-ICA/brainweb2/GT/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/CONV-ICA/brainweb2/GT/71_time_series[0].png",
+    "sha256": "8e4e0304b6fac72a17d90857d8754e2f39848835d52cb7ae8217cdbd301821a5"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/CONV-ICA/brainweb2/Recon/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/CONV-ICA/brainweb2/Recon/71_time_series[0].png",
+    "sha256": "7b5f529d897f2e8ce48651501c0681ef01af4a015d9b5f297cd7f78aa084d96d"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/CONV-ICA/subjects1/Different_rec/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/CONV-ICA/subjects1/Different_rec/21_time_series[17].png",
+    "sha256": "5b9a9c6c0ea61910281f021ae91cd65c3107c4839fdeb9069383ed5d98e7c04a"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/CONV-ICA/subjects1/GT/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/CONV-ICA/subjects1/GT/21_time_series[17].png",
+    "sha256": "7ee33bd50a8cd58a7b8c7900fb3e88c73e361ae15e3ef2c9dd8d792ccca1c00e"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/CONV-ICA/subjects1/Recon/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/CONV-ICA/subjects1/Recon/21_time_series[17].png",
+    "sha256": "3d02fbecb08c0fbf781af1e2eb474ae7e3792bf551ba3dd5ba56677d4bf6b72e"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/CONV-ICA/subjects2/Different_rec/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/CONV-ICA/subjects2/Different_rec/21_time_series[17].png",
+    "sha256": "195f55924825896055945cabcecf68d09bdc29ab5f7e953cb55bc489d3c82d54"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/CONV-ICA/subjects2/GT/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/CONV-ICA/subjects2/GT/21_time_series[17].png",
+    "sha256": "4c4071b8c509a0b108e12e5571c6f5d008ab94ded0db374eabfa45cf1281c70d"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/CONV-ICA/subjects2/Recon/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/CONV-ICA/subjects2/Recon/21_time_series[17].png",
+    "sha256": "391ffcb31316c79e9e47eb56728eb8f015405ca6ebd1c7054a2054cc5a35e70b"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/DWTMamba/brainweb1/Different_rec/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/DWTMamba/brainweb1/Different_rec/71_time_series[0].png",
+    "sha256": "333adfb9e66b841344a2a75208f8a80ac89faf98bce2b96e6b781ae58b86a79f"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/DWTMamba/brainweb1/GT/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/DWTMamba/brainweb1/GT/71_time_series[0].png",
+    "sha256": "92cbd81d3402956669f5880d353174dad20c1d43a405004975be41ac786ba229"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/DWTMamba/brainweb1/Recon/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/DWTMamba/brainweb1/Recon/71_time_series[0].png",
+    "sha256": "612431f1396ea5672b09115dd9226e790aa69ac459696abe0bd217dae092e8f7"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/DWTMamba/brainweb2/Different_rec/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/DWTMamba/brainweb2/Different_rec/71_time_series[0].png",
+    "sha256": "f3828cbbd68a07de74f1bdfc39cb5f55fcca15196591a64221ff371c2d3f16df"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/DWTMamba/brainweb2/GT/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/DWTMamba/brainweb2/GT/71_time_series[0].png",
+    "sha256": "8e4e0304b6fac72a17d90857d8754e2f39848835d52cb7ae8217cdbd301821a5"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/DWTMamba/brainweb2/Recon/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/DWTMamba/brainweb2/Recon/71_time_series[0].png",
+    "sha256": "dd46ea0b7d7929b8cce4a32fe355ce23f0769de2377c906e4ecd80dea6ebe6dc"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/DWTMamba/subjects1/Different_rec/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/DWTMamba/subjects1/Different_rec/21_time_series[17].png",
+    "sha256": "6e6a25f509f2e2eec2555dab813325fe18120363016eecb381278a0905733476"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/DWTMamba/subjects1/GT/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/DWTMamba/subjects1/GT/21_time_series[17].png",
+    "sha256": "7ee33bd50a8cd58a7b8c7900fb3e88c73e361ae15e3ef2c9dd8d792ccca1c00e"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/DWTMamba/subjects1/Recon/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/DWTMamba/subjects1/Recon/21_time_series[17].png",
+    "sha256": "857bdb96bc102b5ee13b551ee3082e0e324c8bdad52831461d07c10355258cab"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/DWTMamba/subjects2/Different_rec/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/DWTMamba/subjects2/Different_rec/21_time_series[17].png",
+    "sha256": "2a169f4894fc12467b7de6c4d4730c53f55cbb909ef53d927bda482507668b73"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/DWTMamba/subjects2/GT/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/DWTMamba/subjects2/GT/21_time_series[17].png",
+    "sha256": "4c4071b8c509a0b108e12e5571c6f5d008ab94ded0db374eabfa45cf1281c70d"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/DWTMamba/subjects2/Recon/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/DWTMamba/subjects2/Recon/21_time_series[17].png",
+    "sha256": "b551470b8ea270794c2b42d7d9b515c0cf5f7cb05961cb6aaecb03dda1f3cf58"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/DRONE/brainweb1/Different_rec/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/DRONE/brainweb1/Different_rec/71_time_series[0].png",
+    "sha256": "7a7a50c87d198a63b03136cfff6782fbbbe1d214d72c59732ee2697df6e79e3b"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/DRONE/brainweb1/GT/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/DRONE/brainweb1/GT/71_time_series[0].png",
+    "sha256": "92cbd81d3402956669f5880d353174dad20c1d43a405004975be41ac786ba229"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/DRONE/brainweb1/Recon/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/DRONE/brainweb1/Recon/71_time_series[0].png",
+    "sha256": "99ca215ee698cd18fb13e307bcb2917e9b0cde7d8435f0bec12a8266c2196805"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/DRONE/brainweb2/Different_rec/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/DRONE/brainweb2/Different_rec/71_time_series[0].png",
+    "sha256": "2d677fdcfce1a885e1f2b0fce4acc3e29de8655d93495605421900161f274208"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/DRONE/brainweb2/GT/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/DRONE/brainweb2/GT/71_time_series[0].png",
+    "sha256": "8e4e0304b6fac72a17d90857d8754e2f39848835d52cb7ae8217cdbd301821a5"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/DRONE/brainweb2/Recon/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/DRONE/brainweb2/Recon/71_time_series[0].png",
+    "sha256": "b61e69643d37a84b59bc29a4015176511a7613f77d3d21829c4cede929bd2675"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/DRONE/subjects1/Different_rec/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/DRONE/subjects1/Different_rec/21_time_series[17].png",
+    "sha256": "4b13012003ea2d51105674efa7286d067ef62fa7279c8fd4d43d47ced300669c"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/DRONE/subjects1/GT/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/DRONE/subjects1/GT/21_time_series[17].png",
+    "sha256": "7ee33bd50a8cd58a7b8c7900fb3e88c73e361ae15e3ef2c9dd8d792ccca1c00e"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/DRONE/subjects1/Recon/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/DRONE/subjects1/Recon/21_time_series[17].png",
+    "sha256": "4bee8a43be1791a4b770a57c84d1951d9626a884c5916570beaaa4eb940def94"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/DRONE/subjects2/Different_rec/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/DRONE/subjects2/Different_rec/21_time_series[17].png",
+    "sha256": "cb92a941296889acc7fbb14ee63c3fedfc0f41b35adf81a4465a868b94a3b914"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/DRONE/subjects2/GT/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/DRONE/subjects2/GT/21_time_series[17].png",
+    "sha256": "4c4071b8c509a0b108e12e5571c6f5d008ab94ded0db374eabfa45cf1281c70d"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/DRONE/subjects2/Recon/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/DRONE/subjects2/Recon/21_time_series[17].png",
+    "sha256": "89400d0fecacd7f8231c479339f932d1c6f34d7b1c0b2bb0300c216e2d780ed9"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/LGVIT/brainweb1/Different_rec/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/LGVIT/brainweb1/Different_rec/71_time_series[0].png",
+    "sha256": "8834fa4d16226d0b2e055e1b0a863e2c6727c71f3196df97b01d10811cdb94e1"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/LGVIT/brainweb1/GT/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/LGVIT/brainweb1/GT/71_time_series[0].png",
+    "sha256": "92cbd81d3402956669f5880d353174dad20c1d43a405004975be41ac786ba229"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/LGVIT/brainweb1/Recon/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/LGVIT/brainweb1/Recon/71_time_series[0].png",
+    "sha256": "6091aec4dfbf8d5955b14fd5096a83a55a6139a6239a78ca970ac084dc6827c1"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/LGVIT/brainweb2/Different_rec/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/LGVIT/brainweb2/Different_rec/71_time_series[0].png",
+    "sha256": "3aae5f62937f17a62b09ecb427c634af76dc8a7ac02593ec3e56da0d2a27b39f"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/LGVIT/brainweb2/GT/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/LGVIT/brainweb2/GT/71_time_series[0].png",
+    "sha256": "8e4e0304b6fac72a17d90857d8754e2f39848835d52cb7ae8217cdbd301821a5"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/LGVIT/brainweb2/Recon/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/LGVIT/brainweb2/Recon/71_time_series[0].png",
+    "sha256": "8f2df1468c9fee5479f451dbeffe73c40b4e0405896d971598415d9035b38736"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/LGVIT/subjects1/Different_rec/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/LGVIT/subjects1/Different_rec/21_time_series[17].png",
+    "sha256": "fcaeb1ea988db32b402334ba7dfb464408d0f1cc63ceda1a8ac0446106500bc1"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/LGVIT/subjects1/GT/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/LGVIT/subjects1/GT/21_time_series[17].png",
+    "sha256": "7ee33bd50a8cd58a7b8c7900fb3e88c73e361ae15e3ef2c9dd8d792ccca1c00e"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/LGVIT/subjects1/Recon/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/LGVIT/subjects1/Recon/21_time_series[17].png",
+    "sha256": "50652c1bdcca039e4595f5520e7c777d9656db832061145cb02b4473656f2402"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/LGVIT/subjects2/Different_rec/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/LGVIT/subjects2/Different_rec/21_time_series[17].png",
+    "sha256": "32222e978e633b8dba51f2e42e417406f5b97c8e9643c2d0f37b092bab11d0eb"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/LGVIT/subjects2/GT/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/LGVIT/subjects2/GT/21_time_series[17].png",
+    "sha256": "4c4071b8c509a0b108e12e5571c6f5d008ab94ded0db374eabfa45cf1281c70d"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/LGVIT/subjects2/Recon/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/LGVIT/subjects2/Recon/21_time_series[17].png",
+    "sha256": "b52c6b51024c8c5c9c12b35f8adcbd6b98b9d9849cd3626df7a455233943a4e2"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SCQ/brainweb1/Different_rec/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SCQ/brainweb1/Different_rec/71_time_series[0].png",
+    "sha256": "6b2bf87f84e3960cdd2aafc256be885a8e2dce492b8213eb282473939ec88085"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SCQ/brainweb1/GT/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SCQ/brainweb1/GT/71_time_series[0].png",
+    "sha256": "92cbd81d3402956669f5880d353174dad20c1d43a405004975be41ac786ba229"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SCQ/brainweb1/Recon/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SCQ/brainweb1/Recon/71_time_series[0].png",
+    "sha256": "37c3b8feb43e1c70946c805f55299fec60d11a0e245038d2d79ce04e1dafa99c"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SCQ/brainweb2/Different_rec/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SCQ/brainweb2/Different_rec/71_time_series[0].png",
+    "sha256": "14e33dad5971c73771ac68a46051f5cc9bd5e046209451777772288f7462026b"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SCQ/brainweb2/GT/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SCQ/brainweb2/GT/71_time_series[0].png",
+    "sha256": "8e4e0304b6fac72a17d90857d8754e2f39848835d52cb7ae8217cdbd301821a5"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SCQ/brainweb2/Recon/71_time_series[0].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SCQ/brainweb2/Recon/71_time_series[0].png",
+    "sha256": "1bea67d6fcbfa16cc8b18dd7c5e453e052d9326c25bafe153cee05e517d1e47d"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SCQ/subjects1/Different_rec/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SCQ/subjects1/Different_rec/21_time_series[17].png",
+    "sha256": "81cb35e3b143648b4c2f76afc61c81fff6915b63523a43ecd295fcc5bf332f97"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SCQ/subjects1/GT/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SCQ/subjects1/GT/21_time_series[17].png",
+    "sha256": "7ee33bd50a8cd58a7b8c7900fb3e88c73e361ae15e3ef2c9dd8d792ccca1c00e"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SCQ/subjects1/Recon/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SCQ/subjects1/Recon/21_time_series[17].png",
+    "sha256": "b3acfb0eb543ec7b3b356d3148a38a45ef1146b59a4a5a37ab2076150b23104e"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SCQ/subjects2/Different_rec/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SCQ/subjects2/Different_rec/21_time_series[17].png",
+    "sha256": "6d9a418242920424f61ba8004431afdf2c3d3942217c95790fcfb80065490b2f"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SCQ/subjects2/GT/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SCQ/subjects2/GT/21_time_series[17].png",
+    "sha256": "4c4071b8c509a0b108e12e5571c6f5d008ab94ded0db374eabfa45cf1281c70d"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SCQ/subjects2/Recon/21_time_series[17].png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SCQ/subjects2/Recon/21_time_series[17].png",
+    "sha256": "21644f089381ca0868db5cbc151cac4b33f990d00f12247382f8832d7d15305f"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SOTIP/brainweb1/Different_rec/71_time_series_slice0.png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SOTIP/brainweb1/Different_rec/71_time_series_slice0.png",
+    "sha256": "ffda3f202bb3dc37d36e70c40ab98e6e213d667bac347421467eb7d7027c6bf9"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SOTIP/brainweb1/GT/71_time_series_slice0.png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SOTIP/brainweb1/GT/71_time_series_slice0.png",
+    "sha256": "92cbd81d3402956669f5880d353174dad20c1d43a405004975be41ac786ba229"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SOTIP/brainweb1/Recon/71_time_series_slice0.png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SOTIP/brainweb1/Recon/71_time_series_slice0.png",
+    "sha256": "8923f48ae7f6e77f42261afff15cf821514b20082e69441e90f5ace537a87266"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SOTIP/brainweb2/Different_rec/71_time_series_slice0.png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SOTIP/brainweb2/Different_rec/71_time_series_slice0.png",
+    "sha256": "0403e494078c72ef6ef12b3639017b5ef56733bbbc23a5b39b1e88e11815e70e"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SOTIP/brainweb2/GT/71_time_series_slice0.png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SOTIP/brainweb2/GT/71_time_series_slice0.png",
+    "sha256": "8e4e0304b6fac72a17d90857d8754e2f39848835d52cb7ae8217cdbd301821a5"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SOTIP/brainweb2/Recon/71_time_series_slice0.png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SOTIP/brainweb2/Recon/71_time_series_slice0.png",
+    "sha256": "b30672e59c8d52a43d89ab193e14b16843f0ee31f347036d6d4c4a6035318d08"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SOTIP/subjects1/Different_rec/21_time_series_slice17.png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SOTIP/subjects1/Different_rec/21_time_series_slice17.png",
+    "sha256": "950773e67fb4f9bc7083dbe49d6f2acbb52aa5acbb4914e22d0a0c621d97a8c0"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SOTIP/subjects1/GT/21_time_series_slice17.png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SOTIP/subjects1/GT/21_time_series_slice17.png",
+    "sha256": "7ee33bd50a8cd58a7b8c7900fb3e88c73e361ae15e3ef2c9dd8d792ccca1c00e"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SOTIP/subjects1/Recon/21_time_series_slice17.png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SOTIP/subjects1/Recon/21_time_series_slice17.png",
+    "sha256": "5133013f6a5131dbdc875d4a96a8075fdeb2255e59ed76a2466b7162d41f44bd"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SOTIP/subjects2/Different_rec/21_time_series_slice17.png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SOTIP/subjects2/Different_rec/21_time_series_slice17.png",
+    "sha256": "63926e029e266e94e5fff96322f15a6ba5d2500425874451f350f559b2aa31b4"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SOTIP/subjects2/GT/21_time_series_slice17.png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SOTIP/subjects2/GT/21_time_series_slice17.png",
+    "sha256": "4c4071b8c509a0b108e12e5571c6f5d008ab94ded0db374eabfa45cf1281c70d"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/SOTIP/subjects2/Recon/21_time_series_slice17.png",
+    "target": "results/paper_images/MICCAI对比实验结果图/SOTIP/subjects2/Recon/21_time_series_slice17.png",
+    "sha256": "e52eca4837de739afac6b0fae066dffbb7ea366fe10b6d1c16d6de51fbbf570e"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/STQ/brainweb1/Different_rec/71_time_series_slice0.png",
+    "target": "results/paper_images/MICCAI对比实验结果图/STQ/brainweb1/Different_rec/71_time_series_slice0.png",
+    "sha256": "c325ac95b4cab7a3ba8a8e70594dfa1e36f6f4b72cf2ebd1674985a8acb81d93"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/STQ/brainweb1/GT/71_time_series_slice0.png",
+    "target": "results/paper_images/MICCAI对比实验结果图/STQ/brainweb1/GT/71_time_series_slice0.png",
+    "sha256": "92cbd81d3402956669f5880d353174dad20c1d43a405004975be41ac786ba229"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/STQ/brainweb1/Recon/71_time_series_slice0.png",
+    "target": "results/paper_images/MICCAI对比实验结果图/STQ/brainweb1/Recon/71_time_series_slice0.png",
+    "sha256": "907ad86e9a1e08e4efb7a213861c245948cb25fab88769dab9c408b929f71453"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/STQ/brainweb2/Different_rec/71_time_series_slice0.png",
+    "target": "results/paper_images/MICCAI对比实验结果图/STQ/brainweb2/Different_rec/71_time_series_slice0.png",
+    "sha256": "d63e88ea488d4a7807d832224f82283b662940041e4c281ecd2a6deab8f53329"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/STQ/brainweb2/GT/71_time_series_slice0.png",
+    "target": "results/paper_images/MICCAI对比实验结果图/STQ/brainweb2/GT/71_time_series_slice0.png",
+    "sha256": "8e4e0304b6fac72a17d90857d8754e2f39848835d52cb7ae8217cdbd301821a5"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/STQ/brainweb2/Recon/71_time_series_slice0.png",
+    "target": "results/paper_images/MICCAI对比实验结果图/STQ/brainweb2/Recon/71_time_series_slice0.png",
+    "sha256": "667e6def925f26734e3beb25c36dab8c2c5e5fb147c3b160281454239654a3c1"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/STQ/subjects1/Different_rec/21_time_series_slice17.png",
+    "target": "results/paper_images/MICCAI对比实验结果图/STQ/subjects1/Different_rec/21_time_series_slice17.png",
+    "sha256": "4b770f77513d28cb1a79a564506720940c9b76390e66efb9c3696e52756c94c0"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/STQ/subjects1/GT/21_time_series_slice17.png",
+    "target": "results/paper_images/MICCAI对比实验结果图/STQ/subjects1/GT/21_time_series_slice17.png",
+    "sha256": "7ee33bd50a8cd58a7b8c7900fb3e88c73e361ae15e3ef2c9dd8d792ccca1c00e"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/STQ/subjects1/Recon/21_time_series_slice17.png",
+    "target": "results/paper_images/MICCAI对比实验结果图/STQ/subjects1/Recon/21_time_series_slice17.png",
+    "sha256": "52f2888bd36796752481b41f15ef676255ea4151617173cf46ecead8a336341b"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/STQ/subjects2/Different_rec/21_time_series_slice17.png",
+    "target": "results/paper_images/MICCAI对比实验结果图/STQ/subjects2/Different_rec/21_time_series_slice17.png",
+    "sha256": "1055d0c5d1f84f10ef5de0fd5adfa430a71309d623a22f35792e5b443ed60159"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/STQ/subjects2/GT/21_time_series_slice17.png",
+    "target": "results/paper_images/MICCAI对比实验结果图/STQ/subjects2/GT/21_time_series_slice17.png",
+    "sha256": "4c4071b8c509a0b108e12e5571c6f5d008ab94ded0db374eabfa45cf1281c70d"
+  },
+  {
+    "source": "TSFD_MRF_by_NingYifan.zip!MICCAI对比实验结果图/STQ/subjects2/Recon/21_time_series_slice17.png",
+    "target": "results/paper_images/MICCAI对比实验结果图/STQ/subjects2/Recon/21_time_series_slice17.png",
+    "sha256": "2d338882f3360a04458f3998ac89bf63c22bf8d89448a7f66a4c61dddcfe5824"
+  }
+]

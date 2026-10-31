@@ -1,0 +1,13 @@
+Test Summary for: 50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5
+Dataset: subjects, Modality: t2
+Timestamp: 2026-03-30 15:07:18
+==============================
+
+Metrics calculated over 34 images.
+Total Test Time: 30.9635 seconds
+Average Time per Image: 0.9107 seconds
+
+PSNR (mean +/- std): 35.1340 +/- 1.4314
+SSIM (mean +/- std): 0.9874 +/- 0.0019
+NMSE (mean +/- std): 0.037107 +/- 0.010915
+MAE  (mean +/- std): 0.006643 +/- 0.000724

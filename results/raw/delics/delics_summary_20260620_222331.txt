@@ -1,0 +1,23 @@
+Deli-CS 批量测试报告
+模型: delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr1e-5_lr1e-6
+GPU: 2
+总耗时: 0:02:27.059812
+Diff Multiplier: 1.7
+============================================================
+
+--- T1 ---
+Results Dir: delics_results/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr1e-5_lr1e-6/t1
+PSNR: 24.2848 +/- 3.0272
+SSIM: 0.8425 +/- 0.0295
+NMSE: 0.151933 +/- 0.072435
+MAE (ms): 260.67 +/- 110.91
+Total Inference Time: 58.9978 s
+
+--- T2 ---
+Results Dir: delics_results/delics_2min_50DWTrealtfmambampu_v5_nokaiming_lr1e-5_lr1e-6/t2
+PSNR: 17.7260 +/- 1.8882
+SSIM: 0.8312 +/- 0.0267
+NMSE: 0.804864 +/- 0.036243
+MAE (ms): 267.81 +/- 127.17
+Total Inference Time: 59.5536 s
+

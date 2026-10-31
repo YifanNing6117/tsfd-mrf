@@ -1,0 +1,27 @@
+Deli-CS 批量测试报告
+模型: delics_50DWTrealtfmambampu_v5_nokaiming_lr8e-4_lr1e-5
+总耗时: 0:00:22.622744
+========================================
+
+--- 测试结果: T1 ---
+/home/potato/anaconda3/envs/ningyi/lib/python3.10/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "/media/potato/de2fd04d-f570-43cf-b7cb-8ee70e863faa1/raid/nyf/重建/CSB-NET_Delics/test_delics.py", line 91, in <module>
+    ssim_scores[i] = ssim(real_im_masked, fake_im_masked, data_range=1.0)
+  File "/home/potato/anaconda3/envs/ningyi/lib/python3.10/site-packages/skimage/metrics/_structural_similarity.py", line 186, in structural_similarity
+    raise ValueError(
+ValueError: win_size exceeds image extent. Either ensure that your images are at least 7x7; or pass win_size explicitly in the function call, with an odd value less than or equal to the smaller side of your images. If your images are multichannel (with color channels), set channel_axis to the axis number corresponding to the channels.
+
+
+--- 测试结果: T2 ---
+/home/potato/anaconda3/envs/ningyi/lib/python3.10/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Traceback (most recent call last):
+  File "/media/potato/de2fd04d-f570-43cf-b7cb-8ee70e863faa1/raid/nyf/重建/CSB-NET_Delics/test_delics.py", line 91, in <module>
+    ssim_scores[i] = ssim(real_im_masked, fake_im_masked, data_range=1.0)
+  File "/home/potato/anaconda3/envs/ningyi/lib/python3.10/site-packages/skimage/metrics/_structural_similarity.py", line 186, in structural_similarity
+    raise ValueError(
+ValueError: win_size exceeds image extent. Either ensure that your images are at least 7x7; or pass win_size explicitly in the function call, with an odd value less than or equal to the smaller side of your images. If your images are multichannel (with color channels), set channel_axis to the axis number corresponding to the channels.
+
+
