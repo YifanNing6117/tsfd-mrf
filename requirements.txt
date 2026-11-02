@@ -2,3 +2,6 @@ torch
 einops
 timm
 mamba-ssm
+torchio
+numpy
+scikit-image

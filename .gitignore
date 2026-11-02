@@ -9,3 +9,5 @@ __pycache__/
 *.tar
 *.nii
 *.nii.gz
+runs/
+data_local/
