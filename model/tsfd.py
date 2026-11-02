@@ -669,7 +669,7 @@ class SwinLayer(nn.Module):
         return x_flat.transpose(1, 2).view(B, C, H, W)
 
 # ==============================================================================
-# Section 3: 其他组件 (ResBlock, MPU, TSFDMRF)
+# Section 3: 其他组件 (ResBlock, MPU, TSFD)
 # ==============================================================================
 
 # ==============================================================================
@@ -825,7 +825,7 @@ class CascadeStage(nn.Module):
         return self.mpu(f_mamba, f_swin)
 
 
-class TSFDMRF(nn.Module):
+class TSFD(nn.Module):
     def __init__(self,
                  in_chans=400,
                  num_out_chans=2,
