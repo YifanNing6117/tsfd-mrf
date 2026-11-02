@@ -1,3 +1,0 @@
-model,dataset,modality,frames,psnr_mean,psnr_std,ssim_mean,ssim_std,nmse_mean,nmse_std,mae_mean,mae_std,mae_unit
-DWTMAMBA_V5,DeliCS,T1,,35.4502,1.4343,0.9844,0.0034,0.017466,0.004922,85.17,19.71,ms
-DWTMAMBA_V5,DeliCS,T2,,33.7828,3.1138,0.9858,0.0045,0.314638,0.164632,33.27,22.98,ms
